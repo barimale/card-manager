@@ -11,8 +11,6 @@ namespace card_manager_ui.Services
         {
             _httpClient = httpClientFactory;
             _httpClient.BaseAddress = new Uri(api);
-            _httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
-            _httpClient.DefaultRequestHeaders.Add("User-Agent", "card-manager");
         }
 
         public async ValueTask<dynamic> GetBySerialNumber(string peopleId)
@@ -29,6 +27,23 @@ namespace card_manager_ui.Services
         {
             return await _httpClient.GetFromJsonAsync<dynamic>($"species/{speciesId}");
 
+        }
+
+        public async Task<bool> Create(string accountNumber, string serialNumber, string PIN)
+        {
+            var result = await _httpClient.PostAsJsonAsync($"api/v1/cards", new RegisterCardRequest()
+            {
+                AccountNumber = accountNumber,
+                SerialNumber = serialNumber,
+                PIN = PIN
+            });
+
+            return result.IsSuccessStatusCode;
+        }
+
+        public Task<bool> Delete(string id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -26,11 +26,11 @@ namespace PasswordBoxMVVM
                     services.AddTransient<IDataService, DataHttpClient>();
 
                     var connectionString = ConfigurationManager.ConnectionStrings["microservice"];
-
                     services.AddHttpClient<IDataService, DataHttpClient>((client, sp) =>
                     {
                         return new DataHttpClient(connectionString.ConnectionString, client);
-                    }).SetHandlerLifetime(TimeSpan.FromMinutes(2)); ;
+                    }).SetHandlerLifetime(TimeSpan.FromMinutes(2));
+
 
                 }).Build();
         }

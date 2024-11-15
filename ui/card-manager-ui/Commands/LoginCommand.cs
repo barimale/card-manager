@@ -25,11 +25,14 @@ namespace card_manager_ui.Commands
                 !string.IsNullOrEmpty(_viewModel.SerialNumber);
         }
 
-        public void Execute(object parameter)
+        public async void Execute(object parameter)
         {
-            var res = _viewModel.dataService.GetByIdentifier("asdadsads");
+            var res = await _viewModel.dataService.Create(
+                _viewModel.Username,
+                _viewModel.SerialNumber,
+                _viewModel.Password);
 
-            MessageBox.Show($"Username: {_viewModel.Username}\nPassword: {_viewModel.Password}\nSerial number: {_viewModel.SerialNumber}", "Info",
+            MessageBox.Show($"Result: {res}", "Info",
                 MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
