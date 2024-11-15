@@ -7,7 +7,7 @@ using Ordering.Application.Integration;
 using Ordering.Domain.AggregatesModel.BuyerAggregate;
 
 namespace Ordering.Application.CQRS.QueryHandlers;
-public class DummyBuyerExampleHandler(IStarWarsService starWarsService, IBuyerRepository repo, ILogger<DummyBuyerExampleHandler> logger)
+public class DummyBuyerExampleHandler(IBuyerRepository repo, ILogger<DummyBuyerExampleHandler> logger)
     : IQueryHandler<DummyBuyersExample, DummyBuyersExampleResult>
 {
     public async Task<DummyBuyersExampleResult> Handle(DummyBuyersExample query, CancellationToken cancellationToken)
@@ -16,7 +16,7 @@ public class DummyBuyerExampleHandler(IStarWarsService starWarsService, IBuyerRe
         var pageSize = query.PaginationRequest.PageSize;
 
         var results1 = await repo.FindAsync("asdadsads");
-        var results2 = starWarsService.GetPlanet("1");
+        var results2 = results1;
 
         return new DummyBuyersExampleResult(
             new PaginatedResult<OrderDto>(

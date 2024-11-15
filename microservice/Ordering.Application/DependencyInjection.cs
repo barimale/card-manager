@@ -30,13 +30,6 @@ public static class DependencyInjection
         // WIP add solution for 11 digits
         services.AddScoped<IIdGeneratorAdapter, IdGeneratorAdapter>();
 
-        var connectionString = configuration.GetConnectionString("StarWars");
-
-        services.AddHttpClient<IStarWarsService, StarWarsHttpClient>((client, sp) =>
-        {
-            return new StarWarsHttpClient(connectionString, client);
-        }).SetHandlerLifetime(TimeSpan.FromMinutes(2)); ;
-
         return services;
     }
 }

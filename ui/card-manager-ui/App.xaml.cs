@@ -23,6 +23,9 @@ namespace PasswordBoxMVVM
                 {
                     services.AddSingleton<MainWindow>();
                     services.AddSingleton<RegisterViewModel>();
+                    services.AddSingleton<DeleteViewModel>();
+                    services.AddSingleton<SearchViewModel>();
+
                     services.AddTransient<IDataService, DataHttpClient>();
 
                     var connectionString = ConfigurationManager.ConnectionStrings["microservice"];
@@ -39,7 +42,7 @@ namespace PasswordBoxMVVM
         {
             await AppHost.StartAsync();
             MainWindow = AppHost.Services.GetService<MainWindow>();
-            MainWindow.DataContext = AppHost.Services.GetService<RegisterViewModel>();
+            MainWindow.DataContext = AppHost.Services.GetService<DeleteViewModel>();
 
             MainWindow.Show();
 

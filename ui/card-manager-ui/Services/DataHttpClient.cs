@@ -42,7 +42,7 @@ namespace card_manager_ui.Services
 
         public async Task<bool> Delete(string cardId)
         {
-            var result = await _httpClient.DeleteAsync($"/api/v1/cards/{cardId}");
+            var result = await _httpClient.DeleteAsync($"/api/v1/cards/delete/{cardId}");
 
             return result.IsSuccessStatusCode;
         }
