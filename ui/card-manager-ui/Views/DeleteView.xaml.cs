@@ -1,4 +1,6 @@
-﻿using System;
+﻿using card_manager_ui.ViewModels;
+using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -21,6 +23,8 @@ namespace PasswordBoxMVVM.Views
         public DeleteView()
         {
             InitializeComponent();
+            var service = App.AppHost.Services.GetService<DeleteViewModel>();
+            this.DataContext = service;
         }
     }
 }

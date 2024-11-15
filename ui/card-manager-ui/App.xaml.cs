@@ -42,7 +42,7 @@ namespace PasswordBoxMVVM
         {
             await AppHost.StartAsync();
             MainWindow = AppHost.Services.GetService<MainWindow>();
-            MainWindow.DataContext = AppHost.Services.GetService<DeleteViewModel>();
+            MainWindow.DataContext = AppHost.Services.GetService<SearchViewModel>();
 
             MainWindow.Show();
 
