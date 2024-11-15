@@ -6,6 +6,7 @@
     xmlns:local="clr-namespace:PasswordBoxMVVM.Views"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
     xmlns:components="clr-namespace:PasswordBoxMVVM.Components;assembly=PasswordBoxMVVM" xmlns:viewmodels="clr-namespace:card_manager_ui.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:DeleteViewModel}"
+    DataContext="{Binding DeleteViewModel}"
     d:DesignHeight="450"
     d:DesignWidth="600"
     FontSize="18"
