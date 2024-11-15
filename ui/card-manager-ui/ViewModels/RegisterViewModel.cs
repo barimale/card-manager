@@ -6,14 +6,14 @@ namespace card_manager_ui.ViewModels
 {
     public class RegisterViewModel : ViewModelBase
     {
-        public readonly IStarWarsService dataService;
+        public readonly IDataService dataService;
 
         public RegisterViewModel()
         {
             LoginCommand = new LoginCommand(this);
         }
 
-        public RegisterViewModel(IStarWarsService dataService)
+        public RegisterViewModel(IDataService dataService)
             : this()
         {
             this.dataService = dataService;

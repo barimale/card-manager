@@ -23,13 +23,13 @@ namespace PasswordBoxMVVM
                 {
                     services.AddSingleton<MainWindow>();
                     services.AddSingleton<RegisterViewModel>();
-                    services.AddTransient<IStarWarsService, StarWarsHttpClient>();
+                    services.AddTransient<IDataService, DataHttpClient>();
 
-                    var connectionString = ConfigurationManager.ConnectionStrings["StarWars"];
+                    var connectionString = ConfigurationManager.ConnectionStrings["microservice"];
 
-                    services.AddHttpClient<IStarWarsService, StarWarsHttpClient>((client, sp) =>
+                    services.AddHttpClient<IDataService, DataHttpClient>((client, sp) =>
                     {
-                        return new StarWarsHttpClient(connectionString.ConnectionString, client);
+                        return new DataHttpClient(connectionString.ConnectionString, client);
                     }).SetHandlerLifetime(TimeSpan.FromMinutes(2)); ;
 
                 }).Build();

@@ -27,7 +27,7 @@ namespace card_manager_ui.Commands
 
         public void Execute(object parameter)
         {
-            var res = _viewModel.dataService.GetPlanet("asdadsads");
+            var res = _viewModel.dataService.GetByIdentifier("asdadsads");
 
             MessageBox.Show($"Username: {_viewModel.Username}\nPassword: {_viewModel.Password}\nSerial number: {_viewModel.SerialNumber}", "Info",
                 MessageBoxButton.OK, MessageBoxImage.Information);
