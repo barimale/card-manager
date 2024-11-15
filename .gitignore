@@ -1,0 +1,10 @@
+/ui/card-manager-ui/card-manager-ui/obj
+/ui/card-manager-ui/card-manager-ui/bin
+/microservice/card-manager/obj
+/microservice/card-manager/bin
+/ui/card-manager-ui/.vs
+/ui/card-manager-ui/bin
+/ui/card-manager-ui/obj
+/microservice/card-manager.ServiceDefaults/bin
+/microservice/card-manager.ServiceDefaults/obj
+/microservice/card-manager/.vs
