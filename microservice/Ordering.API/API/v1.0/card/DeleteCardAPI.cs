@@ -12,7 +12,7 @@ public class DeleteCardAPI : ICarterModule
 {
     public void AddRoutes(IEndpointRouteBuilder app)
     {
-        app.MapDelete("api/v1/cards/{id}", async (
+        app.MapDelete("api/v1/cards/delete/{id}", async (
             string id,
             ISender sender,
             IMapper mapper,
