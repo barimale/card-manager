@@ -26,7 +26,7 @@ namespace Ordering.API.Filters
             if (!validationResult.IsValid)
             {
                 _logger.LogWarning(validationResult.ToString());
-                //return Results.Problem(validationResult.Errors.Select(p => p.ErrorMessage.ToString()));
+
                 return Results.Problem(
                     validationResult
                     .Errors

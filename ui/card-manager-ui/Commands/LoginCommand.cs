@@ -20,17 +20,17 @@ namespace card_manager_ui.Commands
 
         public bool CanExecute(object parameter)
         {
-            return !string.IsNullOrEmpty(_viewModel.Username) &&
-                !string.IsNullOrEmpty(_viewModel.Password) &&
+            return !string.IsNullOrEmpty(_viewModel.AccountNumber) &&
+                !string.IsNullOrEmpty(_viewModel.PIN) &&
                 !string.IsNullOrEmpty(_viewModel.SerialNumber);
         }
 
         public async void Execute(object parameter)
         {
             var res = await _viewModel.dataService.Create(
-                _viewModel.Username,
+                _viewModel.AccountNumber,
                 _viewModel.SerialNumber,
-                _viewModel.Password);
+                _viewModel.PIN);
 
             MessageBox.Show($"Result: {res}", "Info",
                 MessageBoxButton.OK, MessageBoxImage.Information);

@@ -19,17 +19,17 @@ namespace card_manager_ui.ViewModels
             this.dataService = dataService;
         }
 
-        private string _username;
-        public string Username
+        private string _accountNumber;
+        public string AccountNumber
         {
             get
             {
-                return _username;
+                return _accountNumber;
             }
             set
             {
-                _username = value;
-                OnPropertyChanged(nameof(Username));
+                _accountNumber = value;
+                OnPropertyChanged(nameof(AccountNumber));
             }
         }
 
@@ -47,17 +47,17 @@ namespace card_manager_ui.ViewModels
             }
         }
 
-        private string _password;
-        public string Password
+        private string _pin;
+        public string PIN
         {
             get
             {
-                return _password;
+                return _pin;
             }
             set
             {
-                _password = value;
-                OnPropertyChanged(nameof(Password));
+                _pin = value;
+                OnPropertyChanged(nameof(PIN));
             }
         }
 

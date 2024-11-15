@@ -8,7 +8,7 @@ using Ordering.Application.CQRS.Commands;
 
 namespace Ordering.API.Endpoints;
 
-public class CreateOrderAPI : ICarterModule
+public class RegisterCardAPI : ICarterModule
 {
     public void AddRoutes(IEndpointRouteBuilder app)
     {
@@ -16,7 +16,7 @@ public class CreateOrderAPI : ICarterModule
             RegisterCardRequest commandRequest,
             ISender sender,
             IMapper mapper,
-            ILogger<CreateOrderAPI> logger) =>
+            ILogger<RegisterCardAPI> logger) =>
         {
             var command = mapper.Map<CreateOrderCommand>(commandRequest);
             var result = await sender.Send(command);

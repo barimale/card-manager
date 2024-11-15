@@ -43,7 +43,7 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
 
-                <TextBlock Grid.Column="0" Text="Username" />
+                <TextBlock Grid.Column="0" Text="Account Number" />
                 <TextBox Grid.Column="1" Margin="10,0,0,0"
                     Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" />
             </Grid>
@@ -56,7 +56,7 @@
 
                 </Grid.ColumnDefinitions>
 
-                <TextBlock Grid.Column="0" Text="Password" />
+                <TextBlock Grid.Column="0" Text="PIN" />
                 <components:BindablePasswordBox Grid.Column="1" Margin="10,0,0,10"
                     Password="{Binding Password}" Grid.ColumnSpan="2" />
             </Grid>

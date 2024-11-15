@@ -6,7 +6,7 @@ namespace card_manager_ui.ViewModels
     public class SearchViewModel : ViewModelBase
     {
         private string _username;
-        public string Username
+        public string AccountNumber
         {
             get
             {
@@ -15,7 +15,7 @@ namespace card_manager_ui.ViewModels
             set
             {
                 _username = value;
-                OnPropertyChanged(nameof(Username));
+                OnPropertyChanged(nameof(AccountNumber));
             }
         }
 

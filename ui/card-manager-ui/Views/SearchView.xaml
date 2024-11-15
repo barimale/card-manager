@@ -42,9 +42,9 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
 
-                <TextBlock Grid.Column="0" Text="Username" />
+                <TextBlock Grid.Column="0" Text="Account Number" />
                 <TextBox Grid.Column="1" Margin="10,0,0,10"
-                    Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" />
+                    Text="{Binding AccountNumber, UpdateSourceTrigger=PropertyChanged}" />
             </Grid>
 
             <!-- Serial number -->
@@ -75,8 +75,8 @@
         </Grid>
 
         <!-- Search -->
-        <Button Grid.Row="3" Margin="0,0,0,0"
-            HorizontalAlignment="Left"
+        <Button Grid.Row="3" Margin="20,20,20,20"
+            HorizontalAlignment="Center"
             Command="{Binding SearchCommand}"
             Content="SEARCH" />
     </Grid>

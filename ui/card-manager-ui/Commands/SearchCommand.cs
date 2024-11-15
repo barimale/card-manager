@@ -23,14 +23,14 @@ namespace card_manager_ui.Commands
 
         public bool CanExecute(object parameter)
         {
-            return !string.IsNullOrEmpty(_viewModel.Username) ||
+            return !string.IsNullOrEmpty(_viewModel.AccountNumber) ||
                 !string.IsNullOrEmpty(_viewModel.SerialNumber) ||
                 !string.IsNullOrEmpty(_viewModel.Identifier);
         }
 
         public void Execute(object parameter)
         {
-            MessageBox.Show($"Username: {_viewModel.Username}\nSerial number: {_viewModel.SerialNumber}\nID: {_viewModel.Identifier}", "Info",
+            MessageBox.Show($"Username: {_viewModel.AccountNumber}\nSerial number: {_viewModel.SerialNumber}\nID: {_viewModel.Identifier}", "Info",
                 MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
