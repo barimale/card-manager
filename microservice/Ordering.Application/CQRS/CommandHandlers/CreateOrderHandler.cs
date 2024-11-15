@@ -5,9 +5,9 @@ using Ordering.Domain.AggregatesModel.OrderAggregate;
 
 namespace Ordering.Application.CQRS.CommandHandlers;
 public class CreateOrderHandler(IOrderRepository orderRepository)
-    : ICommandHandler<RegisterCardCommand, CreateOrderResult>
+    : ICommandHandler<CreateOrderCommand, CreateOrderResult>
 {
-    public async Task<CreateOrderResult> Handle(RegisterCardCommand command, CancellationToken cancellationToken)
+    public async Task<CreateOrderResult> Handle(CreateOrderCommand command, CancellationToken cancellationToken)
     {
         var result = orderRepository.Add(null);
         await orderRepository.UnitOfWork.SaveChangesAsync(cancellationToken);
