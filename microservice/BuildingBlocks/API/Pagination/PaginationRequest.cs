@@ -1,7 +1,6 @@
 ﻿using TypeGen.Core.TypeAnnotations;
 
 namespace BuildingBlocks.API.Pagination;
-[ExportTsInterface]
 public class PaginationRequest
 {
     public PaginationRequest()

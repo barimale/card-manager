@@ -18,7 +18,8 @@ public class CreateOrderAPI : ICarterModule
             IMapper mapper,
             ILogger<CreateOrderAPI> logger) =>
         {
-            var result = await sender.Send(commandRequest);
+            var command = mapper.Map<CreateOrderCommand>(commandRequest);
+            var result = await sender.Send(command);
 
             var response = mapper.Map<CreateOrderResponse>(result);
 
