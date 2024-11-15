@@ -10,7 +10,7 @@ using NLog;
 using NLog.Extensions.Logging;
 using Ordering.API.Extensions;
 using Ordering.API.Filters;
-using Ordering.API.Profiles;
+using Ordering.API.MappingProfiles;
 using Ordering.API.SeedWork;
 using Ordering.API.SwaggerFilters;
 using Ordering.API.Utilities;

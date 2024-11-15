@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Ordering.Infrastructure.EntityConfigurations;
+namespace BuildingBlocks.Infrastructure.EntityConfigurations;
 
 public class ResponseEntityTypeConfiguration
     : IEntityTypeConfiguration<Response>

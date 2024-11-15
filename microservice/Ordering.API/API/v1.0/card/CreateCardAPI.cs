@@ -13,13 +13,12 @@ public class CreateOrderAPI : ICarterModule
     public void AddRoutes(IEndpointRouteBuilder app)
     {
         app.MapPost("api/v1/cards", async (
-            CreateCardRequest request,
+            RegisterCardRequest commandRequest,
             ISender sender,
             IMapper mapper,
             ILogger<CreateOrderAPI> logger) =>
         {
-            var command = mapper.Map<CreateOrderCommand>(request);
-            var result = await sender.Send(command);
+            var result = await sender.Send(commandRequest);
 
             var response = mapper.Map<CreateOrderResponse>(result);
 

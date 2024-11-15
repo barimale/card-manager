@@ -19,7 +19,7 @@ namespace Ordering.API.Filters
         public async ValueTask<object?> InvokeAsync(EndpointFilterInvocationContext efiContext,
             EndpointFilterDelegate next)
         {
-            var command = efiContext.GetArgument<CreateCardRequest>(0);
+            var command = efiContext.GetArgument<RegisterCardRequest>(0);
             var validationResult = await _createOrderRequestValidator.ValidateAsync(command);
 
             if (!validationResult.IsValid)

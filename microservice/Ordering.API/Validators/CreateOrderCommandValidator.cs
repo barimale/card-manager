@@ -3,7 +3,7 @@ using Ordering.API.Model.order;
 
 namespace Ordering.API.Validators
 {
-    public class CreateOrderRequestValidator : AbstractValidator<CreateCardRequest>
+    public class CreateOrderRequestValidator : AbstractValidator<RegisterCardRequest>
     {
         public CreateOrderRequestValidator()
         {

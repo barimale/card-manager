@@ -5,13 +5,13 @@ using Ordering.Application.CQRS.Commands;
 using Ordering.Application.CQRS.Queries;
 using Ordering.Domain.AggregatesModel.OrderAggregate;
 
-namespace Ordering.API.Profiles
+namespace Ordering.API.MappingProfiles
 {
     public class ApiProfile : Profile
     {
         public ApiProfile()
         {
-            CreateMap<CreateOrderCommand, CreateCardRequest>()
+            CreateMap<CreateOrderCommand, RegisterCardRequest>()
                 .ForMember(p => p.CustomerId, pp => pp.MapFrom(src => src.CustomerId))
                 .ReverseMap()
                 .ForMember(p => p.CustomerId, pp => pp.MapFrom(src => src.CustomerId));

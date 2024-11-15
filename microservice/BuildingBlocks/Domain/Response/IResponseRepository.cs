@@ -1,7 +1,6 @@
-﻿using BuildingBlocks.Domain.Response;
-using BuildingBlocks.Domain.SeedWork;
+﻿using BuildingBlocks.Domain.SeedWork;
 
-namespace Ordering.Domain.AggregatesModel.BuyerAggregate;
+namespace BuildingBlocks.Domain.Response;
 
 //This is just the RepositoryContracts or Interface defined at the Domain Layer
 //as requisite for the Buyer Aggregate

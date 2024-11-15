@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Ordering.Infrastructure.EntityConfigurations;
+namespace BuildingBlocks.Infrastructure.EntityConfigurations;
 
 public class RequestEntityTypeConfiguration
     : IEntityTypeConfiguration<Request>
@@ -12,7 +12,7 @@ public class RequestEntityTypeConfiguration
         buyerConfiguration.ToTable("requests");
 
         buyerConfiguration.Property(b => b.Id);
-            //.UseHiLo("buyerseq");
+        //.UseHiLo("buyerseq");
 
         buyerConfiguration.Property(b => b.CorrelationId)
             .HasMaxLength(200);

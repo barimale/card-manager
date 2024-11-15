@@ -1,7 +1,6 @@
 ﻿using BuildingBlocks.Domain.Request;
 using BuildingBlocks.Domain.Response;
 using BuildingBlocks.Domain.SeedWork;
-using Ordering.Domain.AggregatesModel.BuyerAggregate;
 using System;
 
 namespace Ordering.Infrastructure.Repositories;

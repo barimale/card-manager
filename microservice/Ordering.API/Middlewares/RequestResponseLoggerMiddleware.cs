@@ -1,4 +1,6 @@
-﻿using Ordering.Domain.AggregatesModel.BuyerAggregate;
+﻿using BuildingBlocks.Domain.Request;
+using BuildingBlocks.Domain.Response;
+using Ordering.Domain.AggregatesModel.BuyerAggregate;
 using System.Text.Json;
 
 namespace Ordering.API.Middlewares
