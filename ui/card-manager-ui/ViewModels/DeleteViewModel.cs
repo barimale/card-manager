@@ -8,6 +8,11 @@ namespace card_manager_ui.ViewModels
     {
         public readonly IDataService dataService;
 
+        private DeleteViewModel()
+        {
+            DeleteCommand = new DeleteCommand(this);
+        }
+
         public DeleteViewModel(IDataService dataService)
             : this()
         {
@@ -29,10 +34,5 @@ namespace card_manager_ui.ViewModels
         }
 
         public ICommand DeleteCommand { get; }
-
-        private DeleteViewModel()
-        {
-            DeleteCommand = new DeleteCommand(this);
-        }
     }
 }
