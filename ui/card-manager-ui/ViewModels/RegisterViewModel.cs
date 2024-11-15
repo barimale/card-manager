@@ -1,19 +1,19 @@
-﻿using card_manager_ui.Services;
-using PasswordBoxMVVM.Commands;
+﻿using card_manager_ui.Commands;
+using card_manager_ui.Services;
 using System.Windows.Input;
 
-namespace PasswordBoxMVVM.ViewModels
+namespace card_manager_ui.ViewModels
 {
     public class RegisterViewModel : ViewModelBase
     {
-        public readonly IDataService dataService;
+        public readonly IStarWarsService dataService;
 
         public RegisterViewModel()
         {
             LoginCommand = new LoginCommand(this);
         }
 
-        public RegisterViewModel(IDataService dataService)
+        public RegisterViewModel(IStarWarsService dataService)
             : this()
         {
             this.dataService = dataService;

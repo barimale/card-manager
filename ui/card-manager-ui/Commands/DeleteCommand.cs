@@ -1,4 +1,4 @@
-﻿using PasswordBoxMVVM.ViewModels;
+﻿using card_manager_ui.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Windows;
 using System.Windows.Input;
 
-namespace PasswordBoxMVVM.Commands
+namespace card_manager_ui.Commands
 {
     public class DeleteCommand : ICommand
     {
@@ -30,7 +30,7 @@ namespace PasswordBoxMVVM.Commands
 
         public void Execute(object parameter)
         {
-            MessageBox.Show($"Username: {_viewModel.Username}\nSerial number: {_viewModel.SerialNumber}\nID: {_viewModel.Identifier}", "Info", 
+            MessageBox.Show($"Username: {_viewModel.Username}\nSerial number: {_viewModel.SerialNumber}\nID: {_viewModel.Identifier}", "Info",
                 MessageBoxButton.OK, MessageBoxImage.Information);
         }
 

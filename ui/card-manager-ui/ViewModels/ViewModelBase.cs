@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace PasswordBoxMVVM.ViewModels
+namespace card_manager_ui.ViewModels
 {
     public class ViewModelBase : INotifyPropertyChanged
     {

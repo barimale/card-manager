@@ -1,14 +1,12 @@
 ﻿using card_manager_ui.Services;
+using card_manager_ui.ViewModels;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using PasswordBoxMVVM.ViewModels;
-using System;
-using System.Collections.Generic;
 using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows;
+using System.Xml.Linq;
+using ConfigurationManager = System.Configuration.ConfigurationManager;
 
 namespace PasswordBoxMVVM
 {
@@ -25,7 +23,14 @@ namespace PasswordBoxMVVM
                 {
                     services.AddSingleton<MainWindow>();
                     services.AddSingleton<RegisterViewModel>();
-                    services.AddTransient<IDataService, DataService>();
+                    services.AddTransient<IStarWarsService, StarWarsHttpClient>();
+
+                    var connectionString = ConfigurationManager.ConnectionStrings["StarWars"];
+
+                    services.AddHttpClient<IStarWarsService, StarWarsHttpClient>((client, sp) =>
+                    {
+                        return new StarWarsHttpClient(connectionString.ConnectionString, client);
+                    }).SetHandlerLifetime(TimeSpan.FromMinutes(2)); ;
 
                 }).Build();
         }

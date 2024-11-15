@@ -1,7 +1,7 @@
-﻿using PasswordBoxMVVM.Commands;
+﻿using card_manager_ui.Commands;
 using System.Windows.Input;
 
-namespace PasswordBoxMVVM.ViewModels
+namespace card_manager_ui.ViewModels
 {
     public class SearchViewModel : ViewModelBase
     {

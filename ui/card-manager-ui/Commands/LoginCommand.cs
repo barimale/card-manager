@@ -1,9 +1,9 @@
-﻿using PasswordBoxMVVM.ViewModels;
+﻿using card_manager_ui.ViewModels;
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Input;
 
-namespace PasswordBoxMVVM.Commands
+namespace card_manager_ui.Commands
 {
     public class LoginCommand : ICommand
     {
@@ -27,9 +27,9 @@ namespace PasswordBoxMVVM.Commands
 
         public void Execute(object parameter)
         {
-            _viewModel.dataService.Get();
+            var res = _viewModel.dataService.GetPlanet("asdadsads");
 
-            MessageBox.Show($"Username: {_viewModel.Username}\nPassword: {_viewModel.Password}\nSerial number: {_viewModel.SerialNumber}", "Info", 
+            MessageBox.Show($"Username: {_viewModel.Username}\nPassword: {_viewModel.Password}\nSerial number: {_viewModel.SerialNumber}", "Info",
                 MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
