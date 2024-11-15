@@ -18,14 +18,14 @@ public class RegisterCardAPI : ICarterModule
             IMapper mapper,
             ILogger<RegisterCardAPI> logger) =>
         {
-            var command = mapper.Map<CreateOrderCommand>(commandRequest);
+            var command = mapper.Map<RegisterCardCommand>(commandRequest);
             var result = await sender.Send(command);
 
             var response = mapper.Map<CreateOrderResponse>(result);
 
             return Results.Created($"/orders/{response.Id}", response);
         })
-        .WithName("CreateOrder")
+        .WithName("RegisterCard")
         .Produces<CreateOrderResponse>(StatusCodes.Status201Created)
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)

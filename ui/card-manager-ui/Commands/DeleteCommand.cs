@@ -28,9 +28,11 @@ namespace card_manager_ui.Commands
                 !string.IsNullOrEmpty(_viewModel.Identifier);
         }
 
-        public void Execute(object parameter)
+        public async void Execute(object parameter)
         {
-            MessageBox.Show($"Username: {_viewModel.Username}\nSerial number: {_viewModel.SerialNumber}\nID: {_viewModel.Identifier}", "Info",
+            var res = await _viewModel.dataService.Delete(_viewModel.Identifier);
+
+            MessageBox.Show($"Result: {res}", "Info",
                 MessageBoxButton.OK, MessageBoxImage.Information);
         }
 

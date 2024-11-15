@@ -41,9 +41,11 @@ namespace card_manager_ui.Services
             return result.IsSuccessStatusCode;
         }
 
-        public Task<bool> Delete(string id)
+        public async Task<bool> Delete(string cardId)
         {
-            throw new NotImplementedException();
+            var result = await _httpClient.DeleteAsync($"/api/v1/cards/{cardId}");
+
+            return result.IsSuccessStatusCode;
         }
     }
 }

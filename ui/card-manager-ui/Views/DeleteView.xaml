@@ -91,7 +91,7 @@
         <!-- Submit -->
         <Button Grid.Row="4" Margin="20,20,20,20"
             HorizontalAlignment="Center"
-            Command="{Binding LoginCommand}"
+            Command="{Binding DeleteCommand}"
             Content="REGISTER" />
     </Grid>
 </UserControl>

@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "R:\\card-manager\\microservice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\api\\v1.0\\card\\getcardbyapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\api\\v1.0\\card\\getcardbyapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\api\\v1.0\\card\\registercardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\api\\v1.0\\card\\registercardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\filters\\getordersrequestvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\filters\\getordersrequestvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\api\\v1.0\\card\\deletecardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\api\\v1.0\\card\\deletecardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\filters\\createorderrequestvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\filters\\createorderrequestvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\extensions\\migratedbcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\extensions\\migratedbcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23FFFA03-384C-4955-AB91-53D31410D6E2}|Ordering.Application\\Ordering.Application.csproj|r:\\card-manager\\microservice\\ordering.application\\cqrs\\commandhandlers\\createorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23FFFA03-384C-4955-AB91-53D31410D6E2}|Ordering.Application\\Ordering.Application.csproj|solutionrelative:ordering.application\\cqrs\\commandhandlers\\createorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23FFFA03-384C-4955-AB91-53D31410D6E2}|Ordering.Application\\Ordering.Application.csproj|r:\\card-manager\\microservice\\ordering.application\\cqrs\\commands\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23FFFA03-384C-4955-AB91-53D31410D6E2}|Ordering.Application\\Ordering.Application.csproj|solutionrelative:ordering.application\\cqrs\\commands\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\filters\\getordersrequestvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\filters\\getordersrequestvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\extensions\\migratedbcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\extensions\\migratedbcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23FFFA03-384C-4955-AB91-53D31410D6E2}|Ordering.Application\\Ordering.Application.csproj|r:\\card-manager\\microservice\\ordering.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,14 +67,6 @@
       "RelativeMoniker": "D:0:0:{9B899856-1D36-41D2-8C1F-64D8A971D911}|BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:buildingblocks\\api\\pagination\\paginationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\api\\v1.0\\card\\getcardbyapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\api\\v1.0\\card\\getcardbyapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\api\\v1.0\\card\\deletecardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\api\\v1.0\\card\\deletecardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -93,70 +89,59 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateOrderCommand.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Application\\CQRS\\Commands\\CreateOrderCommand.cs",
-              "RelativeDocumentMoniker": "Ordering.Application\\CQRS\\Commands\\CreateOrderCommand.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Ordering.Application\\CQRS\\Commands\\CreateOrderCommand.cs",
-              "RelativeToolTip": "Ordering.Application\\CQRS\\Commands\\CreateOrderCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T12:56:03.322Z",
-              "IsPinned": true
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetOrdersRequestValidationFilter.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Filters\\GetOrdersRequestValidationFilter.cs",
-              "RelativeDocumentMoniker": "Ordering.API\\Filters\\GetOrdersRequestValidationFilter.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\Filters\\GetOrdersRequestValidationFilter.cs",
-              "RelativeToolTip": "Ordering.API\\Filters\\GetOrdersRequestValidationFilter.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DeleteCardAPI.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
+              "RelativeDocumentMoniker": "Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
+              "RelativeToolTip": "Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T16:40:20.431Z"
+              "WhenOpened": "2024-11-15T12:42:56.746Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RegisterCardAPI.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\RegisterCardAPI.cs",
               "RelativeDocumentMoniker": "Ordering.API\\API\\v1.0\\card\\RegisterCardAPI.cs",
               "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\RegisterCardAPI.cs",
               "RelativeToolTip": "Ordering.API\\API\\v1.0\\card\\RegisterCardAPI.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T12:43:33.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "GetCardByAPI.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
+              "RelativeDocumentMoniker": "Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
+              "RelativeToolTip": "Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAnwBwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:43:25.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CreateOrderRequestValidationFilter.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Filters\\CreateOrderRequestValidationFilter.cs",
               "RelativeDocumentMoniker": "Ordering.API\\Filters\\CreateOrderRequestValidationFilter.cs",
               "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\Filters\\CreateOrderRequestValidationFilter.cs",
               "RelativeToolTip": "Ordering.API\\Filters\\CreateOrderRequestValidationFilter.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAlwCUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T16:40:10.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MigrateDbContextExtensions.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Extensions\\MigrateDbContextExtensions.cs",
-              "RelativeDocumentMoniker": "Ordering.API\\Extensions\\MigrateDbContextExtensions.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\Extensions\\MigrateDbContextExtensions.cs",
-              "RelativeToolTip": "Ordering.API\\Extensions\\MigrateDbContextExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T16:40:02.567Z"
             },
             {
               "$type": "Document",
@@ -168,11 +153,36 @@
               "RelativeToolTip": "Ordering.Application\\CQRS\\CommandHandlers\\CreateOrderHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T12:54:02.164Z"
+              "WhenOpened": "2024-11-15T12:54:02.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetOrdersRequestValidationFilter.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Filters\\GetOrdersRequestValidationFilter.cs",
+              "RelativeDocumentMoniker": "Ordering.API\\Filters\\GetOrdersRequestValidationFilter.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\Filters\\GetOrdersRequestValidationFilter.cs",
+              "RelativeToolTip": "Ordering.API\\Filters\\GetOrdersRequestValidationFilter.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T16:40:20.431Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "MigrateDbContextExtensions.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Extensions\\MigrateDbContextExtensions.cs",
+              "RelativeDocumentMoniker": "Ordering.API\\Extensions\\MigrateDbContextExtensions.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\Extensions\\MigrateDbContextExtensions.cs",
+              "RelativeToolTip": "Ordering.API\\Extensions\\MigrateDbContextExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T16:40:02.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Ordering.Application\\DependencyInjection.cs",
@@ -184,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ApiProfile.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\MappingProfiles\\ApiProfile.cs",
               "RelativeDocumentMoniker": "Ordering.API\\MappingProfiles\\ApiProfile.cs",
@@ -196,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "RegisterCardRequest.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Model\\order\\RegisterCardRequest.cs",
               "RelativeDocumentMoniker": "Ordering.API\\Model\\order\\RegisterCardRequest.cs",
@@ -208,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CreateOrderResponse.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Model\\order\\CreateOrderResponse.cs",
               "RelativeDocumentMoniker": "Ordering.API\\Model\\order\\CreateOrderResponse.cs",
@@ -220,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "OrderingApiFixture.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.FunctionalTests\\OrderingApiFixture.cs",
               "RelativeDocumentMoniker": "Ordering.FunctionalTests\\OrderingApiFixture.cs",
@@ -232,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "StarWarsHttpClient.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Application\\Integration\\StarWarsHttpClient.cs",
               "RelativeDocumentMoniker": "Ordering.Application\\Integration\\StarWarsHttpClient.cs",
@@ -244,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\appsettings.json",
               "RelativeDocumentMoniker": "Ordering.API\\appsettings.json",
@@ -256,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "StarWarsRemoteHealthCheck.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Utilities\\StarWarsRemoteHealthCheck.cs",
               "RelativeDocumentMoniker": "Ordering.API\\Utilities\\StarWarsRemoteHealthCheck.cs",
@@ -268,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "PaginationRequest.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\BuildingBlocks\\API\\Pagination\\PaginationRequest.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\API\\Pagination\\PaginationRequest.cs",
@@ -281,30 +291,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "DeleteCardAPI.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
-              "RelativeDocumentMoniker": "Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
-              "RelativeToolTip": "Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwCQAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T12:42:56.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GetCardByAPI.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
-              "RelativeDocumentMoniker": "Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
-              "RelativeToolTip": "Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAnwA8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T12:43:25.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Ordering.API\\DependencyInjection.cs",
@@ -316,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "CreateOrderCommandValidator.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Validators\\CreateOrderCommandValidator.cs",
               "RelativeDocumentMoniker": "Ordering.API\\Validators\\CreateOrderCommandValidator.cs",
@@ -328,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "OrderingContext.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Infrastructure\\OrderingContext.cs",
               "RelativeDocumentMoniker": "Ordering.Infrastructure\\OrderingContext.cs",

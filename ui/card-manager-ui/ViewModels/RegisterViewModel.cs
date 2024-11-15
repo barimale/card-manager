@@ -10,7 +10,7 @@ namespace card_manager_ui.ViewModels
 
         public RegisterViewModel()
         {
-            LoginCommand = new LoginCommand(this);
+            LoginCommand = new RegisterCommand(this);
         }
 
         public RegisterViewModel(IDataService dataService)

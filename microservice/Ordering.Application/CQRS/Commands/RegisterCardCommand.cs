@@ -3,9 +3,9 @@ using FluentValidation;
 
 namespace Ordering.Application.CQRS.Commands;
 
-public class CreateOrderCommand : ICommand<CreateOrderResult>
+public class RegisterCardCommand : ICommand<RegisterCardResult>
 {
-    public CreateOrderCommand()
+    public RegisterCardCommand()
     {
         // intentionally left blank
     }
@@ -17,14 +17,14 @@ public class CreateOrderCommand : ICommand<CreateOrderResult>
 }
 
 
-public class CreateOrderResult
+public class RegisterCardResult
 {
-    public CreateOrderResult()
+    public RegisterCardResult()
     {
         // intentionally left blank
     }
 
-    public CreateOrderResult(int id)
+    public RegisterCardResult(int id)
     {
         this.Id = id;
     }
@@ -32,10 +32,11 @@ public class CreateOrderResult
     public int Id { get; set; }
 }
 
-public class CreateOrderCommandValidator : AbstractValidator<CreateOrderCommand>
+public class RegisterCardCommandValidator : AbstractValidator<RegisterCardCommand>
 {
-    public CreateOrderCommandValidator()
+    public RegisterCardCommandValidator()
     {
+        // WIP
         //RuleFor(x => x.Order.OrderName).NotEmpty().WithMessage("Name is required");
         //RuleFor(x => x.Order.CustomerId).NotNull().WithMessage("CustomerId is required");
         //RuleFor(x => x.Order.OrderItems).NotEmpty().WithMessage("OrderItems should not be empty");

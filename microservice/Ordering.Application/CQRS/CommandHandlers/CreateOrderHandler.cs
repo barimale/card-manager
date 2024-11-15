@@ -5,13 +5,13 @@ using Ordering.Domain.AggregatesModel.OrderAggregate;
 
 namespace Ordering.Application.CQRS.CommandHandlers;
 public class CreateOrderHandler(IOrderRepository orderRepository)
-    : ICommandHandler<CreateOrderCommand, CreateOrderResult>
+    : ICommandHandler<RegisterCardCommand, RegisterCardResult>
 {
-    public async Task<CreateOrderResult> Handle(CreateOrderCommand command, CancellationToken cancellationToken)
+    public async Task<RegisterCardResult> Handle(RegisterCardCommand command, CancellationToken cancellationToken)
     {
         var result = orderRepository.Add(null);
         await orderRepository.UnitOfWork.SaveChangesAsync(cancellationToken);
         
-        return new CreateOrderResult(result.Id);
+        return new RegisterCardResult(result.Id);
     }
 }

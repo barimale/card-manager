@@ -12,7 +12,7 @@ namespace Ordering.API.MappingProfiles
         public ApiProfile()
         {
             // WIP
-            CreateMap<CreateOrderCommand, RegisterCardRequest>()
+            CreateMap<RegisterCardCommand, RegisterCardRequest>()
                 .ForMember(p => p.PIN, pp => pp.MapFrom(src => src.PIN))
                 .ReverseMap()
                 .ForMember(p => p.PIN, pp => pp.MapFrom(src => src.PIN));
@@ -22,10 +22,10 @@ namespace Ordering.API.MappingProfiles
                 .ForPath(p => p.PaginationRequest.PageSize, pp => pp.MapFrom(src => src.PageSize))
                 .ReverseMap();
 
-            CreateMap<CreateOrderCommand, Order>()
+            CreateMap<RegisterCardCommand, Order>()
                 .ReverseMap();
 
-            CreateMap<CreateOrderResult, CreateOrderResponse>();
+            CreateMap<RegisterCardResult, CreateOrderResponse>();
         }
     }
 }

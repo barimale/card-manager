@@ -5,11 +5,11 @@ using System.Windows.Input;
 
 namespace card_manager_ui.Commands
 {
-    public class LoginCommand : ICommand
+    public class RegisterCommand : ICommand
     {
         private readonly RegisterViewModel _viewModel;
 
-        public LoginCommand(RegisterViewModel viewModel)
+        public RegisterCommand(RegisterViewModel viewModel)
         {
             _viewModel = viewModel;
 

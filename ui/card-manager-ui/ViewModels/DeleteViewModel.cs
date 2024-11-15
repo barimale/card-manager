@@ -1,10 +1,19 @@
 ﻿using card_manager_ui.Commands;
+using card_manager_ui.Services;
 using System.Windows.Input;
 
 namespace card_manager_ui.ViewModels
 {
     public class DeleteViewModel : ViewModelBase
     {
+        public readonly IDataService dataService;
+
+        public DeleteViewModel(IDataService dataService)
+            : this()
+        {
+            this.dataService = dataService;
+        }
+
         private string _username;
         public string Username
         {
@@ -61,11 +70,11 @@ namespace card_manager_ui.ViewModels
             }
         }
 
-        public ICommand SearchCommand { get; }
+        public ICommand DeleteCommand { get; }
 
         public DeleteViewModel()
         {
-            SearchCommand = new DeleteCommand(this);
+            DeleteCommand = new DeleteCommand(this);
         }
     }
 }
