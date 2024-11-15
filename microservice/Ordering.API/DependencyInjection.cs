@@ -1,6 +1,5 @@
 ﻿using BuildingBlocks.API.Middlewares.GlobalExceptions.Handler;
 using BuildingBlocks.API.Utilities.Healthcheck;
-using BuildingBlocks.Application.Services;
 using Carter;
 using Consul;
 using HealthChecks.UI.Client;
@@ -50,9 +49,6 @@ public static class DependencyInjection
         {
             consulConfig.Address = new Uri(configuration.GetSection("consul").Get<string>());
         }));
-
-        services.AddSingleton<IHostedService, ConsulHostedService>();
-        services.Configure<ConsulConfig>(configuration.GetSection("registration"));
 
         LogManager.Configuration = new NLogLoggingConfiguration(
                     configuration.GetSection("NLog"));

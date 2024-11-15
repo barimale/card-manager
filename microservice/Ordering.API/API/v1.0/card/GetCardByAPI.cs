@@ -16,7 +16,7 @@ public class GetCardByAPI : ICarterModule
             [AsParameters] PaginationRequest request,
             ISender sender,
             IMapper mapper,
-            ILogger<GetOrders> logger) =>
+            ILogger<GetCardByAPI> logger) =>
         {
             var mapped = mapper.Map<GetOrdersQuery>(request);
             var response = await sender.Send(mapped);

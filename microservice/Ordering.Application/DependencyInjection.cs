@@ -6,7 +6,6 @@ using Microsoft.FeatureManagement;
 using Ordering.Application.Behaviours;
 using Ordering.Application.Integration;
 using Ordering.Application.Profiles;
-using Ordering.Application.Services.BackgroundServices;
 using System.Reflection;
 
 namespace Ordering.Application;
@@ -34,13 +33,6 @@ public static class DependencyInjection
         {
             return new StarWarsHttpClient(connectionString, client);
         }).SetHandlerLifetime(TimeSpan.FromMinutes(2)); ;
-        // WIP
-        //services.AddMessageBroker(configuration, Assembly.GetExecutingAssembly());
-        string hostName = configuration.GetValue<string>("AppSettings:HostName");
-
-        services.AddHostedService<GracePeriodManagerService>();
-        services.Configure<OrderingBackgroundSettings>(
-            configuration.GetSection("AppSettings"));
 
         return services;
     }

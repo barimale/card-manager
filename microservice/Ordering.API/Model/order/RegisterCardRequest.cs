@@ -1,10 +1,14 @@
-﻿using TypeGen.Core.TypeAnnotations;
+﻿using BuildingBlocks.Application.CQRS;
 
-namespace Ordering.API.Model.order
+namespace Ordering.Application.CQRS.Commands
 {
-    [ExportTsInterface]
     public class RegisterCardRequest
     {
+        public RegisterCardRequest()
+        {
+            //intentionally left blank
+        }
+
         public string AccountNumber { get; set; }
         public string PIN { get; set; }
         public string SerialNumber { get; set; }

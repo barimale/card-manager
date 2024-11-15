@@ -11,10 +11,11 @@ namespace Ordering.API.MappingProfiles
     {
         public ApiProfile()
         {
+            // WIP
             CreateMap<CreateOrderCommand, RegisterCardRequest>()
-                .ForMember(p => p.CustomerId, pp => pp.MapFrom(src => src.CustomerId))
+                .ForMember(p => p.PIN, pp => pp.MapFrom(src => src.CustomerId))
                 .ReverseMap()
-                .ForMember(p => p.CustomerId, pp => pp.MapFrom(src => src.CustomerId));
+                .ForMember(p => p.CustomerId, pp => pp.MapFrom(src => src.PIN));
 
             CreateMap<PaginationRequest, GetOrdersQuery>()
                 .ForPath(p => p.PaginationRequest.PageIndex, pp => pp.MapFrom(src => src.PageIndex))

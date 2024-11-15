@@ -51,8 +51,6 @@ public class OrderingContext : DbContext, IUnitOfWork
         modelBuilder.ApplyConfiguration(new OrderItemEntityTypeConfiguration());
         modelBuilder.ApplyConfiguration(new CardTypeEntityTypeConfiguration());
         modelBuilder.ApplyConfiguration(new BuyerEntityTypeConfiguration());
-        modelBuilder.ApplyConfiguration(new ResponseEntityTypeConfiguration());
-        modelBuilder.ApplyConfiguration(new RequestEntityTypeConfiguration());
 
         //modelBuilder.UseIntegrationEventLogs(); // WIP
     }

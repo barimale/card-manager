@@ -2,9 +2,9 @@
 
 namespace Ordering.Application.CQRS.Commands
 {
-    public class RegisterCardRequest : ICommand<CreateOrderResult>
+    public class RegisterCardCommand : ICommand<CreateOrderResult>
     {
-        public RegisterCardRequest()
+        public RegisterCardCommand()
         {
             //intentionally left blank
         }
