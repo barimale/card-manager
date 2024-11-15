@@ -8,6 +8,11 @@ namespace card_manager_ui.ViewModels
     {
         public readonly IDataService dataService;
 
+        private SearchViewModel()
+        {
+            SearchCommand = new SearchCommand(this);
+        }
+
         public SearchViewModel(IDataService dataService)
             : this()
         {
@@ -57,10 +62,5 @@ namespace card_manager_ui.ViewModels
         }
 
         public ICommand SearchCommand { get; }
-
-        public SearchViewModel()
-        {
-            SearchCommand = new SearchCommand(this);
-        }
     }
 }

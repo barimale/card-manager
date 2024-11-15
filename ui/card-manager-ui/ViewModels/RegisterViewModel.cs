@@ -8,9 +8,9 @@ namespace card_manager_ui.ViewModels
     {
         public readonly IDataService dataService;
 
-        public RegisterViewModel()
+        private RegisterViewModel()
         {
-            LoginCommand = new RegisterCommand(this);
+            RegisterCommand = new RegisterCommand(this);
         }
 
         public RegisterViewModel(IDataService dataService)
@@ -61,6 +61,6 @@ namespace card_manager_ui.ViewModels
             }
         }
 
-        public ICommand LoginCommand { get; }
+        public ICommand RegisterCommand { get; }
     }
 }

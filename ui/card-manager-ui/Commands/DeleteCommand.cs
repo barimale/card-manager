@@ -23,7 +23,7 @@ namespace card_manager_ui.Commands
 
         public bool CanExecute(object parameter)
         {
-            return !string.IsNullOrEmpty(_viewModel.Username) ||
+            return !string.IsNullOrEmpty(_viewModel.AccountNumber) ||
                 !string.IsNullOrEmpty(_viewModel.SerialNumber) ||
                 !string.IsNullOrEmpty(_viewModel.Identifier);
         }

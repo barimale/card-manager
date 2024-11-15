@@ -15,7 +15,7 @@ namespace card_manager_ui.ViewModels
         }
 
         private string _username;
-        public string Username
+        public string AccountNumber
         {
             get
             {
@@ -24,7 +24,7 @@ namespace card_manager_ui.ViewModels
             set
             {
                 _username = value;
-                OnPropertyChanged(nameof(Username));
+                OnPropertyChanged(nameof(AccountNumber));
             }
         }
 
@@ -72,7 +72,7 @@ namespace card_manager_ui.ViewModels
 
         public ICommand DeleteCommand { get; }
 
-        public DeleteViewModel()
+        private DeleteViewModel()
         {
             DeleteCommand = new DeleteCommand(this);
         }

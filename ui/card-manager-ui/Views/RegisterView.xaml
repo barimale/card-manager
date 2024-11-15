@@ -79,7 +79,7 @@
         <!-- Submit -->
         <Button Grid.Row="3" Margin="20,20,20,20"
             HorizontalAlignment="Center"
-            Command="{Binding LoginCommand}"
+            Command="{Binding RegisterCommand}"
             Content="REGISTER" />
     </Grid>
 </UserControl>

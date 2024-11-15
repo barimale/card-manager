@@ -1,8 +1,5 @@
 ﻿using card_manager_ui.ViewModels;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Text;
 using System.Windows;
 using System.Windows.Input;
 
@@ -28,22 +25,22 @@ namespace card_manager_ui.Commands
                 !string.IsNullOrEmpty(_viewModel.Identifier);
         }
 
-        public void Execute(object parameter)
+        public async void Execute(object parameter)
         {
             dynamic result;
 
             // WIP map to object return object
             if(!string.IsNullOrEmpty(_viewModel.AccountNumber))
             {
-                result = _viewModel.dataService.GetByAccountNumber(_viewModel.AccountNumber);
+                result = await _viewModel.dataService.GetByAccountNumber(_viewModel.AccountNumber);
             }
             else if (!string.IsNullOrEmpty(_viewModel.SerialNumber))
             {
-                result = _viewModel.dataService.GetBySerialNumber(_viewModel.SerialNumber);
+                result = await _viewModel.dataService.GetBySerialNumber(_viewModel.SerialNumber);
             }
             else if (!string.IsNullOrEmpty(_viewModel.Identifier))
             {
-                result = _viewModel.dataService.GetByAccountNumber(_viewModel.Identifier);
+                result = await _viewModel.dataService.GetByAccountNumber(_viewModel.Identifier);
             }
 
             MessageBox.Show($"Username: {_viewModel.AccountNumber}\nSerial number: {_viewModel.SerialNumber}\nID: {_viewModel.Identifier}", "Info",
