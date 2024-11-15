@@ -42,8 +42,8 @@ public static class DependencyInjection
             failureStatus: HealthStatus.Unhealthy, 
             tags: new[] { "Feedback", "Service" });
 
-        services.AddScoped<CreateOrderRequestValidationFilter>();
-        services.AddScoped<CreateOrderRequestValidator>();
+        services.AddScoped<RegisterCardRequestValidationFilter>();
+        services.AddScoped<RegisterCardRequestValidator>();
 
         services.AddSingleton<IConsulClient, ConsulClient>(p => new ConsulClient(consulConfig =>
         {

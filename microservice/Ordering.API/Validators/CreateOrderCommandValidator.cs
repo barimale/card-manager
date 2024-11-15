@@ -4,9 +4,9 @@ using Ordering.Application.CQRS.Commands;
 
 namespace Ordering.API.Validators
 {
-    public class CreateOrderRequestValidator : AbstractValidator<RegisterCardRequest>
+    public class RegisterCardRequestValidator : AbstractValidator<RegisterCardRequest>
     {
-        public CreateOrderRequestValidator()
+        public RegisterCardRequestValidator()
         {
             RuleFor(exp => exp.SerialNumber)
                 .NotEmpty()

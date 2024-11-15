@@ -29,7 +29,7 @@ public class RegisterCardAPI : ICarterModule
         .Produces<CreateOrderResponse>(StatusCodes.Status201Created)
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
-        .AddEndpointFilter<CreateOrderRequestValidationFilter>()
+        .AddEndpointFilter<RegisterCardRequestValidationFilter>()
         .WithHttpLogging(HttpLoggingFields.ResponsePropertiesAndHeaders).WithSummary("Get Orders")
         .WithSummary("Register card summary")
         .WithDescription("Register card description");

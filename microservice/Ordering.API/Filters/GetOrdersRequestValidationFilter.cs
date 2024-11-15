@@ -12,7 +12,7 @@ namespace Ordering.API.Filters
             ILoggerFactory loggerFactory,
             GetOrdersCommandValidator getOrdersCommandValidator)
         {
-            _logger = loggerFactory.CreateLogger<CreateOrderRequestValidationFilter>();
+            _logger = loggerFactory.CreateLogger<RegisterCardRequestValidationFilter>();
             _getOrdersCommandValidator = getOrdersCommandValidator;
         }
 

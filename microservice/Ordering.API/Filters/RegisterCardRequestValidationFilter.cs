@@ -4,16 +4,16 @@ using Ordering.Application.CQRS.Commands;
 
 namespace Ordering.API.Filters
 {
-    public class CreateOrderRequestValidationFilter : IEndpointFilter
+    public class RegisterCardRequestValidationFilter : IEndpointFilter
     {
         private readonly ILogger _logger;
-        private readonly CreateOrderRequestValidator _createOrderRequestValidator;
+        private readonly RegisterCardRequestValidator _createOrderRequestValidator;
 
-        public CreateOrderRequestValidationFilter(
+        public RegisterCardRequestValidationFilter(
             ILoggerFactory loggerFactory,
-            CreateOrderRequestValidator createOrderRequestValidator)
+            RegisterCardRequestValidator createOrderRequestValidator)
         {
-            _logger = loggerFactory.CreateLogger<CreateOrderRequestValidationFilter>();
+            _logger = loggerFactory.CreateLogger<RegisterCardRequestValidationFilter>();
             _createOrderRequestValidator = createOrderRequestValidator;
         }
 
