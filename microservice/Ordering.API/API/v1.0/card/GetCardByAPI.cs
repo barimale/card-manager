@@ -32,8 +32,8 @@ public class GetCardByAPI : ICarterModule
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
         //.AddEndpointFilter<GetOrdersRequestValidationFilter>()// WIP
         .WithHttpLogging(HttpLoggingFields.ResponsePropertiesAndHeaders)
-        .WithSummary("Get Orders summary")
-        .WithDescription("Get Orders description");
+        .WithSummary("Get Card by serial number.")
+        .WithDescription("Provide serial number to obtain the card details.");
 
         app.MapGet("api/v1/cards/account-number/{accountNumber}", async (
             string accountNumber,

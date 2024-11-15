@@ -50,8 +50,7 @@
               "RelativeToolTip": "Ordering.Application\\CQRS\\CommandHandlers\\CreateOrderHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAlwA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T19:10:31.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T19:10:31.368Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "Ordering.API\\API\\v1.0\\card\\RegisterCardAPI.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAYwA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:04:50.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T18:04:50.565Z"
             },
             {
               "$type": "Document",
@@ -74,7 +72,7 @@
               "RelativeDocumentMoniker": "Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
               "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
               "RelativeToolTip": "Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwE0AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwBoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T18:04:46.093Z",
               "EditorCaption": ""
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:04:41.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T18:04:41.729Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Ordering.API\\Filters\\CreateOrderRequestValidationFilter.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAwBYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T19:11:32.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T19:11:32.067Z"
             },
             {
               "$type": "Document",
