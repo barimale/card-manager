@@ -1,10 +1,24 @@
-﻿using PasswordBoxMVVM.Commands;
+﻿using card_manager_ui.Services;
+using PasswordBoxMVVM.Commands;
 using System.Windows.Input;
 
 namespace PasswordBoxMVVM.ViewModels
 {
     public class RegisterViewModel : ViewModelBase
     {
+        public readonly IDataService dataService;
+
+        public RegisterViewModel()
+        {
+            LoginCommand = new LoginCommand(this);
+        }
+
+        public RegisterViewModel(IDataService dataService)
+            : this()
+        {
+            this.dataService = dataService;
+        }
+
         private string _username;
         public string Username
         {
@@ -48,10 +62,5 @@ namespace PasswordBoxMVVM.ViewModels
         }
 
         public ICommand LoginCommand { get; }
-
-        public RegisterViewModel()
-        {
-            LoginCommand = new LoginCommand(this);
-        }
     }
 }

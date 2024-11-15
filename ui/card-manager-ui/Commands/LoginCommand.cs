@@ -1,8 +1,5 @@
 ﻿using PasswordBoxMVVM.ViewModels;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Text;
 using System.Windows;
 using System.Windows.Input;
 
@@ -30,6 +27,8 @@ namespace PasswordBoxMVVM.Commands
 
         public void Execute(object parameter)
         {
+            _viewModel.dataService.Get();
+
             MessageBox.Show($"Username: {_viewModel.Username}\nPassword: {_viewModel.Password}\nSerial number: {_viewModel.SerialNumber}", "Info", 
                 MessageBoxButton.OK, MessageBoxImage.Information);
         }
