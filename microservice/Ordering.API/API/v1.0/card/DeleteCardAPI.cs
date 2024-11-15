@@ -34,7 +34,7 @@ public class DeleteCardAPI : ICarterModule
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
         .AddEndpointFilter<CreateOrderRequestValidationFilter>()
-        .WithHttpLogging(HttpLoggingFields.ResponsePropertiesAndHeaders).WithSummary("Get Orders")
+        .WithHttpLogging(HttpLoggingFields.ResponsePropertiesAndHeaders)
         .WithSummary("Create Order summary")
         .WithDescription("Create Order description");
     }
