@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "card-manager-ui", "card-manager-ui\card-manager-ui.csproj", "{E2202460-F313-4383-8894-648A8EC560D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "card-manager-ui", "example\card-manager-ui.csproj", "{36EF3498-9140-43BA-9B9E-B342E77B8DFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E2202460-F313-4383-8894-648A8EC560D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2202460-F313-4383-8894-648A8EC560D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2202460-F313-4383-8894-648A8EC560D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2202460-F313-4383-8894-648A8EC560D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36EF3498-9140-43BA-9B9E-B342E77B8DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36EF3498-9140-43BA-9B9E-B342E77B8DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36EF3498-9140-43BA-9B9E-B342E77B8DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36EF3498-9140-43BA-9B9E-B342E77B8DFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6D7D18F6-231F-4CDE-A7CB-238FD876F3D0}
+		SolutionGuid = {B48F9BFD-E3AE-40DC-9CFB-A3B50DCC7FBF}
 	EndGlobalSection
 EndGlobal
