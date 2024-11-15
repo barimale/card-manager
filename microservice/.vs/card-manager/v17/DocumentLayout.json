@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "Ordering.Application\\CQRS\\CommandHandlers\\CreateOrderHandler.cs",
               "ToolTip": "R:\\card-manager\\microservice\\Ordering.Application\\CQRS\\CommandHandlers\\CreateOrderHandler.cs",
               "RelativeToolTip": "Ordering.Application\\CQRS\\CommandHandlers\\CreateOrderHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAlwAwAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwA8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T21:39:57.003Z",
               "EditorCaption": ""
@@ -92,8 +92,7 @@
               "RelativeToolTip": "Ordering.API\\Model\\register-card\\CreateOrderResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:39:07.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T21:39:07.257Z"
             },
             {
               "$type": "Document",
@@ -105,8 +104,7 @@
               "RelativeToolTip": "Ordering.Application\\DependencyInjection.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:38:33.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T21:38:33.779Z"
             },
             {
               "$type": "Document",
@@ -118,8 +116,7 @@
               "RelativeToolTip": "Ordering.Application\\CQRS\\QueryHandlers\\DummyBuyerExampleHandler.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T21:38:03.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T21:38:03.202Z"
             },
             {
               "$type": "Document",
