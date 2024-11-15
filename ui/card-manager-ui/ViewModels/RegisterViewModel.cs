@@ -33,20 +33,6 @@ namespace PasswordBoxMVVM.ViewModels
             }
         }
 
-        private string _identifier;
-        public string Identifier
-        {
-            get
-            {
-                return _identifier;
-            }
-            set
-            {
-                _identifier = value;
-                OnPropertyChanged(nameof(Identifier));
-            }
-        }
-
         private string _password;
         public string Password
         {

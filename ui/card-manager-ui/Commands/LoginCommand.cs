@@ -25,13 +25,12 @@ namespace PasswordBoxMVVM.Commands
         {
             return !string.IsNullOrEmpty(_viewModel.Username) &&
                 !string.IsNullOrEmpty(_viewModel.Password) &&
-                !string.IsNullOrEmpty(_viewModel.SerialNumber) &&
-                !string.IsNullOrEmpty(_viewModel.Identifier);
+                !string.IsNullOrEmpty(_viewModel.SerialNumber);
         }
 
         public void Execute(object parameter)
         {
-            MessageBox.Show($"Username: {_viewModel.Username}\nPassword: {_viewModel.Password}\nSerial number: {_viewModel.SerialNumber}\nID: {_viewModel.Identifier}", "Info", 
+            MessageBox.Show($"Username: {_viewModel.Username}\nPassword: {_viewModel.Password}\nSerial number: {_viewModel.SerialNumber}", "Info", 
                 MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
