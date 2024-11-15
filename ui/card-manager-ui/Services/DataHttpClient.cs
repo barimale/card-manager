@@ -31,7 +31,7 @@ namespace card_manager_ui.Services
 
         public async Task<bool> Create(string accountNumber, string serialNumber, string PIN)
         {
-            var result = await _httpClient.PostAsJsonAsync($"api/v1/cards", new RegisterCardRequest()
+            var result = await _httpClient.PostAsJsonAsync($"/api/v1/cards", new RegisterCardRequest()
             {
                 AccountNumber = accountNumber,
                 SerialNumber = serialNumber,
