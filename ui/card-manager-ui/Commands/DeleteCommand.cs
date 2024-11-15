@@ -1,8 +1,5 @@
 ﻿using card_manager_ui.ViewModels;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Text;
 using System.Windows;
 using System.Windows.Input;
 
@@ -23,9 +20,7 @@ namespace card_manager_ui.Commands
 
         public bool CanExecute(object parameter)
         {
-            return !string.IsNullOrEmpty(_viewModel.AccountNumber) ||
-                !string.IsNullOrEmpty(_viewModel.SerialNumber) ||
-                !string.IsNullOrEmpty(_viewModel.Identifier);
+            return !string.IsNullOrEmpty(_viewModel.Identifier);
         }
 
         public async void Execute(object parameter)
