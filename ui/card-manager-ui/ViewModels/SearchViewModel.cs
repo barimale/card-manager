@@ -1,10 +1,19 @@
 ﻿using card_manager_ui.Commands;
+using card_manager_ui.Services;
 using System.Windows.Input;
 
 namespace card_manager_ui.ViewModels
 {
     public class SearchViewModel : ViewModelBase
     {
+        public readonly IDataService dataService;
+
+        public SearchViewModel(IDataService dataService)
+            : this()
+        {
+            this.dataService = dataService;
+        }
+
         private string _username;
         public string AccountNumber
         {

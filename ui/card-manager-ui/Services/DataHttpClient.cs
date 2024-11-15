@@ -13,20 +13,19 @@ namespace card_manager_ui.Services
             _httpClient.BaseAddress = new Uri(api);
         }
 
-        public async ValueTask<dynamic> GetBySerialNumber(string peopleId)
+        public async ValueTask<dynamic> GetBySerialNumber(string id)
         {
-            return await _httpClient.GetFromJsonAsync<dynamic>($"people/{peopleId}");
+            return await _httpClient.GetFromJsonAsync<dynamic>($"/api/v1/cards/serial-number/{id}");
         }
 
-        public async ValueTask<dynamic> GetByIdentifier(string planetId)
+        public async ValueTask<dynamic> GetByAccountNumber(string id)
         {
-            return await _httpClient.GetFromJsonAsync<dynamic>($"planets/{planetId}");
+            return await _httpClient.GetFromJsonAsync<dynamic>($"/api/v1/cards/account-number/{id}");
         }
 
-        public async ValueTask<dynamic> GetByAccountNumber(string speciesId)
+        public async ValueTask<dynamic> GetByIdentifier(string id)
         {
-            return await _httpClient.GetFromJsonAsync<dynamic>($"species/{speciesId}");
-
+            return await _httpClient.GetFromJsonAsync<dynamic>($"/api/v1/cards/identifier/{id}");
         }
 
         public async Task<bool> Create(string accountNumber, string serialNumber, string PIN)
