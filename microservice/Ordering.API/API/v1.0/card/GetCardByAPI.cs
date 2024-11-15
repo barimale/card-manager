@@ -11,7 +11,7 @@ public class GetCardByAPI : ICarterModule
 {
     public void AddRoutes(IEndpointRouteBuilder app)
     {
-        app.MapGet("api/v1/orders/serial-number/{serialNumber}", async (
+        app.MapGet("api/v1/cards/serial-number/{serialNumber}", async (
             string serialNumber,
             ISender sender,
             IMapper mapper,
@@ -35,7 +35,7 @@ public class GetCardByAPI : ICarterModule
         .WithSummary("Get Orders summary")
         .WithDescription("Get Orders description");
 
-        app.MapGet("api/v1/orders/account-number/{accountNumber}", async (
+        app.MapGet("api/v1/cards/account-number/{accountNumber}", async (
             string accountNumber,
             ISender sender,
             IMapper mapper,
@@ -59,7 +59,7 @@ public class GetCardByAPI : ICarterModule
         .WithSummary("Get Orders summary")
         .WithDescription("Get Orders description");
 
-        app.MapGet("api/v1/orders/identifier/{id}", async (
+        app.MapGet("api/v1/cards/identifier/{id}", async (
             string id,
             ISender sender,
             IMapper mapper,

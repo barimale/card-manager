@@ -23,7 +23,7 @@ public class RegisterCardAPI : ICarterModule
 
             var response = mapper.Map<CreateOrderResponse>(result);
 
-            return Results.Created($"/orders/{response.Id}", response);
+            return Results.Created($"/cards/{response.Id}", response);
         })
         .WithName("RegisterCard")
         .Produces<CreateOrderResponse>(StatusCodes.Status201Created)
@@ -31,7 +31,7 @@ public class RegisterCardAPI : ICarterModule
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
         .AddEndpointFilter<CreateOrderRequestValidationFilter>()
         .WithHttpLogging(HttpLoggingFields.ResponsePropertiesAndHeaders).WithSummary("Get Orders")
-        .WithSummary("Create Order summary")
-        .WithDescription("Create Order description");
+        .WithSummary("Register card summary")
+        .WithDescription("Register card description");
     }
 }
