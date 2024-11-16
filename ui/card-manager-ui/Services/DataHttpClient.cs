@@ -28,16 +28,16 @@ namespace card_manager_ui.Services
             return await _httpClient.GetFromJsonAsync<CardDto>($"/api/v1/cards/identifier/{id}");
         }
 
-        public async Task<bool> Create(string accountNumber, string serialNumber, string PIN)
+        public async Task<CardDto> Create(string accountNumber, string serialNumber, string PIN)
         {
-            var result = await _httpClient.PostAsJsonAsync($"/api/v1/cards", new RegisterCardRequest()
+            dynamic result = await _httpClient.PostAsJsonAsync($"/api/v1/cards", new RegisterCardRequest()
             {
                 AccountNumber = accountNumber,
                 SerialNumber = serialNumber,
                 PIN = PIN
             });
 
-            return result.IsSuccessStatusCode;
+            return await GetByIdentifier(result.Id);
         }
 
         public async Task<bool> Delete(string cardId)
