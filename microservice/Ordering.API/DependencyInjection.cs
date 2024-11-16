@@ -40,7 +40,7 @@ public static class DependencyInjection
             tags: new[] { "Feedback", "Service" });
 
         services.AddScoped<RegisterCardRequestValidationFilter>();
-        services.AddScoped<RegisterCardRequestValidator>();
+        services.AddScoped<RegisterCardCommandValidator>();
 
         services.AddSingleton<IConsulClient, ConsulClient>(p => new ConsulClient(consulConfig =>
         {
