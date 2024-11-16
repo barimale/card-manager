@@ -17,10 +17,6 @@ namespace Ordering.API.MappingProfiles
                 .ReverseMap()
                 .ForMember(p => p.PIN, pp => pp.MapFrom(src => src.PIN));
 
-            CreateMap<PaginationRequest, GetOrdersQuery>()
-                .ForPath(p => p.PaginationRequest.PageIndex, pp => pp.MapFrom(src => src.PageIndex))
-                .ForPath(p => p.PaginationRequest.PageSize, pp => pp.MapFrom(src => src.PageSize))
-                .ReverseMap();
 
             CreateMap<RegisterCardCommand, Card>()
                 .ReverseMap();

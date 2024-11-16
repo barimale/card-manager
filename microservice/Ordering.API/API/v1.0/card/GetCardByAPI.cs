@@ -16,7 +16,7 @@ public class GetCardByAPI : ICarterModule
             IMapper mapper,
             ILogger<GetCardByAPI> logger) =>
         {
-            var mapped = mapper.Map<GetOrdersQuery>(serialNumber);
+            var mapped = mapper.Map<GetCardBySerialNumberQuery>(serialNumber);
             var response = await sender.Send(mapped);
 
             if (response is null)
@@ -40,7 +40,7 @@ public class GetCardByAPI : ICarterModule
             IMapper mapper,
             ILogger<GetCardByAPI> logger) =>
         {
-            var mapped = mapper.Map<GetOrdersQuery>(accountNumber);
+            var mapped = mapper.Map<GetCardByAccountNumberQuery>(accountNumber);
             var response = await sender.Send(mapped);
 
             if (response is null)
@@ -64,7 +64,7 @@ public class GetCardByAPI : ICarterModule
             IMapper mapper,
             ILogger<GetCardByAPI> logger) =>
         {
-            var mapped = mapper.Map<GetOrdersQuery>(id);
+            var mapped = mapper.Map<GetCardByIDentifierQuery>(id);
             var response = await sender.Send(mapped);
 
             if (response is null)
