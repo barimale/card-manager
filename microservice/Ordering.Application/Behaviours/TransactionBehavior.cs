@@ -9,12 +9,12 @@ using Ordering.Infrastructure;
 public class TransactionBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
 {
     private readonly ILogger<TransactionBehavior<TRequest, TResponse>> _logger;
-    private readonly OrderingContext _dbContext;
+    private readonly CardContext _dbContext;
 
-    public TransactionBehavior(OrderingContext dbContext,
+    public TransactionBehavior(CardContext dbContext,
         ILogger<TransactionBehavior<TRequest, TResponse>> logger)
     {
-        _dbContext = dbContext ?? throw new ArgumentException(nameof(OrderingContext));
+        _dbContext = dbContext ?? throw new ArgumentException(nameof(CardContext));
         _logger = logger ?? throw new ArgumentException(nameof(ILogger));
     }
 

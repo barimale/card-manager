@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace Ordering.Infrastructure;
 
-public class OrderingContext : DbContext, IUnitOfWork
+public class CardContext : DbContext, IUnitOfWork
 {
-    public OrderingContext(DbContextOptions<OrderingContext> options)
+    public CardContext(DbContextOptions<CardContext> options)
     : base(options)
     {
         Database.EnsureCreated();
@@ -35,7 +35,7 @@ public class OrderingContext : DbContext, IUnitOfWork
 
     public bool HasActiveTransaction => _currentTransaction != null;
 
-    public OrderingContext(DbContextOptions<OrderingContext> options, IMediator mediator) : base(options)
+    public CardContext(DbContextOptions<CardContext> options, IMediator mediator) : base(options)
     {
         _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
 

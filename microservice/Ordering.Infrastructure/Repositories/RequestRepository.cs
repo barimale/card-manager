@@ -8,10 +8,10 @@ namespace Ordering.Infrastructure.Repositories;
 public class RequestRepository
     : IRequestRepository
 {
-    private readonly OrderingContext _context;
+    private readonly CardContext _context;
     public IUnitOfWork UnitOfWork => _context;
 
-    public RequestRepository(OrderingContext context)
+    public RequestRepository(CardContext context)
     {
         _context = context ?? throw new ArgumentNullException(nameof(context));
     }

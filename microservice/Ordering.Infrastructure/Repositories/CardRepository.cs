@@ -1,22 +1,20 @@
 ﻿using BuildingBlocks.Domain.SeedWork;
-using Microsoft.EntityFrameworkCore;
 using Ordering.Domain.AggregatesModel.OrderAggregate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace Ordering.Infrastructure.Repositories;
 
-public class OrderRepository
+public class CardRepository
     : ICardRepository
 {
-    private readonly OrderingContext _context;
+    private readonly CardContext _context;
 
     public IUnitOfWork UnitOfWork => _context;
 
-    public OrderRepository(OrderingContext context)
+    public CardRepository(CardContext context)
     {
         _context = context ?? throw new ArgumentNullException(nameof(context));
     }
@@ -37,7 +35,7 @@ public class OrderRepository
                 .Collection(i => i.OrderItems).LoadAsync();
         }
 
-        return order;
+        return order;   
     }
 
     public async Task<List<Card>> GetAllAsync(int pageIndex, int pageSize)

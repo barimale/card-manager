@@ -7,10 +7,10 @@ namespace Ordering.Infrastructure.Repositories;
 public class ResponseRepository
     : IResponseRepository
 {
-    private readonly OrderingContext _context;
+    private readonly CardContext _context;
     public IUnitOfWork UnitOfWork => _context;
 
-    public ResponseRepository(OrderingContext context)
+    public ResponseRepository(CardContext context)
     {
         _context = context ?? throw new ArgumentNullException(nameof(context));
     }

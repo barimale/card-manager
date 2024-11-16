@@ -6,7 +6,7 @@ namespace Ordering.Infrastructure;
 
 static class MediatorExtension
 {
-    public static async Task DispatchDomainEventsAsync(this IMediator mediator, OrderingContext ctx)
+    public static async Task DispatchDomainEventsAsync(this IMediator mediator, CardContext ctx)
     {
         var domainEntities = ctx.ChangeTracker
             .Entries<Entity>()

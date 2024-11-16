@@ -68,7 +68,7 @@ public static class DependencyInjection
             options.OperationFilter<AddCustomHeaderParameter>();
         });
 
-        services.AddMigration<OrderingContext, OrderingContextSeed>();
+        services.AddMigration<CardContext, OrderingContextSeed>();
 
         return services;
     }

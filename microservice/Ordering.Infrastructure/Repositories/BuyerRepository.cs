@@ -9,10 +9,10 @@ namespace Ordering.Infrastructure.Repositories;
 public class BuyerRepository
     : IBuyerRepository
 {
-    private readonly OrderingContext _context;
+    private readonly CardContext _context;
     public IUnitOfWork UnitOfWork => _context;
 
-    public BuyerRepository(OrderingContext context)
+    public BuyerRepository(CardContext context)
     {
         _context = context ?? throw new ArgumentNullException(nameof(context));
     }

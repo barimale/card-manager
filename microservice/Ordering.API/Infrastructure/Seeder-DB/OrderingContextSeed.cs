@@ -5,9 +5,9 @@ using Ordering.Infrastructure;
 
 namespace Ordering.API.SeedWork;
 
-public class OrderingContextSeed : IDbSeeder<OrderingContext>
+public class OrderingContextSeed : IDbSeeder<CardContext>
 {
-    public async Task SeedAsync(OrderingContext context)
+    public async Task SeedAsync(CardContext context)
     {
 
         if (!context.CardTypes.Any())
