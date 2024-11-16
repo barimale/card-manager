@@ -13,19 +13,19 @@ namespace card_manager_ui.Services
             _httpClient.BaseAddress = new Uri(api);
         }
 
-        public async ValueTask<dynamic> GetBySerialNumber(string id)
+        public async ValueTask<CardDto> GetBySerialNumber(string id)
         {
-            return await _httpClient.GetFromJsonAsync<dynamic>($"/api/v1/cards/serial-number/{id}");
+            return await _httpClient.GetFromJsonAsync<CardDto>($"/api/v1/cards/serial-number/{id}");
         }
 
-        public async ValueTask<dynamic> GetByAccountNumber(string id)
+        public async ValueTask<CardDto> GetByAccountNumber(string id)
         {
-            return await _httpClient.GetFromJsonAsync<dynamic>($"/api/v1/cards/account-number/{id}");
+            return await _httpClient.GetFromJsonAsync<CardDto>($"/api/v1/cards/account-number/{id}");
         }
 
-        public async ValueTask<dynamic> GetByIdentifier(string id)
+        public async ValueTask<CardDto> GetByIdentifier(string id)
         {
-            return await _httpClient.GetFromJsonAsync<dynamic>($"/api/v1/cards/identifier/{id}");
+            return await _httpClient.GetFromJsonAsync<CardDto>($"/api/v1/cards/identifier/{id}");
         }
 
         public async Task<bool> Create(string accountNumber, string serialNumber, string PIN)

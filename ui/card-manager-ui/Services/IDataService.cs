@@ -3,9 +3,9 @@
     public interface IDataService : IDataReadService, IDataWriteService { }
     public interface IDataReadService
     {
-        ValueTask<dynamic> GetBySerialNumber(string value);
-        ValueTask<dynamic> GetByIdentifier(string value);
-        ValueTask<dynamic> GetByAccountNumber(string value);    }
+        ValueTask<CardDto> GetBySerialNumber(string value);
+        ValueTask<CardDto> GetByIdentifier(string value);
+        ValueTask<CardDto> GetByAccountNumber(string value);    }
 
     public interface IDataWriteService
     {

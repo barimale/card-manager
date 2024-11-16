@@ -1,6 +1,4 @@
-﻿using BuildingBlocks.Domain.Request;
-using BuildingBlocks.Domain.Response;
-using BuildingBlocks.Domain.SeedWork;
+﻿using BuildingBlocks.Domain.SeedWork;
 using Ordering.Domain.AggregatesModel.OrderAggregate;
 using Ordering.Infrastructure.EntityConfigurations;
 using System;
@@ -18,10 +16,6 @@ public class CardContext : DbContext, IUnitOfWork
     }
 
     public DbSet<Card> Cards { get; set; }
-
-    // logging
-    public DbSet<Response> Responses { get; set; }
-    public DbSet<Request> Requests { get; set; }
 
     private readonly IMediator _mediator;
     private IDbContextTransaction _currentTransaction;

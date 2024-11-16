@@ -31,7 +31,6 @@ namespace Ordering.API
                 builder.Host.UseNLog();
 
                 var app = builder.Build();
-                app.UseMiddleware<RequestResponseLoggerMiddleware>();
                 app.UseExceptionHandler(options => { });
 
                 app.UseHttpLogging();

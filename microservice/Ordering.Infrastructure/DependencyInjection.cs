@@ -1,6 +1,4 @@
-﻿using BuildingBlocks.Domain.Request;
-using BuildingBlocks.Domain.Response;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Ordering.Infrastructure.Repositories;
 using System;
@@ -27,8 +25,6 @@ public static class DependencyInjection
 
         // Add services to the container.
         services.AddScoped<ICardRepository, CardRepository>();
-        services.AddScoped<IRequestRepository, RequestRepository>();
-        services.AddScoped<IResponseRepository, ResponseRepository>();
 
         return services;
     }

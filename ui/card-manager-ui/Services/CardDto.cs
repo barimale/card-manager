@@ -1,6 +1,4 @@
-﻿using TypeGen.Core.TypeAnnotations;
-
-namespace Ordering.Application.Dtos;
+﻿namespace card_manager_ui.Services;
 
 public class CardDto
 {

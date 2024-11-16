@@ -7,14 +7,12 @@ using Ordering.Infrastructure.Repositories;
 
 namespace Ordering.Application.CQRS.QueryHandlers;
 public class GetCardHandlers(
-    ICardRepository orderRepository, 
-    IMapper mapper, 
+    ICardRepository orderRepository,
+    IMapper mapper,
     ILogger<GetCardHandlers> logger)
     : IQueryHandler<GetCardBySerialNumberQuery, GetCardResult>,
       IQueryHandler<GetCardByIdentifierQuery, GetCardResult>,
       IQueryHandler<GetCardByAccountNumberQuery, GetCardResult>
-
-     
 {
     public async Task<GetCardResult> Handle(GetCardBySerialNumberQuery query, CancellationToken cancellationToken)
     {
