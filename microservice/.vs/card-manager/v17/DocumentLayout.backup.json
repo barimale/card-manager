@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "R:\\card-manager\\microservice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\validators\\registercardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\validators\\registercardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\filters\\deletecardrequestvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\filters\\deletecardrequestvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\api\\v1.0\\card\\deletecardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\api\\v1.0\\card\\deletecardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\api\\v1.0\\card\\registercardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\api\\v1.0\\card\\registercardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\api\\v1.0\\card\\getcardbyapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\api\\v1.0\\card\\getcardbyapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\model\\register-card\\registercardrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\model\\register-card\\registercardrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{23FFFA03-384C-4955-AB91-53D31410D6E2}|Ordering.Application\\Ordering.Application.csproj|r:\\card-manager\\microservice\\ordering.application\\cqrs\\commandhandlers\\deletecardhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23FFFA03-384C-4955-AB91-53D31410D6E2}|Ordering.Application\\Ordering.Application.csproj|solutionrelative:ordering.application\\cqrs\\commandhandlers\\deletecardhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\api\\v1.0\\card\\deletecardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\api\\v1.0\\card\\deletecardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\api\\v1.0\\card\\registercardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\api\\v1.0\\card\\registercardapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23FFFA03-384C-4955-AB91-53D31410D6E2}|Ordering.Application\\Ordering.Application.csproj|r:\\card-manager\\microservice\\ordering.application\\cqrs\\commandhandlers\\registercardhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -68,10 +80,6 @@
       "RelativeMoniker": "D:0:0:{23FFFA03-384C-4955-AB91-53D31410D6E2}|Ordering.Application\\Ordering.Application.csproj|solutionrelative:ordering.application\\cqrs\\queryhandlers\\getcardhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|r:\\card-manager\\microservice\\ordering.api\\api\\v1.0\\card\\getcardbyapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1F7AC1F-B60D-44C9-92E3-A2F1835FF4BC}|Ordering.API\\Ordering.API.csproj|solutionrelative:ordering.api\\api\\v1.0\\card\\getcardbyapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23FFFA03-384C-4955-AB91-53D31410D6E2}|Ordering.Application\\Ordering.Application.csproj|r:\\card-manager\\microservice\\ordering.application\\cqrs\\queries\\getcardbyserialnumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23FFFA03-384C-4955-AB91-53D31410D6E2}|Ordering.Application\\Ordering.Application.csproj|solutionrelative:ordering.application\\cqrs\\queries\\getcardbyserialnumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -87,54 +95,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterCardCommandValidator.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Validators\\RegisterCardCommandValidator.cs",
+              "RelativeDocumentMoniker": "Ordering.API\\Validators\\RegisterCardCommandValidator.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\Validators\\RegisterCardCommandValidator.cs",
+              "RelativeToolTip": "Ordering.API\\Validators\\RegisterCardCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:34:29.464Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegisterCardRequest.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Model\\register-card\\RegisterCardRequest.cs",
-              "RelativeDocumentMoniker": "Ordering.API\\Model\\register-card\\RegisterCardRequest.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\Model\\register-card\\RegisterCardRequest.cs",
-              "RelativeToolTip": "Ordering.API\\Model\\register-card\\RegisterCardRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DeleteCardRequestValidationFilter.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Filters\\DeleteCardRequestValidationFilter.cs",
+              "RelativeDocumentMoniker": "Ordering.API\\Filters\\DeleteCardRequestValidationFilter.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\Filters\\DeleteCardRequestValidationFilter.cs",
+              "RelativeToolTip": "Ordering.API\\Filters\\DeleteCardRequestValidationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T14:03:45.632Z",
+              "WhenOpened": "2024-11-16T17:34:01.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeleteCardResponse.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Model\\delete-card\\DeleteCardResponse.cs",
-              "RelativeDocumentMoniker": "Ordering.API\\Model\\delete-card\\DeleteCardResponse.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\Model\\delete-card\\DeleteCardResponse.cs",
-              "RelativeToolTip": "Ordering.API\\Model\\delete-card\\DeleteCardResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DeleteCardAPI.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
+              "RelativeDocumentMoniker": "Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
+              "RelativeToolTip": "Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCEAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T14:03:36.843Z",
+              "WhenOpened": "2024-11-16T13:41:15.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetCardByAPI.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
+              "RelativeDocumentMoniker": "Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
+              "RelativeToolTip": "Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAlwBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T12:24:19.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DeleteCardHandler.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Application\\CQRS\\CommandHandlers\\DeleteCardHandler.cs",
-              "RelativeDocumentMoniker": "Ordering.Application\\CQRS\\CommandHandlers\\DeleteCardHandler.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Ordering.Application\\CQRS\\CommandHandlers\\DeleteCardHandler.cs",
-              "RelativeToolTip": "Ordering.Application\\CQRS\\CommandHandlers\\DeleteCardHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T13:57:27.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "RegisterCardAPI.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\RegisterCardAPI.cs",
               "RelativeDocumentMoniker": "Ordering.API\\API\\v1.0\\card\\RegisterCardAPI.cs",
@@ -147,7 +168,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "RegisterCardRequest.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Model\\register-card\\RegisterCardRequest.cs",
+              "RelativeDocumentMoniker": "Ordering.API\\Model\\register-card\\RegisterCardRequest.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\Model\\register-card\\RegisterCardRequest.cs",
+              "RelativeToolTip": "Ordering.API\\Model\\register-card\\RegisterCardRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T14:03:45.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteCardResponse.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Model\\delete-card\\DeleteCardResponse.cs",
+              "RelativeDocumentMoniker": "Ordering.API\\Model\\delete-card\\DeleteCardResponse.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\Model\\delete-card\\DeleteCardResponse.cs",
+              "RelativeToolTip": "Ordering.API\\Model\\delete-card\\DeleteCardResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T14:03:36.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteCardHandler.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Application\\CQRS\\CommandHandlers\\DeleteCardHandler.cs",
+              "RelativeDocumentMoniker": "Ordering.Application\\CQRS\\CommandHandlers\\DeleteCardHandler.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Ordering.Application\\CQRS\\CommandHandlers\\DeleteCardHandler.cs",
+              "RelativeToolTip": "Ordering.Application\\CQRS\\CommandHandlers\\DeleteCardHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T13:57:27.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CardRepository.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Infrastructure\\Repositories\\CardRepository.cs",
               "RelativeDocumentMoniker": "Ordering.Infrastructure\\Repositories\\CardRepository.cs",
@@ -160,20 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeleteCardAPI.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
-              "RelativeDocumentMoniker": "Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
-              "RelativeToolTip": "Ordering.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAlwBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T13:41:15.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "RegisterCardHandler.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Application\\CQRS\\CommandHandlers\\RegisterCardHandler.cs",
               "RelativeDocumentMoniker": "Ordering.Application\\CQRS\\CommandHandlers\\RegisterCardHandler.cs",
@@ -186,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Program.cs",
               "RelativeDocumentMoniker": "Ordering.API\\Program.cs",
@@ -198,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "README.md",
               "DocumentMoniker": "R:\\card-manager\\README.md",
               "RelativeDocumentMoniker": "..\\README.md",
@@ -211,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "README.md",
               "DocumentMoniker": "R:\\card-manager\\microservice\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -224,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Ordering.Infrastructure\\DependencyInjection.cs",
@@ -236,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "CardContext.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Infrastructure\\CardContext.cs",
               "RelativeDocumentMoniker": "Ordering.Infrastructure\\CardContext.cs",
@@ -248,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "OrderEntityTypeConfiguration.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Infrastructure\\EntityConfigurations\\OrderEntityTypeConfiguration.cs",
               "RelativeDocumentMoniker": "Ordering.Infrastructure\\EntityConfigurations\\OrderEntityTypeConfiguration.cs",
@@ -260,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\AppData\\Local\\SourceServer\\2aa333cfc271c767be4d435d21c451a3b6d731190b50c7deb92ba593e0ec3f32\\microservice\\Ordering.Domain\\AggregatesModel\\OrderAggregate\\Card.cs",
               "ToolTip": "C:\\Users\\mateu\\AppData\\Local\\SourceServer\\2aa333cfc271c767be4d435d21c451a3b6d731190b50c7deb92ba593e0ec3f32\\microservice\\Ordering.Domain\\AggregatesModel\\OrderAggregate\\Card.cs",
@@ -270,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "CardDto.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Application\\Dtos\\CardDto.cs",
               "RelativeDocumentMoniker": "Ordering.Application\\Dtos\\CardDto.cs",
@@ -282,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "CardDto.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\AppData\\Local\\SourceServer\\2cafce1413b0731a501207d674988a6400b426e3d0df66313d940837982cc289\\microservice\\Ordering.Application\\Dtos\\CardDto.cs",
               "ToolTip": "C:\\Users\\mateu\\AppData\\Local\\SourceServer\\2cafce1413b0731a501207d674988a6400b426e3d0df66313d940837982cc289\\microservice\\Ordering.Application\\Dtos\\CardDto.cs",
@@ -292,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "GetCardHandlers.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Application\\CQRS\\QueryHandlers\\GetCardHandlers.cs",
               "RelativeDocumentMoniker": "Ordering.Application\\CQRS\\QueryHandlers\\GetCardHandlers.cs",
@@ -305,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "GetCardBySerialNumberQuery.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.Application\\CQRS\\Queries\\GetCardBySerialNumberQuery.cs",
               "RelativeDocumentMoniker": "Ordering.Application\\CQRS\\Queries\\GetCardBySerialNumberQuery.cs",
@@ -317,20 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GetCardByAPI.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
-              "RelativeDocumentMoniker": "Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
-              "RelativeToolTip": "Ordering.API\\API\\v1.0\\card\\GetCardByAPI.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAQwBkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T12:24:19.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "DeleteCardResponse.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Ordering.API\\Model\\get-card-by\\DeleteCardResponse.cs",
               "RelativeDocumentMoniker": "Ordering.API\\Model\\get-card-by\\DeleteCardResponse.cs",

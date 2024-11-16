@@ -29,7 +29,6 @@ public class GetCardByAPI : ICarterModule
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .ProducesProblem(StatusCodes.Status404NotFound)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
-        //.AddEndpointFilter<GetOrdersRequestValidationFilter>()// WIP
         .WithHttpLogging(HttpLoggingFields.ResponsePropertiesAndHeaders)
         .WithSummary("Get Card by serial number.")
         .WithDescription("Provide serial number to obtain the card details.");
@@ -53,7 +52,6 @@ public class GetCardByAPI : ICarterModule
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .ProducesProblem(StatusCodes.Status404NotFound)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
-        //.AddEndpointFilter<GetOrdersRequestValidationFilter>() // WIP
         .WithHttpLogging(HttpLoggingFields.ResponsePropertiesAndHeaders)
         .WithSummary("Get Orders summary")
         .WithDescription("Get Orders description");
@@ -77,7 +75,6 @@ public class GetCardByAPI : ICarterModule
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .ProducesProblem(StatusCodes.Status404NotFound)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
-        //.AddEndpointFilter<GetOrdersRequestValidationFilter>()// WIP
         .WithHttpLogging(HttpLoggingFields.ResponsePropertiesAndHeaders)
         .WithSummary("Get Orders summary")
         .WithDescription("Get Orders description");
