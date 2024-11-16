@@ -4,6 +4,8 @@ https://www.stevejgordon.co.uk/using-high-performance-dotnetcore-csharp-techniqu
 
 T? result = await response.Content.ReadFromJsonAsync<T>();
 
+https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/http/httpclient#handle-an-http-response
+
 # Tips
 ```
 dotnet tool install --global dotnet-ef
