@@ -2,6 +2,8 @@
 
 https://www.stevejgordon.co.uk/using-high-performance-dotnetcore-csharp-techniques-to-base64-encode-a-guid
 
+T? result = await response.Content.ReadFromJsonAsync<T>();
+
 # Tips
 ```
 dotnet tool install --global dotnet-ef
