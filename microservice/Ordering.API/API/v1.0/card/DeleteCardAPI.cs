@@ -18,7 +18,7 @@ public class DeleteCardAPI : ICarterModule
             IMapper mapper,
             ILogger<DeleteCardAPI> logger) =>
         {
-            var command = mapper.Map<RegisterCardCommand>(new RegisterCardCommand()
+            var command = mapper.Map<DeleteCardCommand>(new DeleteCardCommand()
             {
                 Id = id
             });

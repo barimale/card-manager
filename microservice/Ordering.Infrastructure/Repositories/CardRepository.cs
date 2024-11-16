@@ -51,4 +51,12 @@ public class CardRepository
 
         return orders;
     }
+
+    public async Task<string> Delete(string id)
+    {
+        var toBeDeleted = await _context.Cards.FirstOrDefaultAsync(p => p.Id == id);
+        var result = _context.Cards.Remove(toBeDeleted);
+
+        return result.Entity.Id;
+    }
 }

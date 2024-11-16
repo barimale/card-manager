@@ -1,7 +1,5 @@
 ﻿using BuildingBlocks.Domain.SeedWork;
 using Ordering.Domain.AggregatesModel.OrderAggregate;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace Ordering.Infrastructure.Repositories
 {
@@ -10,6 +8,7 @@ namespace Ordering.Infrastructure.Repositories
         IUnitOfWork UnitOfWork { get; }
 
         Card Add(Card order);
+        Task<string> Delete(string id);
         Task<List<Card>> GetAllAsync(int pageIndex, int pageSize);
         Task<Card> GetByAccountNumberAsync(string id);
         Task<Card> GetByIdAsync(string id);
