@@ -6,7 +6,10 @@ using Ordering.Application.Dtos;
 using Ordering.Infrastructure.Repositories;
 
 namespace Ordering.Application.CQRS.QueryHandlers;
-public class GetCardHandlers(ICardRepository orderRepository, IMapper mapper, ILogger<GetOrdersHandler> logger)
+public class GetCardHandlers(
+    ICardRepository orderRepository, 
+    IMapper mapper, 
+    ILogger<GetCardHandlers> logger)
     : IQueryHandler<GetCardBySerialNumberQuery, GetCardResult>,
       IQueryHandler<GetCardByIdentifierQuery, GetCardResult>,
       IQueryHandler<GetCardByAccountNumberQuery, GetCardResult>
