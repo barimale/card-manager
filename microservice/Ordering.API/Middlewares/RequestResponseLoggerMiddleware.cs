@@ -1,6 +1,5 @@
 ﻿using BuildingBlocks.Domain.Request;
 using BuildingBlocks.Domain.Response;
-using Ordering.Domain.AggregatesModel.BuyerAggregate;
 using System.Text.Json;
 
 namespace Ordering.API.Middlewares
@@ -21,7 +20,7 @@ namespace Ordering.API.Middlewares
             _serviceProvider = serviceProvider;
         }
 
-        public async Task InvokeAsync(HttpContext httpContext, IBuyerRepository dbContext)
+        public async Task InvokeAsync(HttpContext httpContext)
         {
             if (_isRequestResponseLoggingEnabled)
             {

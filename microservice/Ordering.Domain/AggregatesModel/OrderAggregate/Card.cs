@@ -1,8 +1,4 @@
 ﻿using BuildingBlocks.Domain.SeedWork;
-using Ordering.Domain.AggregatesModel.BuyerAggregate;
-using Ordering.Domain.Events.OrderEvents;
-using Ordering.Domain.Exceptions;
-using System.ComponentModel.DataAnnotations;
 
 namespace Ordering.Domain.AggregatesModel.OrderAggregate;
 

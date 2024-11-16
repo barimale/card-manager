@@ -40,12 +40,8 @@ public class CardContext : DbContext, IUnitOfWork
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // WIP
         modelBuilder.HasDefaultSchema("ordering");
-        modelBuilder.ApplyConfiguration(new PaymentMethodEntityTypeConfiguration());
         modelBuilder.ApplyConfiguration(new OrderEntityTypeConfiguration());
-        modelBuilder.ApplyConfiguration(new OrderItemEntityTypeConfiguration());
-        modelBuilder.ApplyConfiguration(new CardTypeEntityTypeConfiguration());
     }
 
     public async Task<bool> SaveEntitiesAsync(CancellationToken cancellationToken = default)

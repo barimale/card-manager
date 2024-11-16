@@ -1,5 +1,4 @@
-﻿using Ordering.Domain.AggregatesModel.BuyerAggregate;
-using Ordering.Domain.AggregatesModel.OrderAggregate;
+﻿using Ordering.Domain.AggregatesModel.OrderAggregate;
 
 namespace Ordering.Infrastructure.EntityConfigurations;
 
