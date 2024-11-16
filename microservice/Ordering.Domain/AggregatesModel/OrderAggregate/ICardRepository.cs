@@ -1,16 +1,18 @@
 ﻿using BuildingBlocks.Domain.SeedWork;
+using Ordering.Domain.AggregatesModel.OrderAggregate;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-namespace Ordering.Domain.AggregatesModel.OrderAggregate;
-
-//This is just the RepositoryContracts or Interface defined at the Domain Layer
-//as requisite for the Order Aggregate
-
-public interface ICardRepository : IRepository<Card>
+namespace Ordering.Infrastructure.Repositories
 {
-    Card Add(Card order);
+    public interface ICardRepository
+    {
+        IUnitOfWork UnitOfWork { get; }
 
-    void Update(Card order);
-
-    Task<Card> GetAsync(int orderId);
-    Task<List<Card>> GetAllAsync(int pageIndex, int pageSize);
+        Card Add(Card order);
+        Task<List<Card>> GetAllAsync(int pageIndex, int pageSize);
+        Task<Card> GetByAccountNumberAsync(string id);
+        Task<Card> GetByIdAsync(string id);
+        Task<Card> GetBySerialNumberAsync(string id);
+    }
 }

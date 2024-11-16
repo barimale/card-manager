@@ -7,14 +7,11 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.HttpLogging;
 using NLog;
 using NLog.Extensions.Logging;
-using Ordering.API.Extensions;
 using Ordering.API.Filters;
 using Ordering.API.MappingProfiles;
-using Ordering.API.SeedWork;
 using Ordering.API.SwaggerFilters;
 using Ordering.API.Utilities;
 using Ordering.API.Validators;
-using Ordering.Infrastructure;
 using HealthStatus = Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus;
 
 namespace Ordering.API;
@@ -68,7 +65,7 @@ public static class DependencyInjection
             options.OperationFilter<AddCustomHeaderParameter>();
         });
 
-        services.AddMigration<CardContext, OrderingContextSeed>();
+        //services.AddMigration<CardContext>();
 
         return services;
     }

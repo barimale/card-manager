@@ -21,38 +21,34 @@ public class CardRepository
 
     public Card Add(Card order)
     {
-        return _context.Orders.Add(order).Entity;
-
+        return _context.Cards.Add(order).Entity;
     }
 
-    public async Task<Card> GetAsync(int orderId)
+    public async Task<Card> GetBySerialNumberAsync(string id)
     {
-        var order = await _context.Orders.FindAsync(orderId);
+        var order = _context.Cards.FirstOrDefault(p => p.SerialNumber == id);
 
-        if (order != null)
-        {
-            await _context.Entry(order)
-                .Collection(i => i.OrderItems).LoadAsync();
-        }
+        return order;
+    }
+    public async Task<Card> GetByAccountNumberAsync(string id)
+    {
+        var order = _context.Cards.FirstOrDefault(p => p.AccountNumber == id);
 
-        return order;   
+        return order;
+    }
+
+    public async Task<Card> GetByIdAsync(string id)
+    {
+        var order = _context.Cards.FirstOrDefault(p => p.Id == id);
+
+        return order;
     }
 
     public async Task<List<Card>> GetAllAsync(int pageIndex, int pageSize)
     {
-        var orders = await _context.Orders
-                       .Include(o => o.OrderItems)
-                       .OrderBy(o => o.OrderDate)
-                       .Skip(pageSize * pageIndex)
-                       .Take(pageSize)
+        var orders = await _context.Cards
                        .ToListAsync();
 
         return orders;
-    }
-
-
-    public void Update(Card order)
-    {
-        _context.Entry(order).State = EntityState.Modified;
     }
 }

@@ -2,6 +2,7 @@
 using Ordering.Application.CQRS.Commands;
 using Ordering.Application.Integration;
 using Ordering.Domain.AggregatesModel.OrderAggregate;
+using Ordering.Infrastructure.Repositories;
 
 namespace Ordering.Application.CQRS.CommandHandlers;
 public class RegisterCardHandler(ICardRepository cardRepository, IIdGeneratorAdapter generator)

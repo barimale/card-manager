@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using Ordering.Application.CQRS.Queries;
 using Ordering.Application.Dtos;
 using Ordering.Domain.AggregatesModel.OrderAggregate;
+using Ordering.Infrastructure.Repositories;
 
 namespace Ordering.Application.CQRS.QueryHandlers;
 public class GetOrdersHandler(ICardRepository orderRepository, IMapper mapper, ILogger<GetOrdersHandler> logger)

@@ -2,7 +2,6 @@
 
 namespace Ordering.Application.Dtos;
 
-[ExportTsInterface]
 public class AddressDto
 {
     public string FirstName { get; set; }
