@@ -64,7 +64,7 @@ public class GetCardByAPI : ICarterModule
             IMapper mapper,
             ILogger<GetCardByAPI> logger) =>
         {
-            var mapped = mapper.Map<GetCardByIDentifierQuery>(id);
+            var mapped = mapper.Map<GetCardByIdentifierQuery>(id);
             var response = await sender.Send(mapped);
 
             if (response is null)
