@@ -18,19 +18,19 @@ public class DeleteCardAPI : ICarterModule
             IMapper mapper,
             ILogger<DeleteCardAPI> logger) =>
         {
-            var command = mapper.Map<DeleteCardCommand>(new DeleteCardCommand()
+            var command = new DeleteCardCommand()
             {
                 Id = id
-            });
+            };
 
             var result = await sender.Send(command);
 
-            var response = mapper.Map<CreateOrderResponse>(result);
+            var response = mapper.Map<DeleteCardResponse>(result);
 
             return Results.Accepted($"/orders/{response.Id}", response);
         })
         .WithName("DeleteCard")
-        .Produces<CreateOrderResponse>(StatusCodes.Status201Created)
+        .Produces<RegisterCardResponse>(StatusCodes.Status201Created)
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
         //.AddEndpointFilter<CreateOrderRequestValidationFilter>() WIP

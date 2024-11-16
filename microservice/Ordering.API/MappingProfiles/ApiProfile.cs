@@ -25,7 +25,7 @@ namespace Ordering.API.MappingProfiles
             CreateMap<RegisterCardCommand, Card>()
                 .ReverseMap();
 
-            CreateMap<RegisterCardResult, CreateOrderResponse>();
+            CreateMap<RegisterCardResult, RegisterCardResponse>();
         }
     }
 }

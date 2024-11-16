@@ -2,15 +2,14 @@
 
 namespace Ordering.API.Model.order
 {
-    [ExportTsInterface]
-    public class CreateOrderResponse
+    public class RegisterCardResponse
     {
-        public CreateOrderResponse()
+        public RegisterCardResponse()
         {
             // intentionally left blank
         }
 
-        public CreateOrderResponse(int id)
+        public RegisterCardResponse(int id)
         {
             Id = id;
         }

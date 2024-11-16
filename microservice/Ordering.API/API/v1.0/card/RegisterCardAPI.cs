@@ -21,12 +21,12 @@ public class RegisterCardAPI : ICarterModule
             var command = mapper.Map<RegisterCardCommand>(commandRequest);
             var result = await sender.Send(command);
 
-            var response = mapper.Map<CreateOrderResponse>(result);
+            var response = mapper.Map<RegisterCardResponse>(result);
 
             return Results.Created($"/cards/{response.Id}", response);
         })
         .WithName("RegisterCard")
-        .Produces<CreateOrderResponse>(StatusCodes.Status201Created)
+        .Produces<RegisterCardResponse>(StatusCodes.Status201Created)
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
         .AddEndpointFilter<RegisterCardRequestValidationFilter>()

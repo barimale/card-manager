@@ -9,19 +9,19 @@ using Ordering.Infrastructure.Repositories;
 
 namespace Ordering.Application.CQRS.QueryHandlers;
 public class GetOrdersHandler(ICardRepository orderRepository, IMapper mapper, ILogger<GetOrdersHandler> logger)
-    : IQueryHandler<GetOrdersQuery, GetOrdersResult>
+    : IQueryHandler<GetOrdersQuery, GetCardResult>
      
 {
-    public async Task<GetOrdersResult> Handle(GetOrdersQuery query, CancellationToken cancellationToken)
+    public async Task<GetCardResult> Handle(GetOrdersQuery query, CancellationToken cancellationToken)
     {
         var pageIndex = query.PaginationRequest.PageIndex;
         var pageSize = query.PaginationRequest.PageSize;
 
         var orders = await orderRepository.GetAllAsync(pageIndex, pageSize);
-        var mapped = mapper.Map<List<OrderDto>>(orders);
+        var mapped = mapper.Map<List<CardDto>>(orders);
 
-        return new GetOrdersResult(
-            new PaginatedResult<OrderDto>(
+        return new GetCardResult(
+            new PaginatedResult<CardDto>(
                 pageIndex,
                 pageSize,
                 orders.Count,

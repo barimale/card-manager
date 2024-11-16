@@ -5,7 +5,7 @@ using Ordering.Application.Dtos;
 namespace Ordering.Application.CQRS.Queries;
 
 public class GetOrdersQuery
-    : IQuery<GetOrdersResult>
+    : IQuery<GetCardResult>
 {
     public GetOrdersQuery()
     {
@@ -20,16 +20,16 @@ public class GetOrdersQuery
     public PaginationRequest PaginationRequest { get; set; }
 }
 
-public class GetOrdersResult
+public class GetCardResult
 {
-    public GetOrdersResult()
+    public GetCardResult()
     {
         //intentionally left blank
     }
-    public GetOrdersResult(PaginatedResult<OrderDto> orders)
+    public GetCardResult(CardDto orders)
     {
-        this.Orders = orders;
+        this.Card = orders;
     }
     
-    public PaginatedResult<OrderDto> Orders { get; set; }
+    public CardDto Card { get; set; }
 }

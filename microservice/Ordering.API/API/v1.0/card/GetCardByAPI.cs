@@ -25,7 +25,7 @@ public class GetCardByAPI : ICarterModule
             return Results.Ok(response);
         })
         .WithName("GetCardBySerialNumber")
-        .Produces<GetOrdersResult>(StatusCodes.Status200OK)
+        .Produces<GetCardResult>(StatusCodes.Status200OK)
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .ProducesProblem(StatusCodes.Status404NotFound)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
@@ -49,7 +49,7 @@ public class GetCardByAPI : ICarterModule
             return Results.Ok(response);
         })
         .WithName("GetCardByAccountNumber")
-        .Produces<GetOrdersResult>(StatusCodes.Status200OK)
+        .Produces<GetCardResult>(StatusCodes.Status200OK)
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .ProducesProblem(StatusCodes.Status404NotFound)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
@@ -73,7 +73,7 @@ public class GetCardByAPI : ICarterModule
             return Results.Ok(response);
         })
         .WithName("GetCardByID")
-        .Produces<GetOrdersResult>(StatusCodes.Status200OK)
+        .Produces<GetCardResult>(StatusCodes.Status200OK)
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .ProducesProblem(StatusCodes.Status404NotFound)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)

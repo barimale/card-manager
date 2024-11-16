@@ -3,9 +3,9 @@
 namespace Ordering.Application.Dtos;
 
 [ExportTsInterface]
-public class OrderDto
+public class CardDto
 {
-    public OrderDto()
+    public CardDto()
     {
         // intentionally left blank
     }
