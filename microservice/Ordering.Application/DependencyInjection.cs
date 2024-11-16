@@ -27,7 +27,6 @@ public static class DependencyInjection
         services.AddFeatureManagement();
         services.AddAutoMapper(typeof(OrderProfile));
 
-        // WIP add solution for 11 digits
         services.AddScoped<IIdGeneratorAdapter, IdGeneratorAdapter>();
 
         return services;

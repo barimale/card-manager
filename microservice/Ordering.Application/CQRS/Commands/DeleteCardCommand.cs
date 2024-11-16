@@ -28,13 +28,13 @@ public class DeleteCardResult
     public string Id { get; set; }
 }
 
-public class DeleteCardCommandValidator : AbstractValidator<DeleteCardCommand>
-{
-    public DeleteCardCommandValidator()
-    {
-        // WIP
-        //RuleFor(x => x.Order.OrderName).NotEmpty().WithMessage("Name is required");
-        //RuleFor(x => x.Order.CustomerId).NotNull().WithMessage("CustomerId is required");
-        //RuleFor(x => x.Order.OrderItems).NotEmpty().WithMessage("OrderItems should not be empty");
-    }
-}
+//public class DeleteCardCommandValidator : AbstractValidator<DeleteCardCommand>
+//{
+//    public DeleteCardCommandValidator()
+//    {
+//        // WIP
+//        //RuleFor(x => x.Order.OrderName).NotEmpty().WithMessage("Name is required");
+//        //RuleFor(x => x.Order.CustomerId).NotNull().WithMessage("CustomerId is required");
+//        //RuleFor(x => x.Order.OrderItems).NotEmpty().WithMessage("OrderItems should not be empty");
+//    }
+//}

@@ -32,13 +32,13 @@ public class RegisterCardResult
     public string Id { get; set; }
 }
 
-public class RegisterCardCommandValidator : AbstractValidator<RegisterCardCommand>
-{
-    public RegisterCardCommandValidator()
-    {
-        // WIP
-        //RuleFor(x => x.Order.OrderName).NotEmpty().WithMessage("Name is required");
-        //RuleFor(x => x.Order.CustomerId).NotNull().WithMessage("CustomerId is required");
-        //RuleFor(x => x.Order.OrderItems).NotEmpty().WithMessage("OrderItems should not be empty");
-    }
-}
+//public class RegisterCardCommandValidator : AbstractValidator<RegisterCardCommand>
+//{
+//    public RegisterCardCommandValidator()
+//    {
+//        // WIP
+//        //RuleFor(x => x.Order.OrderName).NotEmpty().WithMessage("Name is required");
+//        //RuleFor(x => x.Order.CustomerId).NotNull().WithMessage("CustomerId is required");
+//        //RuleFor(x => x.Order.OrderItems).NotEmpty().WithMessage("OrderItems should not be empty");
+//    }
+//}

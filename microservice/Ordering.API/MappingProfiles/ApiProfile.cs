@@ -11,12 +11,8 @@ namespace Ordering.API.MappingProfiles
     {
         public ApiProfile()
         {
-            // WIP
             CreateMap<RegisterCardCommand, RegisterCardRequest>()
-                .ForMember(p => p.PIN, pp => pp.MapFrom(src => src.PIN))
-                .ReverseMap()
-                .ForMember(p => p.PIN, pp => pp.MapFrom(src => src.PIN));
-
+                .ReverseMap();
 
             CreateMap<RegisterCardCommand, Card>()
                 .ReverseMap();
