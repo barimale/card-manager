@@ -2,7 +2,6 @@
 using Carter;
 using MediatR;
 using Microsoft.AspNetCore.HttpLogging;
-using Ordering.API.Filters;
 using Ordering.Application.CQRS.Queries;
 
 namespace Ordering.API.Endpoints;
