@@ -9,7 +9,7 @@
 
     public interface IDataWriteService
     {
-        Task<bool> Create(string accountNumber, string serialNumber, string PIN);
+        Task<CardDto> Create(string accountNumber, string serialNumber, string PIN);
         Task<bool> Delete(string id);
     }
 }
