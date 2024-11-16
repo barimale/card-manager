@@ -22,7 +22,7 @@ namespace Ordering.API.MappingProfiles
                 .ForPath(p => p.PaginationRequest.PageSize, pp => pp.MapFrom(src => src.PageSize))
                 .ReverseMap();
 
-            CreateMap<RegisterCardCommand, Order>()
+            CreateMap<RegisterCardCommand, Card>()
                 .ReverseMap();
 
             CreateMap<RegisterCardResult, CreateOrderResponse>();

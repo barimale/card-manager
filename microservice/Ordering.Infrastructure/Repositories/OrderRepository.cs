@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Ordering.Infrastructure.Repositories;
 
 public class OrderRepository
-    : IOrderRepository
+    : ICardRepository
 {
     private readonly OrderingContext _context;
 
@@ -21,13 +21,13 @@ public class OrderRepository
         _context = context ?? throw new ArgumentNullException(nameof(context));
     }
 
-    public Order Add(Order order)
+    public Card Add(Card order)
     {
         return _context.Orders.Add(order).Entity;
 
     }
 
-    public async Task<Order> GetAsync(int orderId)
+    public async Task<Card> GetAsync(int orderId)
     {
         var order = await _context.Orders.FindAsync(orderId);
 
@@ -40,7 +40,7 @@ public class OrderRepository
         return order;
     }
 
-    public async Task<List<Order>> GetAllAsync(int pageIndex, int pageSize)
+    public async Task<List<Card>> GetAllAsync(int pageIndex, int pageSize)
     {
         var orders = await _context.Orders
                        .Include(o => o.OrderItems)
@@ -53,7 +53,7 @@ public class OrderRepository
     }
 
 
-    public void Update(Order order)
+    public void Update(Card order)
     {
         _context.Entry(order).State = EntityState.Modified;
     }

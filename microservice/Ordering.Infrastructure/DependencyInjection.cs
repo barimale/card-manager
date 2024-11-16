@@ -30,7 +30,7 @@ public static class DependencyInjection
 
         // Add services to the container.
         services.AddScoped<IBuyerRepository, BuyerRepository>();
-        services.AddScoped<IOrderRepository, OrderRepository>();
+        services.AddScoped<ICardRepository, OrderRepository>();
         services.AddScoped<IRequestRepository, RequestRepository>();
         services.AddScoped<IResponseRepository, ResponseRepository>();
 

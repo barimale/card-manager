@@ -13,11 +13,11 @@ public class AddressDemoData
 
 public class OrderDemoData
 {
-    private readonly Order order;
+    private readonly Card order;
 
     public OrderDemoData(Address address)
     {
-        order = new Order(
+        order = new Card(
             "userId",
             "fakeName",
             address,
@@ -40,7 +40,7 @@ public class OrderDemoData
         return this;
     }
 
-    public Order Build()
+    public Card Build()
     {
         return order;
     }

@@ -5,12 +5,12 @@ namespace Ordering.Domain.AggregatesModel.OrderAggregate;
 //This is just the RepositoryContracts or Interface defined at the Domain Layer
 //as requisite for the Order Aggregate
 
-public interface IOrderRepository : IRepository<Order>
+public interface ICardRepository : IRepository<Card>
 {
-    Order Add(Order order);
+    Card Add(Card order);
 
-    void Update(Order order);
+    void Update(Card order);
 
-    Task<Order> GetAsync(int orderId);
-    Task<List<Order>> GetAllAsync(int pageIndex, int pageSize);
+    Task<Card> GetAsync(int orderId);
+    Task<List<Card>> GetAllAsync(int pageIndex, int pageSize);
 }

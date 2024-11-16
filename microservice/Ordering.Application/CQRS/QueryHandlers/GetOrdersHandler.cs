@@ -7,7 +7,7 @@ using Ordering.Application.Dtos;
 using Ordering.Domain.AggregatesModel.OrderAggregate;
 
 namespace Ordering.Application.CQRS.QueryHandlers;
-public class GetOrdersHandler(IOrderRepository orderRepository, IMapper mapper, ILogger<GetOrdersHandler> logger)
+public class GetOrdersHandler(ICardRepository orderRepository, IMapper mapper, ILogger<GetOrdersHandler> logger)
     : IQueryHandler<GetOrdersQuery, GetOrdersResult>
      
 {

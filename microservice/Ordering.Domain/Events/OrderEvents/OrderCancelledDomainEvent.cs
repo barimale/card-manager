@@ -4,9 +4,9 @@ namespace Ordering.Domain.Events.OrderEvents;
 
 public class OrderCancelledDomainEvent : INotification
 {
-    public Order Order { get; }
+    public Card Order { get; }
 
-    public OrderCancelledDomainEvent(Order order)
+    public OrderCancelledDomainEvent(Card order)
     {
         Order = order;
     }

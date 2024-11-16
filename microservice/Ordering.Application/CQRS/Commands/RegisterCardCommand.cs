@@ -24,12 +24,12 @@ public class RegisterCardResult
         // intentionally left blank
     }
 
-    public RegisterCardResult(int id)
+    public RegisterCardResult(string id)
     {
         this.Id = id;
     }
 
-    public int Id { get; set; }
+    public string Id { get; set; }
 }
 
 public class RegisterCardCommandValidator : AbstractValidator<RegisterCardCommand>

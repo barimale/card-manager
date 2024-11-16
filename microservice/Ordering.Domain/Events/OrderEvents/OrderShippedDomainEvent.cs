@@ -4,9 +4,9 @@ namespace Ordering.Domain.Events.OrderEvents;
 
 public class OrderShippedDomainEvent : INotification
 {
-    public Order Order { get; }
+    public Card Order { get; }
 
-    public OrderShippedDomainEvent(Order order)
+    public OrderShippedDomainEvent(Card order)
     {
         Order = order;
     }

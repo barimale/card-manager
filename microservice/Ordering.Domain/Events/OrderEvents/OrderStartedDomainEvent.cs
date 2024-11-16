@@ -7,7 +7,7 @@ namespace Ordering.Domain.Events.OrderEvents;
 /// Event used when an order is created
 /// </summary>
 public record class OrderStartedDomainEvent(
-    Order Order,
+    Card Order,
     string UserId,
     string UserName,
     int CardTypeId,

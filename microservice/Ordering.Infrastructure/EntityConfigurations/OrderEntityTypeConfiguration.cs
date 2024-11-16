@@ -3,9 +3,9 @@ using Ordering.Domain.AggregatesModel.OrderAggregate;
 
 namespace Ordering.Infrastructure.EntityConfigurations;
 
-class OrderEntityTypeConfiguration : IEntityTypeConfiguration<Order>
+class OrderEntityTypeConfiguration : IEntityTypeConfiguration<Card>
 {
-    public void Configure(EntityTypeBuilder<Order> orderConfiguration)
+    public void Configure(EntityTypeBuilder<Card> orderConfiguration)
     {
         orderConfiguration.ToTable("orders");
 
