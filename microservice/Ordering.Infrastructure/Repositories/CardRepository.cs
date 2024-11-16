@@ -1,14 +1,12 @@
 ﻿using BuildingBlocks.Domain.SeedWork;
 using Ordering.Domain.AggregatesModel.OrderAggregate;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Ordering.Infrastructure.Repositories;
 
-public class CardRepository
-    : ICardRepository
+public class CardRepository : ICardRepository
 {
     private readonly CardContext _context;
 
@@ -42,14 +40,6 @@ public class CardRepository
         var order = _context.Cards.FirstOrDefault(p => p.Id == id);
 
         return order;
-    }
-
-    public async Task<List<Card>> GetAllAsync(int pageIndex, int pageSize)
-    {
-        var orders = await _context.Cards
-                       .ToListAsync();
-
-        return orders;
     }
 
     public async Task<string> Delete(string id)

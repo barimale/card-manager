@@ -25,12 +25,10 @@ public class DeleteCardAPI : ICarterModule
 
             var result = await sender.Send(command);
 
-            var response = mapper.Map<DeleteCardResponse>(result);
-
-            return Results.Accepted($"/orders/{response.Id}", response);
+            return Results.Accepted($"/orders/{result.Id}", result);
         })
         .WithName("DeleteCard")
-        .Produces<RegisterCardResponse>(StatusCodes.Status201Created)
+        .Produces<RegisterCardResult>(StatusCodes.Status201Created)
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
         //.AddEndpointFilter<CreateOrderRequestValidationFilter>() WIP

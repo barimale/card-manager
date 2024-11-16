@@ -9,7 +9,6 @@ namespace Ordering.Infrastructure.Repositories
 
         Card Add(Card order);
         Task<string> Delete(string id);
-        Task<List<Card>> GetAllAsync(int pageIndex, int pageSize);
         Task<Card> GetByAccountNumberAsync(string id);
         Task<Card> GetByIdAsync(string id);
         Task<Card> GetBySerialNumberAsync(string id);
