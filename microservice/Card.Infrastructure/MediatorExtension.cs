@@ -1,4 +1,4 @@
-﻿using BuildingBlocks.Domain.SeedWork;
+﻿using Card.Common.Domain;
 using System.Linq;
 using System.Threading.Tasks;
 

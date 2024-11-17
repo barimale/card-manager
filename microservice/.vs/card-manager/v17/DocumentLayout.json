@@ -93,8 +93,7 @@
               "RelativeToolTip": "..\\README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-11-17T14:58:41.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:58:41.586Z"
             },
             {
               "$type": "Document",
@@ -128,7 +127,7 @@
               "RelativeDocumentMoniker": "Card.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
               "ToolTip": "R:\\card-manager\\microservice\\Card.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
               "RelativeToolTip": "Card.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T14:19:56.491Z",
               "EditorCaption": ""
@@ -288,7 +287,8 @@
               "RelativeToolTip": "Card.Infrastructure\\CardContext.cs",
               "ViewState": "AgIAADIAAAAAAAAAAADwvyQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:19:27.203Z"
+              "WhenOpened": "2024-11-17T14:19:27.203Z",
+              "EditorCaption": ""
             }
           ]
         }

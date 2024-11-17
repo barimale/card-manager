@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace BuildingBlocks.Domain.SeedWork;
+namespace Card.Common.Domain;
 
 public abstract class Entity
 {

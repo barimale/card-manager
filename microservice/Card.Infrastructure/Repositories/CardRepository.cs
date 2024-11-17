@@ -1,4 +1,4 @@
-﻿using BuildingBlocks.Domain.SeedWork;
+﻿using Card.Common.Domain;
 using Card.Domain.AggregatesModel.CardAggregate;
 using System;
 using System.Linq;

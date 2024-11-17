@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 
-namespace BuildingBlocks.Domain.SeedWork;
+namespace Card.Common.Domain;
 
 public abstract class Enumeration : IComparable
 {

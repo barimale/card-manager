@@ -1,4 +1,4 @@
-﻿namespace BuildingBlocks.Domain.SeedWork;
+﻿namespace Card.Common.Domain;
 
 public interface IUnitOfWork : IDisposable
 {

@@ -1,4 +1,4 @@
-﻿using BuildingBlocks.Domain.SeedWork;
+﻿using Card.Common.Domain;
 using Card.Infrastructure.EntityConfigurations;
 using System;
 using System.Threading;
