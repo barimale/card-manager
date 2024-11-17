@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Card.Domain.AggregatesModel.CardAggregate;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Ordering.Infrastructure.Repositories;
 using System;

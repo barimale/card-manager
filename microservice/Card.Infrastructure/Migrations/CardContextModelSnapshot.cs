@@ -8,7 +8,7 @@ using Ordering.Infrastructure;
 
 #nullable disable
 
-namespace Ordering.Infrastructure.Migrations
+namespace Card.Infrastructure.Migrations
 {
     [DbContext(typeof(CardContext))]
     partial class CardContextModelSnapshot : ModelSnapshot
@@ -23,14 +23,14 @@ namespace Ordering.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Ordering.Domain.AggregatesModel.OrderAggregate.Card", b =>
+            modelBuilder.Entity("Card.Domain.AggregatesModel.CardAggregate.Card", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("AccountNumber")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("PIN")
                         .IsRequired()
@@ -41,9 +41,12 @@ namespace Ordering.Infrastructure.Migrations
 
                     b.Property<string>("SerialNumber")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AccountNumber", "SerialNumber")
+                        .IsUnique();
 
                     b.ToTable("cards", "ordering");
                 });

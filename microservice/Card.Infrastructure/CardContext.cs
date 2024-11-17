@@ -1,5 +1,5 @@
 ﻿using BuildingBlocks.Domain.SeedWork;
-using Ordering.Domain.AggregatesModel.OrderAggregate;
+using Card.Domain.AggregatesModel.CardAggregate;
 using Ordering.Infrastructure.EntityConfigurations;
 using System;
 using System.Threading;
@@ -15,7 +15,7 @@ public class CardContext : DbContext, IUnitOfWork
         Database.EnsureCreated();
     }
 
-    public DbSet<Card> Cards { get; set; }
+    public DbSet<Card.Domain.AggregatesModel.CardAggregate.Card> Cards { get; set; }
 
     private readonly IMediator _mediator;
     private IDbContextTransaction _currentTransaction;
@@ -35,7 +35,7 @@ public class CardContext : DbContext, IUnitOfWork
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.HasDefaultSchema("ordering");
-        modelBuilder.ApplyConfiguration(new OrderEntityTypeConfiguration());
+        modelBuilder.ApplyConfiguration(new CardEntityTypeConfiguration());
     }
 
     public async Task<bool> SaveEntitiesAsync(CancellationToken cancellationToken = default)

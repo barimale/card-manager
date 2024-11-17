@@ -1,4 +1,4 @@
-﻿namespace Ordering.Domain.Exceptions;
+﻿namespace Card.Domain.Exceptions;
 
 /// <summary>
 /// Exception type for domain exceptions

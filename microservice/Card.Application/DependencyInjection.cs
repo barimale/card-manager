@@ -25,7 +25,7 @@ public static class DependencyInjection
         });
 
         services.AddFeatureManagement();
-        services.AddAutoMapper(typeof(OrderProfile));
+        services.AddAutoMapper(typeof(CardProfile));
 
         services.AddScoped<IIdGeneratorAdapter, IdGeneratorAdapter>();
 

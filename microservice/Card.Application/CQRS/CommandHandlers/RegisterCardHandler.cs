@@ -1,8 +1,7 @@
 ﻿using BuildingBlocks.Application.CQRS;
+using Card.Domain.AggregatesModel.CardAggregate;
 using Ordering.Application.CQRS.Commands;
 using Ordering.Application.Integration;
-using Ordering.Domain.AggregatesModel.OrderAggregate;
-using Ordering.Infrastructure.Repositories;
 
 namespace Ordering.Application.CQRS.CommandHandlers;
 public class RegisterCardHandler(ICardRepository cardRepository, IIdGeneratorAdapter generator)
@@ -13,7 +12,7 @@ public class RegisterCardHandler(ICardRepository cardRepository, IIdGeneratorAda
     public async Task<RegisterCardResult> Handle(RegisterCardCommand command, CancellationToken cancellationToken)
     {
         command.Id = generator.Generate(ID_LENGTH);
-        var card = new Card()
+        var card = new Card.Domain.AggregatesModel.CardAggregate.Card()
         {
             RegisteringTime = DateTime.UtcNow,
             PIN = command.PIN,

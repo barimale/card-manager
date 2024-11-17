@@ -1,7 +1,7 @@
 ﻿using BuildingBlocks.Application.CQRS;
+using Card.Domain.AggregatesModel.CardAggregate;
 using Ordering.Application.CQRS.Commands;
 using Ordering.Application.Integration;
-using Ordering.Infrastructure.Repositories;
 
 namespace Ordering.Application.CQRS.CommandHandlers;
 public class DeleteCardHandler(ICardRepository cardRepository, IIdGeneratorAdapter generator)

@@ -1,6 +1,6 @@
 ﻿using BuildingBlocks.Domain.SeedWork;
 
-namespace Ordering.Domain.AggregatesModel.OrderAggregate;
+namespace Card.Domain.AggregatesModel.CardAggregate;
 
 public class Card
     : Entity, IAggregateRoot

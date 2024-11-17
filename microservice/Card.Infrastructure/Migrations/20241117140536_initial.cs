@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Ordering.Infrastructure.Migrations
+namespace Card.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,14 +21,21 @@ namespace Ordering.Infrastructure.Migrations
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     RegisteringTime = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    AccountNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AccountNumber = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     PIN = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    SerialNumber = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    SerialNumber = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_cards", x => x.Id);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_cards_AccountNumber_SerialNumber",
+                schema: "ordering",
+                table: "cards",
+                columns: new[] { "AccountNumber", "SerialNumber" },
+                unique: true);
         }
 
         /// <inheritdoc />

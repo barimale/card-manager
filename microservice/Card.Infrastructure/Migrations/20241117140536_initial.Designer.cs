@@ -9,11 +9,11 @@ using Ordering.Infrastructure;
 
 #nullable disable
 
-namespace Ordering.Infrastructure.Migrations
+namespace Card.Infrastructure.Migrations
 {
     [DbContext(typeof(CardContext))]
-    [Migration("20241116135653_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20241117140536_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,14 +26,14 @@ namespace Ordering.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Ordering.Domain.AggregatesModel.OrderAggregate.Card", b =>
+            modelBuilder.Entity("Card.Domain.AggregatesModel.CardAggregate.Card", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("AccountNumber")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("PIN")
                         .IsRequired()
@@ -44,9 +44,12 @@ namespace Ordering.Infrastructure.Migrations
 
                     b.Property<string>("SerialNumber")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AccountNumber", "SerialNumber")
+                        .IsUnique();
 
                     b.ToTable("cards", "ordering");
                 });

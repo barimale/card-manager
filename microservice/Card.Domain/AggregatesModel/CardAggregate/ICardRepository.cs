@@ -1,7 +1,6 @@
 ﻿using BuildingBlocks.Domain.SeedWork;
-using Ordering.Domain.AggregatesModel.OrderAggregate;
 
-namespace Ordering.Infrastructure.Repositories
+namespace Card.Domain.AggregatesModel.CardAggregate
 {
     public interface ICardRepository
     {
