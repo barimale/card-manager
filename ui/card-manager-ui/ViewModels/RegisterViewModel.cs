@@ -1,5 +1,6 @@
 ﻿using card_manager_ui.Commands;
 using card_manager_ui.Services;
+using card_manager_ui.ViewModels.Abstractions;
 using System.Windows.Input;
 
 namespace card_manager_ui.ViewModels

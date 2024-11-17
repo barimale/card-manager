@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace card_manager_ui.ViewModels
+namespace card_manager_ui.ViewModels.Abstractions
 {
     public class ViewModelBase : INotifyPropertyChanged
     {
