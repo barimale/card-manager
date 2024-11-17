@@ -48,7 +48,7 @@ namespace card_manager_ui.Commands
             if (result is null || result.Card is null)
             {
                 MessageBox.Show("Entity not found.", "Warning",
-                    MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBoxButton.OK, MessageBoxImage.Warning);
             }
             else{
                 MessageBox.Show($"AccountNumber: {result.Card.AccountNumber}\nSerial number: {result.Card.SerialNumber}\nID: {result.Card.Id}", "Info",

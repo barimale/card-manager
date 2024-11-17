@@ -35,7 +35,7 @@ namespace card_manager_ui.Commands
             else
             {
                 MessageBox.Show($"Something went wrong.", "Warning",
-                    MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
 
