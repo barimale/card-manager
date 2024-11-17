@@ -2,8 +2,6 @@
 using BuildingBlocks.API.Utilities.Healthcheck;
 using Card.API.Filters;
 using Card.API.MappingProfiles;
-using Card.API.SwaggerFilters;
-using Card.API.Utilities;
 using Card.API.Validators;
 using Carter;
 using Consul;
@@ -30,10 +28,6 @@ public static class DependencyInjection
                 name: "SQL server health check",
                 failureStatus: HealthStatus.Unhealthy,
                 tags: new[] { "Feedback", "Database" })
-            .AddCheck<StarWarsRemoteHealthCheck>(
-                "Star wars remote endpoint health Check",
-                failureStatus: HealthStatus.Unhealthy,
-                tags: new[] { "Feedback", "External" })
             .AddCheck<MemoryHealthCheck>(
             $"Feedback Service Memory Check",
             failureStatus: HealthStatus.Unhealthy,
@@ -62,7 +56,6 @@ public static class DependencyInjection
         {
             options.DocumentFilter<HealthChecksDocumentFilter>();
             options.EnableAnnotations();
-            options.OperationFilter<AddCustomHeaderParameter>();
         });
 
         //services.AddMigration<CardContext>();

@@ -1,6 +1,4 @@
-﻿using TypeGen.Core.TypeAnnotations;
-
-namespace Ordering.API.Model.order
+﻿namespace Ordering.API.Model.order
 {
     public class RegisterCardResponse
     {

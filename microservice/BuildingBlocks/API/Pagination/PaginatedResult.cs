@@ -1,8 +1,5 @@
-﻿using TypeGen.Core.TypeAnnotations;
+﻿namespace BuildingBlocks.API.Pagination;
 
-namespace BuildingBlocks.API.Pagination;
-
-[ExportTsInterface]
 public class PaginatedResult<TEntity>
     (int pageIndex, int pageSize, long count, IEnumerable<TEntity> data)
     where TEntity : class
