@@ -8,8 +8,8 @@ navigate to microservice/Card.Infrastructure folder and execute:
 ```
 dotnet ef database update
 ```
-### Multiple solutions
+### Run solutions
 Open two solutions located in microservice and ui folders.
 Press Start Debugging.
-### Desktop app
+### Use desktop app
 Start using desktop app by navigating via tabs and inserting data.
