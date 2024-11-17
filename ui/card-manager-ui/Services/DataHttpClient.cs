@@ -78,7 +78,7 @@ namespace card_manager_ui.Services
         {
             try
             {
-                var result = await _httpClient.DeleteAsync($"/api/v1/cards/delete/{cardId}");
+                var result = await _httpClient.DeleteAsync($"/api/v1/cards/{cardId}");
                 return result.IsSuccessStatusCode;
 
             }
