@@ -34,11 +34,11 @@ namespace card_manager_ui.Commands
 
             if(res is null)
             {
-                MessageBox.Show("Entity not found.");
+                MessageBox.Show("Entity not created.");
             }
             else
             {
-                MessageBox.Show($"Result: {res}", "Info",
+                MessageBox.Show($"Entity created.", "Info",
                     MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
