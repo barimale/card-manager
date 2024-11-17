@@ -1,4 +1,6 @@
-﻿namespace card_manager_ui.Services
+﻿using card_manager_ui.Model;
+
+namespace card_manager_ui.Services
 {
     public partial class DataHttpClient
     {

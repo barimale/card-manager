@@ -1,4 +1,4 @@
-﻿namespace card_manager_ui.Services;
+﻿namespace card_manager_ui.Model;
 
 public class CardDto
 {

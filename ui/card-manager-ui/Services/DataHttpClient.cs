@@ -1,5 +1,6 @@
 ﻿using System.Net.Http;
 using System.Net.Http.Json;
+using card_manager_ui.Model;
 
 namespace card_manager_ui.Services
 {

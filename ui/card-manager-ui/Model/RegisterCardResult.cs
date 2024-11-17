@@ -1,4 +1,4 @@
-﻿namespace card_manager_ui.Services
+﻿namespace card_manager_ui.Model
 {
     public class RegisterCardResult
     {
@@ -9,7 +9,7 @@
 
         public RegisterCardResult(string id)
         {
-            this.Id = id;
+            Id = id;
         }
 
         public string Id { get; set; }
