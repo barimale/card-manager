@@ -1,7 +1,9 @@
-﻿using card_manager_ui.ViewModels;
+﻿using card_manager_ui.Services;
+using card_manager_ui.ViewModels;
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Input;
+using static card_manager_ui.Services.DataHttpClient;
 
 namespace card_manager_ui.Commands
 {
@@ -27,7 +29,7 @@ namespace card_manager_ui.Commands
 
         public async void Execute(object parameter)
         {
-            dynamic result;
+            GetCardResult? result = null;
 
             // WIP map to object return object
             if(!string.IsNullOrEmpty(_viewModel.AccountNumber))
@@ -40,11 +42,17 @@ namespace card_manager_ui.Commands
             }
             else if (!string.IsNullOrEmpty(_viewModel.Identifier))
             {
-                result = await _viewModel.dataService.GetByAccountNumber(_viewModel.Identifier);
+                result = await _viewModel.dataService.GetByIdentifier(_viewModel.Identifier);
             }
 
-            MessageBox.Show($"Username: {_viewModel.AccountNumber}\nSerial number: {_viewModel.SerialNumber}\nID: {_viewModel.Identifier}", "Info",
-                MessageBoxButton.OK, MessageBoxImage.Information);
+            if (result is null || result.Card is null)
+            {
+                MessageBox.Show("Entity not found.");
+            }
+            else{
+                MessageBox.Show($"AccountNumber: {result.Card.AccountNumber}\nSerial number: {result.Card.SerialNumber}\nID: {result.Card.Id}", "Info",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
+            }
         }
 
         private void ViewModel_PropertyChanged(object sender, PropertyChangedEventArgs e)

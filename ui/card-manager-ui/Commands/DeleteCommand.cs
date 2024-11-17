@@ -27,8 +27,15 @@ namespace card_manager_ui.Commands
         {
             var res = await _viewModel.dataService.Delete(_viewModel.Identifier);
 
-            MessageBox.Show($"Result: {res}", "Info",
-                MessageBoxButton.OK, MessageBoxImage.Information);
+            if (res)
+            {
+                MessageBox.Show("Entity deleted.");
+            }
+            else
+            {
+                MessageBox.Show($"Something went wrong.", "Info",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
+            }
         }
 
         private void ViewModel_PropertyChanged(object sender, PropertyChangedEventArgs e)

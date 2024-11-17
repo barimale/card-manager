@@ -32,8 +32,15 @@ namespace card_manager_ui.Commands
                 _viewModel.SerialNumber,
                 _viewModel.PIN);
 
-            MessageBox.Show($"Result: {res}", "Info",
-                MessageBoxButton.OK, MessageBoxImage.Information);
+            if(res is null)
+            {
+                MessageBox.Show("Entity not found.");
+            }
+            else
+            {
+                MessageBox.Show($"Result: {res}", "Info",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
+            }
         }
 
         private void ViewModel_PropertyChanged(object sender, PropertyChangedEventArgs e)
