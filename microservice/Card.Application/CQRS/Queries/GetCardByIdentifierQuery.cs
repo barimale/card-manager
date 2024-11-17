@@ -1,5 +1,4 @@
-﻿using BuildingBlocks.API.Pagination;
-using BuildingBlocks.Application.CQRS;
+﻿using BuildingBlocks.Application.CQRS;
 
 namespace Card.Application.CQRS.Queries;
 
