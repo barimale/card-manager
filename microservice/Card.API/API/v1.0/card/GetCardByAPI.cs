@@ -53,8 +53,8 @@ public class GetCardByAPI : ICarterModule
         .ProducesProblem(StatusCodes.Status404NotFound)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
         .WithHttpLogging(HttpLoggingFields.ResponsePropertiesAndHeaders)
-        .WithSummary("Get Orders summary")
-        .WithDescription("Get Orders description");
+        .WithSummary("Get Card by account number.")
+        .WithDescription("Provide account number to obtain the card details.");
 
         app.MapGet("api/v1/cards/identifier/{id}", async (
             string id,
@@ -76,7 +76,7 @@ public class GetCardByAPI : ICarterModule
         .ProducesProblem(StatusCodes.Status404NotFound)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
         .WithHttpLogging(HttpLoggingFields.ResponsePropertiesAndHeaders)
-        .WithSummary("Get Orders summary")
-        .WithDescription("Get Orders description");
+        .WithSummary("Get Card by identifier.")
+        .WithDescription("Provide identifier to obtain the card details.");
     }
 }
