@@ -53,8 +53,6 @@ public static class DependencyInjection
             options.EnableAnnotations();
         });
 
-        //services.AddMigration<CardContext>();
-
         return services;
     }
 
