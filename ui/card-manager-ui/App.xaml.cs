@@ -34,7 +34,6 @@ namespace PasswordBoxMVVM
                         return new DataHttpClient(connectionString.ConnectionString, client);
                     }).SetHandlerLifetime(TimeSpan.FromMinutes(2));
 
-
                 }).Build();
         }
 
