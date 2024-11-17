@@ -1,10 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.Hosting;
-using Ordering.API;
 
 namespace Order.FunctionalTests;
 
-public sealed class OrderingApiFixture : WebApplicationFactory<Program>, IAsyncLifetime
+public sealed class CardApiFixture : WebApplicationFactory<Card.API.Program>, IAsyncLifetime
 {
     private readonly IHost _app;
 
@@ -12,9 +11,9 @@ public sealed class OrderingApiFixture : WebApplicationFactory<Program>, IAsyncL
 
     private string _postgresConnectionString;
 
-    public OrderingApiFixture()
+    public CardApiFixture()
     {
-        var options = new DistributedApplicationOptions { AssemblyName = typeof(OrderingApiFixture).Assembly.FullName, DisableDashboard = true };
+        var options = new DistributedApplicationOptions { AssemblyName = typeof(CardApiFixture).Assembly.FullName, DisableDashboard = true };
         var appBuilder = DistributedApplication.CreateBuilder(options);
         Postgres = appBuilder.AddPostgres("OrderingDB");
         _app = appBuilder.Build();

@@ -2,12 +2,10 @@
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
-		<RootNamespace>Ordering.API</RootNamespace>
+		<RootNamespace>Card.API</RootNamespace>
 		<UserSecretsId>5010529d-3715-4edb-9982-7efdf1b190cc</UserSecretsId>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-		<DockerfileContext>..\..\Ordering.Domain</DockerfileContext>
 		<ServerGarbageCollection>true</ServerGarbageCollection>
 	</PropertyGroup>
 
@@ -23,15 +21,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Content Remove="tgconfig.json" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<None Remove="C:\Users\mateu\.nuget\packages\nlog.config\4.7.15\contentFiles\any\any\NLog.config" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<InternalsVisibleTo Include="Order.FunctionalTests" />
+		<InternalsVisibleTo Include="Card.FunctionalTests" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -52,10 +46,6 @@
 		<ProjectReference Include="..\Card.Application\Card.Application.csproj" />
 		<ProjectReference Include="..\Card.Domain\Card.Domain.csproj" />
 		<ProjectReference Include="..\Card.Infrastructure\Card.Infrastructure.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<None Include="tgconfig.json" />
 	</ItemGroup>
 
 	<ItemGroup>
