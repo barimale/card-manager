@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:views="clr-namespace:PasswordBoxMVVM.Views"
     Title="card-manager"
-    Width="800"
+    Width="600"
     Height="450"
     mc:Ignorable="d">
     <Grid>
