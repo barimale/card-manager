@@ -1,18 +1,14 @@
 # card-manager
 ## Prereqs
-- MS Sql management studio
-## step by step
+- MS SQL Instance
+## Step by step
+### Apply migrations
+Navigate to Card.Infrastructure and execute:
 ```
-Install migrations
-Execute card manager microservice
-Execute desktop app
-```
-## Tips
-```
-dotnet tool install --global dotnet-ef
-dotnet add package Microsoft.EntityFrameworkCore.Design
-dotnet ef migrations add InitialCreate
 dotnet ef database update
-
-dotnet ef database update --connection "Data Source=gifter.db"
 ```
+### Multiple solutions
+Open two solutions located in microservice and ui folders.
+Run projects.
+### Desktop app
+Start using desktop app by navigating via tabs and insert data.
