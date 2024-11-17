@@ -10,6 +10,6 @@ dotnet ef database update
 ```
 ### Multiple solutions
 Open two solutions located in microservice and ui folders.
-Run projects.
+Press Start Debugging.
 ### Desktop app
 Start using desktop app by navigating via tabs and inserting data.
