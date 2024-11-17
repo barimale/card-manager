@@ -12,8 +12,8 @@ using Ordering.Infrastructure;
 namespace Card.Infrastructure.Migrations
 {
     [DbContext(typeof(CardContext))]
-    [Migration("20241117140536_initial")]
-    partial class initial
+    [Migration("20241117141400_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -48,7 +48,13 @@ namespace Card.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AccountNumber", "SerialNumber")
+                    b.HasIndex("AccountNumber")
+                        .IsUnique();
+
+                    b.HasIndex("Id")
+                        .IsUnique();
+
+                    b.HasIndex("SerialNumber")
                         .IsUnique();
 
                     b.ToTable("cards", "ordering");

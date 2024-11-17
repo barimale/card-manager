@@ -45,7 +45,13 @@ namespace Card.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AccountNumber", "SerialNumber")
+                    b.HasIndex("AccountNumber")
+                        .IsUnique();
+
+                    b.HasIndex("Id")
+                        .IsUnique();
+
+                    b.HasIndex("SerialNumber")
                         .IsUnique();
 
                     b.ToTable("cards", "ordering");

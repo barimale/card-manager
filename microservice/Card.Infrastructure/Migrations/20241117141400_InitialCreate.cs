@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Card.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -31,10 +31,24 @@ namespace Card.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_cards_AccountNumber_SerialNumber",
+                name: "IX_cards_AccountNumber",
                 schema: "ordering",
                 table: "cards",
-                columns: new[] { "AccountNumber", "SerialNumber" },
+                column: "AccountNumber",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_cards_Id",
+                schema: "ordering",
+                table: "cards",
+                column: "Id",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_cards_SerialNumber",
+                schema: "ordering",
+                table: "cards",
+                column: "SerialNumber",
                 unique: true);
         }
 
