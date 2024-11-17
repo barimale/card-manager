@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http.Extensions;
 using System.Text;
 
-namespace Ordering.API.Middlewares
+namespace Card.API.Middlewares
 {
     // apilog and responseApiLog with fields according to reqs
     public static class HttpContextUtility
@@ -17,7 +17,7 @@ namespace Ordering.API.Middlewares
             var responseHeadersString = new StringBuilder();
             foreach (var header in request.Headers)
             {
-                responseHeadersString.Append($"{header.Key}: {String.Join(", ", header.Value)}{Environment.NewLine}");
+                responseHeadersString.Append($"{header.Key}: {string.Join(", ", header.Value)}{Environment.NewLine}");
             }
 
             var requestLog = new ApiLog()
@@ -46,7 +46,7 @@ namespace Ordering.API.Middlewares
             var responseHeadersString = new StringBuilder();
             foreach (var header in response.Headers)
             {
-                responseHeadersString.Append($"{header.Key}: {String.Join(", ", header.Value)}{Environment.NewLine}");
+                responseHeadersString.Append($"{header.Key}: {string.Join(", ", header.Value)}{Environment.NewLine}");
             }
 
             var responseLog = new ApiLog()

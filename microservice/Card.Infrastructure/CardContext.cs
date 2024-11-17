@@ -1,11 +1,10 @@
 ﻿using BuildingBlocks.Domain.SeedWork;
-using Card.Domain.AggregatesModel.CardAggregate;
-using Ordering.Infrastructure.EntityConfigurations;
+using Card.Infrastructure.EntityConfigurations;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Ordering.Infrastructure;
+namespace Card.Infrastructure;
 
 public class CardContext : DbContext, IUnitOfWork
 {
@@ -15,7 +14,7 @@ public class CardContext : DbContext, IUnitOfWork
         Database.EnsureCreated();
     }
 
-    public DbSet<Card.Domain.AggregatesModel.CardAggregate.Card> Cards { get; set; }
+    public DbSet<Domain.AggregatesModel.CardAggregate.Card> Cards { get; set; }
 
     private readonly IMediator _mediator;
     private IDbContextTransaction _currentTransaction;

@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using Ordering.Application.Dtos;
+using Card.Application.Dtos;
 
-namespace Ordering.Application.Profiles
+namespace Card.Application.Profiles
 {
     public class CardProfile : Profile
     {
         public CardProfile()
         {
-            CreateMap<Card.Domain.AggregatesModel.CardAggregate.Card, CardDto>().ReverseMap();
+            CreateMap<Domain.AggregatesModel.CardAggregate.Card, CardDto>().ReverseMap();
         }
     }
 }

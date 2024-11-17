@@ -1,10 +1,10 @@
-﻿namespace Ordering.Application.Behaviours;
+﻿namespace Card.Application.Behaviours;
 
+using Card.Application.Extensions;
+using Card.Infrastructure;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using Ordering.Application.Extensions;
-using Ordering.Infrastructure;
 
 public class TransactionBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
 {

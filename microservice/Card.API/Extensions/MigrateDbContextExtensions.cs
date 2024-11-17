@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
-namespace Ordering.API.Extensions;
+namespace Card.API.Extensions;
 
 internal static class MigrateDbContextExtensions
 {
@@ -63,7 +63,7 @@ internal static class MigrateDbContextExtensions
         }
         catch (Exception ex)
         {
-            
+
         }
     }
 

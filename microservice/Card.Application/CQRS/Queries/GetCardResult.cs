@@ -1,6 +1,6 @@
-﻿using Ordering.Application.Dtos;
+﻿using Card.Application.Dtos;
 
-namespace Ordering.Application.CQRS.Queries;
+namespace Card.Application.CQRS.Queries;
 
 public class GetCardResult
 {
@@ -10,8 +10,8 @@ public class GetCardResult
     }
     public GetCardResult(CardDto orders)
     {
-        this.Card = orders;
+        Card = orders;
     }
-    
+
     public CardDto Card { get; set; }
 }

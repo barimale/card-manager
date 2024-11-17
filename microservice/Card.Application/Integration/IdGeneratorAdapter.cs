@@ -1,4 +1,4 @@
-﻿namespace Ordering.Application.Integration
+﻿namespace Card.Application.Integration
 {
     public class IdGeneratorAdapter : IIdGeneratorAdapter
     {

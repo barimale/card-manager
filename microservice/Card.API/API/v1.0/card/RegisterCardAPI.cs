@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
+using Card.API.Filters;
+using Card.Application.CQRS.Commands;
 using Carter;
 using MediatR;
 using Microsoft.AspNetCore.HttpLogging;
-using Ordering.API.Filters;
-using Ordering.API.Model.order;
 using Ordering.Application.CQRS.Commands;
 
 namespace Ordering.API.Endpoints;
@@ -29,7 +29,7 @@ public class RegisterCardAPI : ICarterModule
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
         .AddEndpointFilter<RegisterCardRequestValidationFilter>()
         .WithHttpLogging(HttpLoggingFields.ResponsePropertiesAndHeaders).WithSummary("Get Orders")
-        .WithSummary("Register card summary")
-        .WithDescription("Register card description");
+        .WithSummary("Register card.")
+        .WithDescription("Register card.");
     }
 }

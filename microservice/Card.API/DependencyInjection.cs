@@ -1,5 +1,10 @@
 ﻿using BuildingBlocks.API.Middlewares.GlobalExceptions.Handler;
 using BuildingBlocks.API.Utilities.Healthcheck;
+using Card.API.Filters;
+using Card.API.MappingProfiles;
+using Card.API.SwaggerFilters;
+using Card.API.Utilities;
+using Card.API.Validators;
 using Carter;
 using Consul;
 using HealthChecks.UI.Client;
@@ -7,14 +12,9 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.HttpLogging;
 using NLog;
 using NLog.Extensions.Logging;
-using Ordering.API.Filters;
-using Ordering.API.MappingProfiles;
-using Ordering.API.SwaggerFilters;
-using Ordering.API.Utilities;
-using Ordering.API.Validators;
 using HealthStatus = Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus;
 
-namespace Ordering.API;
+namespace Card.API;
 
 public static class DependencyInjection
 {
@@ -25,18 +25,18 @@ public static class DependencyInjection
         services.AddExceptionHandler<GlobalExceptionHandler>();
         services.AddHealthChecks()
             .AddSqlServer(
-                configuration["ConnectionStrings:Database"], 
-                healthQuery: "select 1", 
-                name: "SQL server health check", 
-                failureStatus: HealthStatus.Unhealthy, 
+                configuration["ConnectionStrings:Database"],
+                healthQuery: "select 1",
+                name: "SQL server health check",
+                failureStatus: HealthStatus.Unhealthy,
                 tags: new[] { "Feedback", "Database" })
             .AddCheck<StarWarsRemoteHealthCheck>(
-                "Star wars remote endpoint health Check", 
+                "Star wars remote endpoint health Check",
                 failureStatus: HealthStatus.Unhealthy,
                 tags: new[] { "Feedback", "External" })
             .AddCheck<MemoryHealthCheck>(
-            $"Feedback Service Memory Check", 
-            failureStatus: HealthStatus.Unhealthy, 
+            $"Feedback Service Memory Check",
+            failureStatus: HealthStatus.Unhealthy,
             tags: new[] { "Feedback", "Service" });
 
         services.AddScoped<RegisterCardRequestValidationFilter>();

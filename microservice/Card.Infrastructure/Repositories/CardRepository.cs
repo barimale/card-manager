@@ -1,10 +1,11 @@
 ﻿using BuildingBlocks.Domain.SeedWork;
 using Card.Domain.AggregatesModel.CardAggregate;
+using Card.Infrastructure;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Ordering.Infrastructure.Repositories;
+namespace Card.Infrastructure.Repositories;
 
 public class CardRepository : ICardRepository
 {
@@ -17,25 +18,25 @@ public class CardRepository : ICardRepository
         _context = context ?? throw new ArgumentNullException(nameof(context));
     }
 
-    public Card.Domain.AggregatesModel.CardAggregate.Card Add(Card.Domain.AggregatesModel.CardAggregate.Card order)
+    public Domain.AggregatesModel.CardAggregate.Card Add(Domain.AggregatesModel.CardAggregate.Card order)
     {
         return _context.Cards.Add(order).Entity;
     }
 
-    public async Task<Card.Domain.AggregatesModel.CardAggregate.Card> GetBySerialNumberAsync(string id)
+    public async Task<Domain.AggregatesModel.CardAggregate.Card> GetBySerialNumberAsync(string id)
     {
         var order = _context.Cards.FirstOrDefault(p => p.SerialNumber == id);
 
         return order;
     }
-    public async Task<Card.Domain.AggregatesModel.CardAggregate.Card> GetByAccountNumberAsync(string id)
+    public async Task<Domain.AggregatesModel.CardAggregate.Card> GetByAccountNumberAsync(string id)
     {
         var order = _context.Cards.FirstOrDefault(p => p.AccountNumber == id);
 
         return order;
     }
 
-    public async Task<Card.Domain.AggregatesModel.CardAggregate.Card> GetByIdAsync(string id)
+    public async Task<Domain.AggregatesModel.CardAggregate.Card> GetByIdAsync(string id)
     {
         var order = _context.Cards.FirstOrDefault(p => p.Id == id);
 

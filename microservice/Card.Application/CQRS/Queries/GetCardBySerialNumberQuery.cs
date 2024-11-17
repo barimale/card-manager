@@ -1,6 +1,6 @@
 ﻿using BuildingBlocks.Application.CQRS;
 
-namespace Ordering.Application.CQRS.Queries;
+namespace Card.Application.CQRS.Queries;
 
 public class GetCardBySerialNumberQuery
     : IQuery<GetCardResult>

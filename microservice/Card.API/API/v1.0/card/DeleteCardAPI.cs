@@ -1,10 +1,8 @@
 ﻿using AutoMapper;
+using Card.Application.CQRS.Commands;
 using Carter;
 using MediatR;
 using Microsoft.AspNetCore.HttpLogging;
-using Ordering.API.Filters;
-using Ordering.API.Model.order;
-using Ordering.Application.CQRS.Commands;
 
 namespace Ordering.API.Endpoints;
 

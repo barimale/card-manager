@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using BuildingBlocks.Application.CQRS;
+using Card.Application.CQRS.Queries;
+using Card.Application.Dtos;
 using Card.Domain.AggregatesModel.CardAggregate;
 using Microsoft.Extensions.Logging;
-using Ordering.Application.CQRS.Queries;
-using Ordering.Application.Dtos;
 
-namespace Ordering.Application.CQRS.QueryHandlers;
+namespace Card.Application.CQRS.QueryHandlers;
 public class GetCardHandlers(
     ICardRepository orderRepository,
     IMapper mapper,

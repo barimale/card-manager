@@ -1,14 +1,14 @@
 ﻿using BuildingBlocks.Application.Behaviors;
+using Card.Application.Behaviours;
+using Card.Application.Integration;
+using Card.Application.Profiles;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.FeatureManagement;
-using Ordering.Application.Behaviours;
-using Ordering.Application.Integration;
-using Ordering.Application.Profiles;
 using System.Reflection;
 
-namespace Ordering.Application;
+namespace Card.Application;
 public static class DependencyInjection
 {
     public static IServiceCollection AddApplicationServices

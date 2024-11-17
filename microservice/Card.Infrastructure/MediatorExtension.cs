@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Ordering.Infrastructure;
+namespace Card.Infrastructure;
 
 static class MediatorExtension
 {

@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using Ordering.Application.CQRS.Commands;
 
-namespace Ordering.API.Validators
+namespace Card.API.Validators
 {
     public class RegisterCardCommandValidator : AbstractValidator<RegisterCardRequest>
     {

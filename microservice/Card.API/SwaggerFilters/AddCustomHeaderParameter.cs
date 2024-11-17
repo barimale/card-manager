@@ -1,7 +1,7 @@
 ﻿using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Ordering.API.SwaggerFilters
+namespace Card.API.SwaggerFilters
 {
     public class AddCustomHeaderParameter
         : IOperationFilter

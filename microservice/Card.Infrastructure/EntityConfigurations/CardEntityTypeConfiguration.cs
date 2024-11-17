@@ -1,23 +1,27 @@
-﻿namespace Ordering.Infrastructure.EntityConfigurations;
+﻿namespace Card.Infrastructure.EntityConfigurations;
 
-class CardEntityTypeConfiguration : IEntityTypeConfiguration<Card.Domain.AggregatesModel.CardAggregate.Card>
+class CardEntityTypeConfiguration : IEntityTypeConfiguration<Domain.AggregatesModel.CardAggregate.Card>
 {
-    public void Configure(EntityTypeBuilder<Card.Domain.AggregatesModel.CardAggregate.Card> orderConfiguration)
+    public void Configure(EntityTypeBuilder<Domain.AggregatesModel.CardAggregate.Card> orderConfiguration)
     {
         orderConfiguration.ToTable("cards");
 
         orderConfiguration.Property(o => o.Id);
         orderConfiguration
-            .HasIndex(card => new { 
-                card.SerialNumber })
+            .HasIndex(card => new
+            {
+                card.SerialNumber
+            })
             .IsUnique();
         orderConfiguration
-        .HasIndex(card => new {
+        .HasIndex(card => new
+        {
             card.AccountNumber
         })
         .IsUnique();
         orderConfiguration
-        .HasIndex(card => new {
+        .HasIndex(card => new
+        {
             card.Id
         })
         .IsUnique();

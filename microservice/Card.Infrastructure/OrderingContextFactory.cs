@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Design;
 
-namespace Ordering.Infrastructure
+namespace Card.Infrastructure
 {
     /* For migrations generation only */
 

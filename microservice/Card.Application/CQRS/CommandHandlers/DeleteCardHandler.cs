@@ -1,9 +1,9 @@
 ﻿using BuildingBlocks.Application.CQRS;
+using Card.Application.CQRS.Commands;
+using Card.Application.Integration;
 using Card.Domain.AggregatesModel.CardAggregate;
-using Ordering.Application.CQRS.Commands;
-using Ordering.Application.Integration;
 
-namespace Ordering.Application.CQRS.CommandHandlers;
+namespace Card.Application.CQRS.CommandHandlers;
 public class DeleteCardHandler(ICardRepository cardRepository, IIdGeneratorAdapter generator)
     : ICommandHandler<DeleteCardCommand, DeleteCardResult>
 {
@@ -11,7 +11,7 @@ public class DeleteCardHandler(ICardRepository cardRepository, IIdGeneratorAdapt
     {
         var result = await cardRepository.Delete(command.Id);
         await cardRepository.UnitOfWork.SaveChangesAsync(cancellationToken);
-        
+
         return new DeleteCardResult(result);
     }
 }

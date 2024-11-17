@@ -1,4 +1,4 @@
-﻿namespace Ordering.Application.Exceptions
+﻿namespace Card.Application.Exceptions
 {
     [Serializable]
     internal class AddOrderException : Exception

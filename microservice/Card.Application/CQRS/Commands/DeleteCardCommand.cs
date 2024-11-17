@@ -1,6 +1,6 @@
 ﻿using BuildingBlocks.Application.CQRS;
 
-namespace Ordering.Application.CQRS.Commands;
+namespace Card.Application.CQRS.Commands;
 
 public class DeleteCardCommand : ICommand<DeleteCardResult>
 {
@@ -8,7 +8,7 @@ public class DeleteCardCommand : ICommand<DeleteCardResult>
     {
         // intentionally left blank
     }
-    public string Id {  get; set; }
+    public string Id { get; set; }
 }
 
 
@@ -21,7 +21,7 @@ public class DeleteCardResult
 
     public DeleteCardResult(string id)
     {
-        this.Id = id;
+        Id = id;
     }
 
     public string Id { get; set; }

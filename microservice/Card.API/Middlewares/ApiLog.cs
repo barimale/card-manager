@@ -1,4 +1,4 @@
-﻿namespace Ordering.API.Middlewares
+﻿namespace Card.API.Middlewares
 {
     public class ApiLog
     {

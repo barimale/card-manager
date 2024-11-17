@@ -1,13 +1,12 @@
 using NLog;
 using NLog.Web;
-using Ordering.Application;
-using Ordering.Infrastructure;
 using LogLevel = Microsoft.Extensions.Logging.LogLevel;
 using BuildingBlocks.API.Utilities.Healthcheck;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
-using Ordering.API.Middlewares;
+using Card.Application;
+using Card.Infrastructure;
 
-namespace Ordering.API
+namespace Card.API
 {
     public class Program
     {

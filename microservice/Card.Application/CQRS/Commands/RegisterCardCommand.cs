@@ -1,7 +1,7 @@
 ﻿using BuildingBlocks.Application.CQRS;
 using FluentValidation;
 
-namespace Ordering.Application.CQRS.Commands;
+namespace Card.Application.CQRS.Commands;
 
 public class RegisterCardCommand : ICommand<RegisterCardResult>
 {
@@ -13,7 +13,7 @@ public class RegisterCardCommand : ICommand<RegisterCardResult>
     public string AccountNumber { get; set; }
     public string PIN { get; set; }
     public string SerialNumber { get; set; }
-    public string Id {  get; set; }
+    public string Id { get; set; }
 }
 
 
@@ -26,7 +26,7 @@ public class RegisterCardResult
 
     public RegisterCardResult(string id)
     {
-        this.Id = id;
+        Id = id;
     }
 
     public string Id { get; set; }

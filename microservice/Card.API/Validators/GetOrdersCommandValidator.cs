@@ -1,7 +1,7 @@
 ﻿using BuildingBlocks.API.Pagination;
 using FluentValidation;
 
-namespace Ordering.API.Validators
+namespace Card.API.Validators
 {
     public class GetOrdersCommandValidator : AbstractValidator<PaginationRequest>
     {

@@ -1,10 +1,10 @@
 ﻿using Card.Domain.AggregatesModel.CardAggregate;
+using Card.Infrastructure.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Ordering.Infrastructure.Repositories;
 using System;
 
-namespace Ordering.Infrastructure;
+namespace Card.Infrastructure;
 public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructureServices

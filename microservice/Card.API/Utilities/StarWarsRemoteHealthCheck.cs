@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace Ordering.API.Utilities
+namespace Card.API.Utilities
 {
     public class StarWarsRemoteHealthCheck : IHealthCheck
     {
