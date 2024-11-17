@@ -4,7 +4,7 @@ using Carter;
 using MediatR;
 using Microsoft.AspNetCore.HttpLogging;
 
-namespace Ordering.API.Endpoints;
+namespace Cards.API.Endpoints;
 
 public class GetCardByAPI : ICarterModule
 {

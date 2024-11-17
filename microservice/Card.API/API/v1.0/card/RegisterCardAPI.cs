@@ -6,7 +6,7 @@ using MediatR;
 using Microsoft.AspNetCore.HttpLogging;
 using Ordering.Application.CQRS.Commands;
 
-namespace Ordering.API.Endpoints;
+namespace Cards.API.Endpoints;
 
 public class RegisterCardAPI : ICarterModule
 {

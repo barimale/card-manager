@@ -8,9 +8,9 @@ public class GetCardResult
     {
         //intentionally left blank
     }
-    public GetCardResult(CardDto orders)
+    public GetCardResult(CardDto card)
     {
-        Card = orders;
+        Card = card;
     }
 
     public CardDto Card { get; set; }

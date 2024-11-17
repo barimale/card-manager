@@ -1,6 +1,5 @@
 ﻿using BuildingBlocks.Domain.SeedWork;
 using Card.Domain.AggregatesModel.CardAggregate;
-using Card.Infrastructure;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -25,22 +24,22 @@ public class CardRepository : ICardRepository
 
     public async Task<Domain.AggregatesModel.CardAggregate.Card> GetBySerialNumberAsync(string id)
     {
-        var order = _context.Cards.FirstOrDefault(p => p.SerialNumber == id);
+        var card = _context.Cards.FirstOrDefault(p => p.SerialNumber == id);
 
-        return order;
+        return card;
     }
     public async Task<Domain.AggregatesModel.CardAggregate.Card> GetByAccountNumberAsync(string id)
     {
-        var order = _context.Cards.FirstOrDefault(p => p.AccountNumber == id);
+        var card = _context.Cards.FirstOrDefault(p => p.AccountNumber == id);
 
-        return order;
+        return card;
     }
 
     public async Task<Domain.AggregatesModel.CardAggregate.Card> GetByIdAsync(string id)
     {
-        var order = _context.Cards.FirstOrDefault(p => p.Id == id);
+        var card = _context.Cards.FirstOrDefault(p => p.Id == id);
 
-        return order;
+        return card;
     }
 
     public async Task<string> Delete(string id)

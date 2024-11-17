@@ -2,24 +2,24 @@
 
 class CardEntityTypeConfiguration : IEntityTypeConfiguration<Domain.AggregatesModel.CardAggregate.Card>
 {
-    public void Configure(EntityTypeBuilder<Domain.AggregatesModel.CardAggregate.Card> orderConfiguration)
+    public void Configure(EntityTypeBuilder<Domain.AggregatesModel.CardAggregate.Card> cardConfiguration)
     {
-        orderConfiguration.ToTable("cards");
+        cardConfiguration.ToTable("cards");
 
-        orderConfiguration.Property(o => o.Id);
-        orderConfiguration
+        cardConfiguration.Property(o => o.Id);
+        cardConfiguration
             .HasIndex(card => new
             {
                 card.SerialNumber
             })
             .IsUnique();
-        orderConfiguration
+        cardConfiguration
         .HasIndex(card => new
         {
             card.AccountNumber
         })
         .IsUnique();
-        orderConfiguration
+        cardConfiguration
         .HasIndex(card => new
         {
             card.Id

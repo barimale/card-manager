@@ -4,7 +4,7 @@ namespace Card.Infrastructure
 {
     /* For migrations generation only */
 
-    public class OrderingContextFactory : IDesignTimeDbContextFactory<CardContext>
+    public class CardContextFactory : IDesignTimeDbContextFactory<CardContext>
     {
         public CardContext CreateDbContext(string[] args)
         {
