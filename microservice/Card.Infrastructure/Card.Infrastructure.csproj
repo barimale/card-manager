@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BuildingBlocks\BuildingBlocks.csproj" />
-    <ProjectReference Include="..\Ordering.Domain\Ordering.Domain.csproj" />
+    <ProjectReference Include="..\Card.Domain\Card.Domain.csproj" />
   </ItemGroup>
 
 </Project>

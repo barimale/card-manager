@@ -10,3 +10,13 @@
 /microservice/card-manager/.vs
 /microservice/.vs/card-manager/FileContentIndex
 /microservice/.vs/ProjectEvaluation
+/microservice/Card.API/obj
+/microservice/Card.API/bin
+/microservice/Card.Application/obj
+/microservice/Card.Application/bin
+/microservice/Card.Domain/obj
+/microservice/Card.Domain/bin
+/microservice/Card.FunctionalTests/bin
+/microservice/Card.FunctionalTests/obj
+/microservice/Card.Infrastructure/bin
+/microservice/Card.Infrastructure/obj

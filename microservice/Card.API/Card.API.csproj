@@ -49,9 +49,9 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\BuildingBlocks\BuildingBlocks.csproj" />
-		<ProjectReference Include="..\Ordering.Application\Ordering.Application.csproj" />
-		<ProjectReference Include="..\Ordering.Domain\Ordering.Domain.csproj" />
-		<ProjectReference Include="..\Ordering.Infrastructure\Ordering.Infrastructure.csproj" />
+		<ProjectReference Include="..\Card.Application\Card.Application.csproj" />
+		<ProjectReference Include="..\Card.Domain\Card.Domain.csproj" />
+		<ProjectReference Include="..\Card.Infrastructure\Card.Infrastructure.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
