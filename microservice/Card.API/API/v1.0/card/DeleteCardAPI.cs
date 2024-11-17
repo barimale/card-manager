@@ -30,7 +30,7 @@ public class DeleteCardAPI : ICarterModule
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .WithHttpLogging(HttpLoggingFields.RequestPropertiesAndHeaders)
         .WithHttpLogging(HttpLoggingFields.ResponsePropertiesAndHeaders)
-        .WithSummary("Delete card summary")
-        .WithDescription("Delete card description");
+        .WithSummary("Delete card.")
+        .WithDescription("Delete card.");
     }
 }
