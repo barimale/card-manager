@@ -36,11 +36,6 @@ public static class DependencyInjection
         services.AddScoped<RegisterCardRequestValidationFilter>();
         services.AddScoped<RegisterCardCommandValidator>();
 
-        services.AddSingleton<IConsulClient, ConsulClient>(p => new ConsulClient(consulConfig =>
-        {
-            consulConfig.Address = new Uri(configuration.GetSection("consul").Get<string>());
-        }));
-
         LogManager.Configuration = new NLogLoggingConfiguration(
                     configuration.GetSection("NLog"));
 
