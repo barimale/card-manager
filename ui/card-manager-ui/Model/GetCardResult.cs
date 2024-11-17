@@ -10,9 +10,9 @@ namespace card_manager_ui.Services
             {
                 //intentionally left blank
             }
-            public GetCardResult(CardDto orders)
+            public GetCardResult(CardDto card)
             {
-                this.Card = orders;
+                this.Card = card;
             }
 
             public CardDto Card { get; set; }
