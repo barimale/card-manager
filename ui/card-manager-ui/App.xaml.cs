@@ -1,11 +1,8 @@
 ﻿using card_manager_ui.Services;
 using card_manager_ui.ViewModels;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System.Configuration;
 using System.Windows;
-using System.Xml.Linq;
 using ConfigurationManager = System.Configuration.ConfigurationManager;
 
 namespace PasswordBoxMVVM
