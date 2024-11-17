@@ -23,7 +23,7 @@ public class DeleteCardAPI : ICarterModule
 
             var result = await sender.Send(command);
 
-            return Results.Accepted($"/orders/{result.Id}", result);
+            return Results.Accepted(value: result);
         })
         .WithName("DeleteCard")
         .Produces<RegisterCardResult>(StatusCodes.Status201Created)

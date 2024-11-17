@@ -21,7 +21,7 @@ public class RegisterCardAPI : ICarterModule
             var command = mapper.Map<RegisterCardCommand>(commandRequest);
             var result = await sender.Send(command);
 
-            return Results.Created($"/cards/{result.Id}", result);
+            return Results.Created($"/api/v1/cards/{result.Id}", result);
         })
         .WithName("RegisterCard")
         .Produces<RegisterCardResult>(StatusCodes.Status201Created)
