@@ -64,8 +64,8 @@ namespace card_manager_ui.Services
 
                 response.EnsureSuccessStatusCode();
 
-                RegisterCardResult cardId = await response.Content.ReadFromJsonAsync<RegisterCardResult>();
-                return await GetByIdentifier(cardId.Id);
+                RegisterCardResult card = await response.Content.ReadFromJsonAsync<RegisterCardResult>();
+                return await GetByIdentifier(card.Id);
             }
             catch (Exception)
             {
