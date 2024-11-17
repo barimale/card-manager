@@ -1,7 +1,7 @@
 # card-manager
 ## Prereqs
 - MS SQL Instance
-- .NET 8.0
+- .NET 8.0 SDK
 ## Step by step
 ### Apply migrations
 Ensure connection string is properly set in appsettings.json, then
