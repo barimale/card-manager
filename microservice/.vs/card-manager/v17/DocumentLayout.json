@@ -3,12 +3,15 @@
   "WorkspaceRootPath": "R:\\card-manager\\microservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|r:\\card-manager\\microservice\\card.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|solutionrelative:card.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D2127F4E-548B-4E65-A396-04D66B2074B6}|Solution Items{D2127F4E-548B-4E65-A396-04D66B2074B6}|R:\\card-manager\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|r:\\card-manager\\microservice\\card.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|solutionrelative:card.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|r:\\card-manager\\microservice\\card.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|solutionrelative:card.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|r:\\card-manager\\microservice\\card.api\\api\\v1.0\\card\\getcardbyapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,12 +86,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "R:\\card-manager\\README.md",
+              "RelativeDocumentMoniker": "..\\README.md",
+              "ToolTip": "R:\\card-manager\\README.md",
+              "RelativeToolTip": "..\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-11-17T14:58:41.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Card.API\\appsettings.Development.json",
               "ToolTip": "R:\\card-manager\\microservice\\Card.API\\appsettings.Development.json",
               "RelativeToolTip": "Card.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-17T14:48:40.21Z",
               "EditorCaption": ""
@@ -101,14 +117,14 @@
               "RelativeDocumentMoniker": "Card.API\\appsettings.json",
               "ToolTip": "R:\\card-manager\\microservice\\Card.API\\appsettings.json",
               "RelativeToolTip": "Card.API\\appsettings.json",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-17T14:47:59.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PaginationRequest.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\BuildingBlocks\\API\\Pagination\\PaginationRequest.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\API\\Pagination\\PaginationRequest.cs",
@@ -116,12 +132,11 @@
               "RelativeToolTip": "BuildingBlocks\\API\\Pagination\\PaginationRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:36:32.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:36:32.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DeleteCardAPI.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
               "RelativeDocumentMoniker": "Card.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
@@ -129,12 +144,11 @@
               "RelativeToolTip": "Card.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwCEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:19:56.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:19:56.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RegisterCardAPI.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\API\\v1.0\\card\\RegisterCardAPI.cs",
               "RelativeDocumentMoniker": "Card.API\\API\\v1.0\\card\\RegisterCardAPI.cs",
@@ -142,12 +156,11 @@
               "RelativeToolTip": "Card.API\\API\\v1.0\\card\\RegisterCardAPI.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:18:12.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:18:12.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GetCardByAPI.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\API\\v1.0\\card\\GetCardByAPI.cs",
               "RelativeDocumentMoniker": "Card.API\\API\\v1.0\\card\\GetCardByAPI.cs",
@@ -155,12 +168,11 @@
               "RelativeToolTip": "Card.API\\API\\v1.0\\card\\GetCardByAPI.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:20:04.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:20:04.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Card.API\\DependencyInjection.cs",
@@ -168,12 +180,11 @@
               "RelativeToolTip": "Card.API\\DependencyInjection.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:34:59.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:34:59.351Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PaginatedResult.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\BuildingBlocks\\API\\Pagination\\PaginatedResult.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\API\\Pagination\\PaginatedResult.cs",
@@ -181,25 +192,23 @@
               "RelativeToolTip": "BuildingBlocks\\API\\Pagination\\PaginatedResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:36:13.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:36:13.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BuildingBlocks",
+              "DocumentIndex": 8,
+              "Title": "BuildingBlocks.csproj",
               "DocumentMoniker": "R:\\card-manager\\microservice\\BuildingBlocks\\BuildingBlocks.csproj",
               "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks.csproj",
               "ToolTip": "R:\\card-manager\\microservice\\BuildingBlocks\\BuildingBlocks.csproj",
               "RelativeToolTip": "BuildingBlocks\\BuildingBlocks.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-17T14:19:01.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:19:01.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RegisterCardCommandValidator.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Validators\\RegisterCardCommandValidator.cs",
               "RelativeDocumentMoniker": "Card.API\\Validators\\RegisterCardCommandValidator.cs",
@@ -207,12 +216,11 @@
               "RelativeToolTip": "Card.API\\Validators\\RegisterCardCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:34:42.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:34:42.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ApiProfile.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\MappingProfiles\\ApiProfile.cs",
               "RelativeDocumentMoniker": "Card.API\\MappingProfiles\\ApiProfile.cs",
@@ -220,12 +228,11 @@
               "RelativeToolTip": "Card.API\\MappingProfiles\\ApiProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:32:42.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:32:42.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MigrateDbContextExtensions.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Extensions\\MigrateDbContextExtensions.cs",
               "RelativeDocumentMoniker": "Card.API\\Extensions\\MigrateDbContextExtensions.cs",
@@ -238,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RegisterCardRequestValidationFilter.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Filters\\RegisterCardRequestValidationFilter.cs",
               "RelativeDocumentMoniker": "Card.API\\Filters\\RegisterCardRequestValidationFilter.cs",
@@ -246,12 +253,11 @@
               "RelativeToolTip": "Card.API\\Filters\\RegisterCardRequestValidationFilter.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:18:43.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:18:43.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Program.cs",
               "RelativeDocumentMoniker": "Card.API\\Program.cs",
@@ -259,12 +265,11 @@
               "RelativeToolTip": "Card.API\\Program.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwCgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:20:10.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:20:10.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "TransactionBehavior.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Application\\Behaviours\\TransactionBehavior.cs",
               "RelativeDocumentMoniker": "Card.Application\\Behaviours\\TransactionBehavior.cs",
@@ -272,12 +277,11 @@
               "RelativeToolTip": "Card.Application\\Behaviours\\TransactionBehavior.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:19:40.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:19:40.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CardContext.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Infrastructure\\CardContext.cs",
               "RelativeDocumentMoniker": "Card.Infrastructure\\CardContext.cs",
@@ -285,8 +289,7 @@
               "RelativeToolTip": "Card.Infrastructure\\CardContext.cs",
               "ViewState": "AgIAADIAAAAAAAAAAADwvyQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:19:27.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:19:27.203Z"
             }
           ]
         }

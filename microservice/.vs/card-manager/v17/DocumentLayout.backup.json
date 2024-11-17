@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "R:\\card-manager\\microservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|r:\\card-manager\\microservice\\card.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|solutionrelative:card.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|r:\\card-manager\\microservice\\card.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|solutionrelative:card.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|r:\\card-manager\\microservice\\card.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|solutionrelative:card.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|r:\\card-manager\\microservice\\card.api\\api\\v1.0\\card\\getcardbyapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,26 +82,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Card.API\\appsettings.Development.json",
-              "ToolTip": "R:\\card-manager\\microservice\\Card.API\\appsettings.Development.json",
-              "RelativeToolTip": "Card.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "ToolTip": "R:\\card-manager\\microservice\\Card.API\\appsettings.Development.json*",
+              "RelativeToolTip": "Card.API\\appsettings.Development.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-17T14:48:40.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\appsettings.json",
               "RelativeDocumentMoniker": "Card.API\\appsettings.json",
               "ToolTip": "R:\\card-manager\\microservice\\Card.API\\appsettings.json",
               "RelativeToolTip": "Card.API\\appsettings.json",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-17T14:47:59.522Z",
               "EditorCaption": ""
@@ -116,8 +116,7 @@
               "RelativeToolTip": "BuildingBlocks\\API\\Pagination\\PaginationRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:36:32.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:36:32.508Z"
             },
             {
               "$type": "Document",
@@ -129,8 +128,7 @@
               "RelativeToolTip": "Card.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwCEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:19:56.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:19:56.491Z"
             },
             {
               "$type": "Document",
@@ -142,8 +140,7 @@
               "RelativeToolTip": "Card.API\\API\\v1.0\\card\\RegisterCardAPI.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:18:12.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:18:12.922Z"
             },
             {
               "$type": "Document",
@@ -155,8 +152,7 @@
               "RelativeToolTip": "Card.API\\API\\v1.0\\card\\GetCardByAPI.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:20:04.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:20:04.353Z"
             },
             {
               "$type": "Document",
@@ -168,8 +164,7 @@
               "RelativeToolTip": "Card.API\\DependencyInjection.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:34:59.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:34:59.351Z"
             },
             {
               "$type": "Document",
@@ -181,21 +176,19 @@
               "RelativeToolTip": "BuildingBlocks\\API\\Pagination\\PaginatedResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:36:13.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:36:13.4Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "BuildingBlocks",
+              "Title": "BuildingBlocks.csproj",
               "DocumentMoniker": "R:\\card-manager\\microservice\\BuildingBlocks\\BuildingBlocks.csproj",
               "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks.csproj",
               "ToolTip": "R:\\card-manager\\microservice\\BuildingBlocks\\BuildingBlocks.csproj",
               "RelativeToolTip": "BuildingBlocks\\BuildingBlocks.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-17T14:19:01.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:19:01.065Z"
             },
             {
               "$type": "Document",
@@ -207,8 +200,7 @@
               "RelativeToolTip": "Card.API\\Validators\\RegisterCardCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:34:42.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:34:42.096Z"
             },
             {
               "$type": "Document",
@@ -220,8 +212,7 @@
               "RelativeToolTip": "Card.API\\MappingProfiles\\ApiProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:32:42.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:32:42.084Z"
             },
             {
               "$type": "Document",
@@ -233,8 +224,7 @@
               "RelativeToolTip": "Card.API\\Extensions\\MigrateDbContextExtensions.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:32:26.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:32:26.01Z"
             },
             {
               "$type": "Document",
@@ -246,8 +236,7 @@
               "RelativeToolTip": "Card.API\\Filters\\RegisterCardRequestValidationFilter.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:18:43.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:18:43.477Z"
             },
             {
               "$type": "Document",
@@ -259,8 +248,7 @@
               "RelativeToolTip": "Card.API\\Program.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwCgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:20:10.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:20:10.531Z"
             },
             {
               "$type": "Document",
@@ -272,8 +260,7 @@
               "RelativeToolTip": "Card.Application\\Behaviours\\TransactionBehavior.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:19:40.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:19:40.415Z"
             },
             {
               "$type": "Document",
@@ -285,8 +272,7 @@
               "RelativeToolTip": "Card.Infrastructure\\CardContext.cs",
               "ViewState": "AgIAADIAAAAAAAAAAADwvyQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:19:27.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:19:27.203Z"
             }
           ]
         }

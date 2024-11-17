@@ -3,7 +3,8 @@
 - MS SQL Instance
 ## Step by step
 ### Apply migrations
-Navigate to microservice/Card.Infrastructure folder and execute:
+Ensure connection srting is properly set in appsettings.json, then
+navigate to microservice/Card.Infrastructure folder and execute:
 ```
 dotnet ef database update
 ```
