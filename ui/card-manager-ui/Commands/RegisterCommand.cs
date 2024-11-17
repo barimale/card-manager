@@ -34,7 +34,8 @@ namespace card_manager_ui.Commands
 
             if(res is null)
             {
-                MessageBox.Show("Entity not created.");
+                MessageBox.Show("Entity not created.", "Warning",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
             {

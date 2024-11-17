@@ -3,7 +3,7 @@ using System.Net.Http.Json;
 
 namespace card_manager_ui.Services
 {
-    public class DataHttpClient : IDataService
+    public partial class DataHttpClient : IDataService
     {
         private readonly HttpClient _httpClient;
 
@@ -85,35 +85,6 @@ namespace card_manager_ui.Services
             {
                 return false;
             }
-        }
-
-        public class RegisterCardResult
-        {
-            public RegisterCardResult()
-            {
-                // intentionally left blank
-            }
-
-            public RegisterCardResult(string id)
-            {
-                this.Id = id;
-            }
-
-            public string Id { get; set; }
-        }
-
-        public class GetCardResult
-        {
-            public GetCardResult()
-            {
-                //intentionally left blank
-            }
-            public GetCardResult(CardDto orders)
-            {
-                this.Card = orders;
-            }
-
-            public CardDto Card { get; set; }
         }
     }
 }

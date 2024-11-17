@@ -29,11 +29,12 @@ namespace card_manager_ui.Commands
 
             if (res)
             {
-                MessageBox.Show("Entity deleted.");
+                MessageBox.Show("Entity deleted.", "Info",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
             {
-                MessageBox.Show($"Something went wrong.", "Info",
+                MessageBox.Show($"Something went wrong.", "Warning",
                     MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
