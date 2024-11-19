@@ -30,8 +30,7 @@ namespace card_manager_ui.Commands
         public async void Execute(object parameter)
         {
             GetCardResult? result = null;
-
-            // WIP map to object return object
+            
             if(!string.IsNullOrEmpty(_viewModel.AccountNumber))
             {
                 result = await _viewModel.dataService.GetByAccountNumber(_viewModel.AccountNumber);
