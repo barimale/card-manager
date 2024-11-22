@@ -4,7 +4,6 @@ using Card.Application.CQRS.Commands;
 using Carter;
 using MediatR;
 using Microsoft.AspNetCore.HttpLogging;
-using Ordering.Application.CQRS.Commands;
 
 namespace Cards.API.Endpoints;
 

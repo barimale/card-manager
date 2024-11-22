@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using Card.Application.CQRS.Commands;
-using Ordering.API.Model.order;
-using Ordering.Application.CQRS.Commands;
+using Card.API.Model.order;
 
 namespace Card.API.MappingProfiles
 {
@@ -12,10 +11,8 @@ namespace Card.API.MappingProfiles
             CreateMap<RegisterCardCommand, RegisterCardRequest>()
                 .ReverseMap();
 
-            CreateMap<RegisterCardCommand, Domain.AggregatesModel.CardAggregate.Card>()
+            CreateMap<RegisterCardResult, RegisterCardResponse>()
                 .ReverseMap();
-
-            CreateMap<RegisterCardResult, RegisterCardResponse>();
         }
     }
 }

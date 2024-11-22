@@ -1,4 +1,4 @@
-﻿namespace Ordering.API.Model.order
+﻿namespace Card.API.Model.order
 {
     public class RegisterCardResponse
     {

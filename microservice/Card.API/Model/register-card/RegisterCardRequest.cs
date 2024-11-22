@@ -1,6 +1,4 @@
-﻿using BuildingBlocks.Application.CQRS;
-
-namespace Ordering.Application.CQRS.Commands
+﻿namespace Card.Application.CQRS.Commands
 {
     public class RegisterCardRequest
     {

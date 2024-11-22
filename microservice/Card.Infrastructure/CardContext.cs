@@ -28,7 +28,7 @@ public class CardContext : DbContext, IUnitOfWork
         _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
 
 
-        System.Diagnostics.Debug.WriteLine("OrderingContext::ctor ->" + GetHashCode());
+        System.Diagnostics.Debug.WriteLine("CardContext::ctor ->" + GetHashCode());
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

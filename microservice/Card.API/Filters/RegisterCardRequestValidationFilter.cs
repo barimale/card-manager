@@ -1,4 +1,4 @@
-﻿using Ordering.Application.CQRS.Commands;
+﻿using Card.Application.CQRS.Commands;
 
 namespace Card.API.Filters
 {

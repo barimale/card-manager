@@ -1,5 +1,5 @@
-﻿using FluentValidation;
-using Ordering.Application.CQRS.Commands;
+﻿using Card.Application.CQRS.Commands;
+using FluentValidation;
 
 namespace Card.API.Validators
 {
