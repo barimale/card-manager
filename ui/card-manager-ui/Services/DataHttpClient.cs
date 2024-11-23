@@ -8,9 +8,9 @@ namespace card_manager_ui.Services
     {
         private readonly HttpClient _httpClient;
 
-        public DataHttpClient(string api, HttpClient httpClientFactory)
+        public DataHttpClient(string api, HttpClient httpClient)
         {
-            _httpClient = httpClientFactory;
+            _httpClient = httpClient;
             _httpClient.BaseAddress = new Uri(api);
         }
 
