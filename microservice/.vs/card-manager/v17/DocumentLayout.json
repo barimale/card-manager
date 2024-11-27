@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "R:\\card-manager\\microservice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D2127F4E-548B-4E65-A396-04D66B2074B6}|Solution Items{D2127F4E-548B-4E65-A396-04D66B2074B6}|R:\\card-manager\\.github\\workflows\\dotnet.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2127F4E-548B-4E65-A396-04D66B2074B6}|Solution Items{D2127F4E-548B-4E65-A396-04D66B2074B6}|R:\\card-manager\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
@@ -22,6 +25,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "dotnet.yml",
+              "DocumentMoniker": "R:\\card-manager\\.github\\workflows\\dotnet.yml",
+              "RelativeDocumentMoniker": "..\\.github\\workflows\\dotnet.yml",
+              "ToolTip": "R:\\card-manager\\.github\\workflows\\dotnet.yml",
+              "RelativeToolTip": "..\\.github\\workflows\\dotnet.yml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-11-27T15:12:16.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "README.md",
               "DocumentMoniker": "R:\\card-manager\\README.md",
               "RelativeDocumentMoniker": "..\\README.md",
