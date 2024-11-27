@@ -21,9 +21,11 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore -project ./ui\card-manager-ui/card-manager-ui.csproj
+    - name: Restore dependencies2
+      run: dotnet restore -solution ./microservice/card-manager.sln
     - name: Build
       run: dotnet build --no-restore -project ./ui\card-manager-ui/card-manager-ui.csproj
-    - name: Build
+    - name: Build2
       run: dotnet build --no-restore -solution ./microservice/card-manager.sln
 
