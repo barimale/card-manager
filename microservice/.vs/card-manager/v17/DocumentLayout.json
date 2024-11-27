@@ -3,10 +3,11 @@
   "WorkspaceRootPath": "R:\\card-manager\\microservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2127F4E-548B-4E65-A396-04D66B2074B6}|Solution Items{D2127F4E-548B-4E65-A396-04D66B2074B6}|R:\\card-manager\\.github\\workflows\\dotnet.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D2127F4E-548B-4E65-A396-04D66B2074B6}|Solution Items{D2127F4E-548B-4E65-A396-04D66B2074B6}|R:\\card-manager\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2127F4E-548B-4E65-A396-04D66B2074B6}|Solution Items{D2127F4E-548B-4E65-A396-04D66B2074B6}|R:\\card-manager\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{6FA4542D-15D4-41B6-96C4-F5B21360EC91}|Card.Infrastructure\\Card.Infrastructure.csproj|r:\\card-manager\\microservice\\card.infrastructure\\cardcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA4542D-15D4-41B6-96C4-F5B21360EC91}|Card.Infrastructure\\Card.Infrastructure.csproj|solutionrelative:card.infrastructure\\cardcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -24,28 +25,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dotnet.yml",
-              "DocumentMoniker": "R:\\card-manager\\.github\\workflows\\dotnet.yml",
-              "RelativeDocumentMoniker": "..\\.github\\workflows\\dotnet.yml",
-              "ToolTip": "R:\\card-manager\\.github\\workflows\\dotnet.yml",
-              "RelativeToolTip": "..\\.github\\workflows\\dotnet.yml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABsAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-11-27T15:12:16.267Z",
+              "DocumentIndex": 1,
+              "Title": "CardContextFactory.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Infrastructure\\CardContextFactory.cs",
+              "RelativeDocumentMoniker": "Card.Infrastructure\\CardContextFactory.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Card.Infrastructure\\CardContextFactory.cs",
+              "RelativeToolTip": "Card.Infrastructure\\CardContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:06:24.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "README.md",
               "DocumentMoniker": "R:\\card-manager\\README.md",
               "RelativeDocumentMoniker": "..\\README.md",
               "ToolTip": "R:\\card-manager\\README.md",
               "RelativeToolTip": "..\\README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-11-22T15:04:22.533Z",
+              "WhenOpened": "2024-11-27T18:05:43.788Z",
               "EditorCaption": ""
             }
           ]
