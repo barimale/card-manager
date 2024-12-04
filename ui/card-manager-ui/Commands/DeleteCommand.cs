@@ -34,7 +34,7 @@ namespace card_manager_ui.Commands
             }
             else
             {
-                MessageBox.Show($"Something went wrong.", "Warning",
+                MessageBox.Show($"Entity not found.", "Warning",
                     MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
