@@ -20,16 +20,20 @@ namespace card_manager_ui.ViewModels
             this.dataService = dataService;
         }
 
-        private string _username;
+        private string _accountNumber;
         public string AccountNumber
         {
             get
             {
-                return _username;
+                return _accountNumber;
             }
             set
             {
-                _username = value;
+                _accountNumber = value;
+                _serialNumber = string.Empty;
+                _identifier = string.Empty;
+                OnPropertyChanged(nameof(Identifier));
+                OnPropertyChanged(nameof(SerialNumber));
                 OnPropertyChanged(nameof(AccountNumber));
             }
         }
@@ -44,7 +48,11 @@ namespace card_manager_ui.ViewModels
             set
             {
                 _serialNumber = value;
+                _accountNumber = string.Empty;
+                _identifier = string.Empty;
+                OnPropertyChanged(nameof(Identifier));
                 OnPropertyChanged(nameof(SerialNumber));
+                OnPropertyChanged(nameof(AccountNumber));
             }
         }
 
@@ -58,7 +66,12 @@ namespace card_manager_ui.ViewModels
             set
             {
                 _identifier = value;
+                _accountNumber = string.Empty;
+                _serialNumber = string.Empty;
                 OnPropertyChanged(nameof(Identifier));
+                OnPropertyChanged(nameof(SerialNumber));
+                OnPropertyChanged(nameof(AccountNumber));
+
             }
         }
 
