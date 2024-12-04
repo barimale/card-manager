@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "S:\\card-manager\\microservice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|s:\\card-manager\\microservice\\card.api\\validators\\registercardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|solutionrelative:card.api\\validators\\registercardcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2127F4E-548B-4E65-A396-04D66B2074B6}|Solution Items{D2127F4E-548B-4E65-A396-04D66B2074B6}|S:\\card-manager\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
@@ -29,19 +33,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RegisterCardCommandValidator.cs",
+              "DocumentMoniker": "S:\\card-manager\\microservice\\Card.API\\Validators\\RegisterCardCommandValidator.cs",
+              "RelativeDocumentMoniker": "Card.API\\Validators\\RegisterCardCommandValidator.cs",
+              "ToolTip": "S:\\card-manager\\microservice\\Card.API\\Validators\\RegisterCardCommandValidator.cs",
+              "RelativeToolTip": "Card.API\\Validators\\RegisterCardCommandValidator.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:16:45.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "README.md",
               "DocumentMoniker": "S:\\card-manager\\README.md",
               "RelativeDocumentMoniker": "..\\README.md",
               "ToolTip": "S:\\card-manager\\README.md",
               "RelativeToolTip": "..\\README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-12-04T18:54:05.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CardContextFactory.cs",
               "DocumentMoniker": "S:\\card-manager\\microservice\\Card.Infrastructure\\CardContextFactory.cs",
               "RelativeDocumentMoniker": "Card.Infrastructure\\CardContextFactory.cs",
@@ -53,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "README.md",
               "DocumentMoniker": "R:\\card-manager\\README.md",
               "ToolTip": "R:\\card-manager\\README.md",
