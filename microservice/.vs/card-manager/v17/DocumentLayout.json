@@ -38,7 +38,7 @@
               "RelativeDocumentMoniker": "Card.API\\Validators\\RegisterCardCommandValidator.cs",
               "ToolTip": "S:\\card-manager\\microservice\\Card.API\\Validators\\RegisterCardCommandValidator.cs",
               "RelativeToolTip": "Card.API\\Validators\\RegisterCardCommandValidator.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T19:16:45.008Z",
               "EditorCaption": ""
@@ -53,8 +53,7 @@
               "RelativeToolTip": "..\\README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-12-04T18:54:05.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:54:05.825Z"
             },
             {
               "$type": "Document",

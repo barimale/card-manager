@@ -1,5 +1,4 @@
-﻿using card_manager_ui.Services;
-using card_manager_ui.ViewModels;
+﻿using card_manager_ui.ViewModels;
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Input;
