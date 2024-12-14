@@ -16,7 +16,6 @@ public class CardContext : DbContext, IUnitOfWork
 
     public DbSet<Domain.AggregatesModel.CardAggregate.Card> Cards { get; set; }
 
-    private readonly IMediator _mediator;
     private IDbContextTransaction _currentTransaction;
 
     public IDbContextTransaction GetCurrentTransaction() => _currentTransaction;
@@ -25,9 +24,6 @@ public class CardContext : DbContext, IUnitOfWork
 
     public CardContext(DbContextOptions<CardContext> options, IMediator mediator) : base(options)
     {
-        _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
-
-
         System.Diagnostics.Debug.WriteLine("CardContext::ctor ->" + GetHashCode());
     }
 

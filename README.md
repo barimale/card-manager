@@ -1,18 +1,14 @@
 # card-manager
-https://medium.com/@analyticscodeexplained/running-microsoft-sql-server-in-docker-a8dfdd246e45
-
-connectionString="Data Source=HOST,PORT;Database=BAZADANYCH;Uid=UZYTKOWNIK;Password=HASLO;" providerName="System.Data.SqlClient
-
 ## Prereqs
-- MS SQL Instance
+- Docker Desktop
 - .NET 8.0 SDK
+
+## SQL server:
+```
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Password_123#" -p 1500:1433 --name sql_server_container mcr.microsoft.com/mssql/server
+
+```
 ## Step by step
-### Apply migrations
-Ensure connection string is properly set in appsettings.json and appsettings.Development.json, then
-navigate to microservice/Card.Infrastructure folder and execute:
-```
-dotnet ef database update
-```
 ### Run solutions
 Open two solutions located in microservice and ui folders.
 Press Start Debugging.
