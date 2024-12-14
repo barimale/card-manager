@@ -1,6 +1,8 @@
 # card-manager
 https://medium.com/@analyticscodeexplained/running-microsoft-sql-server-in-docker-a8dfdd246e45
 
+connectionString="Data Source=HOST,PORT;Database=BAZADANYCH;Uid=UZYTKOWNIK;Password=HASLO;" providerName="System.Data.SqlClient
+
 ## Prereqs
 - MS SQL Instance
 - .NET 8.0 SDK
