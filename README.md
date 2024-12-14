@@ -1,4 +1,6 @@
 # card-manager
+https://medium.com/@analyticscodeexplained/running-microsoft-sql-server-in-docker-a8dfdd246e45
+
 ## Prereqs
 - MS SQL Instance
 - .NET 8.0 SDK
