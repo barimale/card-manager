@@ -7,6 +7,7 @@ using Card.Application;
 using Card.Infrastructure;
 using System;
 using Microsoft.EntityFrameworkCore;
+using Card.API.Extensions;
 
 namespace Card.API
 {
@@ -27,16 +28,14 @@ namespace Card.API
                     .AddInfrastructureServices(builder.Configuration)
                     .AddApiServices(builder.Configuration);
 
+                builder.Services.AddMigration<CardContext>();
+
                 builder.Logging.ClearProviders();
                 builder.Logging.SetMinimumLevel(builder.Environment.IsDevelopment() ? LogLevel.Debug : LogLevel.Trace);
                 builder.Host.UseNLog();
 
                 var app = builder.Build();
-                using (var Scope = app.Services.CreateScope())
-                {
-                    var context = Scope.ServiceProvider.GetRequiredService<CardContext>();
-                    context.Database.Migrate();
-                }
+
                 app.UseExceptionHandler(options => { });
 
                 app.UseHttpLogging();
