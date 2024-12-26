@@ -36,7 +36,7 @@ namespace Card.API
 
                 var app = builder.Build();
 
-                app.UseExceptionHandler(options => { });
+                app.UseExceptionHandler();
 
                 app.UseHttpLogging();
                 app.UseApiServices();
