@@ -1,8 +1,10 @@
 ﻿using BuildingBlocks.API.Middlewares.GlobalExceptions.Handler;
 using BuildingBlocks.API.Utilities.Healthcheck;
+using Card.API.Extensions;
 using Card.API.Filters;
 using Card.API.MappingProfiles;
 using Card.API.Validators;
+using Card.Infrastructure;
 using Carter;
 using Consul;
 using HealthChecks.UI.Client;
@@ -52,6 +54,8 @@ public static class DependencyInjection
             options.DocumentFilter<HealthChecksDocumentFilter>();
             options.EnableAnnotations();
         });
+
+        services.AddMigration<CardContext>();
 
         return services;
     }

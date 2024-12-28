@@ -28,8 +28,6 @@ namespace Card.API
                     .AddInfrastructureServices(builder.Configuration)
                     .AddApiServices(builder.Configuration);
 
-                builder.Services.AddMigration<CardContext>();
-
                 builder.Logging.ClearProviders();
                 builder.Logging.SetMinimumLevel(builder.Environment.IsDevelopment() ? LogLevel.Debug : LogLevel.Trace);
                 builder.Host.UseNLog();
