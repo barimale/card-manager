@@ -5,9 +5,6 @@ using BuildingBlocks.API.Utilities.Healthcheck;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Card.Application;
 using Card.Infrastructure;
-using System;
-using Microsoft.EntityFrameworkCore;
-using Card.API.Extensions;
 
 namespace Card.API
 {
