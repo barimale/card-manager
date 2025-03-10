@@ -36,37 +36,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MigrateDbContextExtensions.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Extensions\\MigrateDbContextExtensions.cs",
-              "RelativeDocumentMoniker": "Card.API\\Extensions\\MigrateDbContextExtensions.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Card.API\\Extensions\\MigrateDbContextExtensions.cs",
-              "RelativeToolTip": "Card.API\\Extensions\\MigrateDbContextExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIAwwAoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T18:31:10.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Program.cs",
-              "RelativeDocumentMoniker": "Card.API\\Program.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Card.API\\Program.cs",
-              "RelativeToolTip": "Card.API\\Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T19:25:15.1Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -78,7 +52,32 @@
               "RelativeToolTip": "..\\README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-11-27T18:05:43.788Z",
+              "WhenOpened": "2025-03-10T18:27:03.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MigrateDbContextExtensions.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Extensions\\MigrateDbContextExtensions.cs",
+              "RelativeDocumentMoniker": "Card.API\\Extensions\\MigrateDbContextExtensions.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Card.API\\Extensions\\MigrateDbContextExtensions.cs",
+              "RelativeToolTip": "Card.API\\Extensions\\MigrateDbContextExtensions.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwC8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T18:31:10.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Program.cs",
+              "RelativeDocumentMoniker": "Card.API\\Program.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Card.API\\Program.cs",
+              "RelativeToolTip": "Card.API\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T19:25:15.1Z",
               "EditorCaption": ""
             },
             {
@@ -91,8 +90,7 @@
               "RelativeToolTip": "Card.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAzwA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T18:30:54.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T18:30:54.359Z"
             },
             {
               "$type": "Document",
