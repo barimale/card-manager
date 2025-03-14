@@ -21,7 +21,7 @@ public class RegisterCardHandler(ICardRepository cardRepository, IIdGeneratorAda
             Id = command.Id,
         };
 
-        var result = cardRepository.Add(card);
+        var result = await cardRepository.AddAsync(card);
         await cardRepository.UnitOfWork.SaveChangesAsync(cancellationToken);
 
         return new RegisterCardResult(result.Id);

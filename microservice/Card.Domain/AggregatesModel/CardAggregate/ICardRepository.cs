@@ -6,7 +6,7 @@ namespace Card.Domain.AggregatesModel.CardAggregate
     {
         IUnitOfWork UnitOfWork { get; }
 
-        Card Add(Card card);
+        Task<Card> AddAsync(Card card);
         Task<string> Delete(string id);
         Task<Card> GetByAccountNumberAsync(string id);
         Task<Card> GetByIdAsync(string id);

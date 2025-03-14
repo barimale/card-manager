@@ -2,7 +2,7 @@
 {
     public class IdGeneratorAdapter : IIdGeneratorAdapter
     {
-        public string Generate(int length = 32)
+        public string Generate(int length)
         {
             return Guid.NewGuid().ToString();
         }

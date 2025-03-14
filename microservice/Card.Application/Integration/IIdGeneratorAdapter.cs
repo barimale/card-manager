@@ -2,6 +2,6 @@
 {
     public interface IIdGeneratorAdapter
     {
-        public string Generate(int length = 32);
+        public string Generate(int length);
     }
 }
