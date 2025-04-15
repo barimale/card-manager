@@ -2,10 +2,8 @@
 
 namespace Card.Domain.AggregatesModel.CardAggregate
 {
-    public interface ICardRepository
+    public interface ICardRepository : IRepository<Card>
     {
-        IUnitOfWork UnitOfWork { get; }
-
         Task<Card> AddAsync(Card card);
         Task<string> Delete(string id);
         Task<Card> GetByAccountNumberAsync(string id);
