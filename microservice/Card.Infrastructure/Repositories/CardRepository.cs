@@ -20,7 +20,8 @@ public class CardRepository : ICardRepository
     public async Task<Domain.AggregatesModel.CardAggregate.Card> AddAsync(Domain.AggregatesModel.CardAggregate.Card order)
     {
         var result = await _context.Cards.AddAsync(order);
-
+        await UnitOfWork.SaveChangesAsync();
+        
         return result.Entity;
     }
 
