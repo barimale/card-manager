@@ -49,6 +49,7 @@ public class CardRepository : ICardRepository
     {
         var toBeDeleted = await _context.Cards.FirstOrDefaultAsync(p => p.Id == id);
         var result = _context.Cards.Remove(toBeDeleted);
+        await UnitOfWork.SaveChangesAsync();
 
         return result.Entity.Id;
     }

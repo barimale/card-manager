@@ -3,6 +3,25 @@
   "WorkspaceRootPath": "R:\\card-manager\\microservice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D2127F4E-548B-4E65-A396-04D66B2074B6}|Solution Items{D2127F4E-548B-4E65-A396-04D66B2074B6}|R:\\card-manager\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA4542D-15D4-41B6-96C4-F5B21360EC91}|Card.Infrastructure\\Card.Infrastructure.csproj|r:\\card-manager\\microservice\\card.infrastructure\\repositories\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA4542D-15D4-41B6-96C4-F5B21360EC91}|Card.Infrastructure\\Card.Infrastructure.csproj|solutionrelative:card.infrastructure\\repositories\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B13B1712-ED8F-41F4-9A48-8C4ADCB9C19C}|Card.Domain\\Card.Domain.csproj|r:\\card-manager\\microservice\\card.domain\\aggregatesmodel\\cardaggregate\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B13B1712-ED8F-41F4-9A48-8C4ADCB9C19C}|Card.Domain\\Card.Domain.csproj|solutionrelative:card.domain\\aggregatesmodel\\cardaggregate\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035B575C-949E-4BE1-B918-35CB126146AC}|Card.Application\\Card.Application.csproj|r:\\card-manager\\microservice\\card.application\\cqrs\\queryhandlers\\getcardhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035B575C-949E-4BE1-B918-35CB126146AC}|Card.Application\\Card.Application.csproj|solutionrelative:card.application\\cqrs\\queryhandlers\\getcardhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035B575C-949E-4BE1-B918-35CB126146AC}|Card.Application\\Card.Application.csproj|r:\\card-manager\\microservice\\card.application\\cqrs\\queries\\getcardbyaccountnumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035B575C-949E-4BE1-B918-35CB126146AC}|Card.Application\\Card.Application.csproj|solutionrelative:card.application\\cqrs\\queries\\getcardbyaccountnumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{035B575C-949E-4BE1-B918-35CB126146AC}|Card.Application\\Card.Application.csproj|r:\\card-manager\\microservice\\card.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{035B575C-949E-4BE1-B918-35CB126146AC}|Card.Application\\Card.Application.csproj|solutionrelative:card.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,14 +62,6 @@
       "RelativeMoniker": "D:0:0:{9B899856-1D36-41D2-8C1F-64D8A971D911}|BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:buildingblocks\\application\\cqrs\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B13B1712-ED8F-41F4-9A48-8C4ADCB9C19C}|Card.Domain\\Card.Domain.csproj|r:\\card-manager\\microservice\\card.domain\\aggregatesmodel\\cardaggregate\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B13B1712-ED8F-41F4-9A48-8C4ADCB9C19C}|Card.Domain\\Card.Domain.csproj|solutionrelative:card.domain\\aggregatesmodel\\cardaggregate\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FA4542D-15D4-41B6-96C4-F5B21360EC91}|Card.Infrastructure\\Card.Infrastructure.csproj|r:\\card-manager\\microservice\\card.infrastructure\\repositories\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FA4542D-15D4-41B6-96C4-F5B21360EC91}|Card.Infrastructure\\Card.Infrastructure.csproj|solutionrelative:card.infrastructure\\repositories\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B899856-1D36-41D2-8C1F-64D8A971D911}|BuildingBlocks\\BuildingBlocks.csproj|r:\\card-manager\\microservice\\buildingblocks\\domain\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B899856-1D36-41D2-8C1F-64D8A971D911}|BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:buildingblocks\\domain\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -89,7 +100,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,7 +108,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "R:\\card-manager\\README.md",
+              "RelativeDocumentMoniker": "..\\README.md",
+              "ToolTip": "R:\\card-manager\\README.md",
+              "RelativeToolTip": "..\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-04-21T17:00:42.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetCardHandlers.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Application\\CQRS\\QueryHandlers\\GetCardHandlers.cs",
+              "RelativeDocumentMoniker": "Card.Application\\CQRS\\QueryHandlers\\GetCardHandlers.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Card.Application\\CQRS\\QueryHandlers\\GetCardHandlers.cs",
+              "RelativeToolTip": "Card.Application\\CQRS\\QueryHandlers\\GetCardHandlers.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:59:29.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetCardByAccountNumberQuery.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Application\\CQRS\\Queries\\GetCardByAccountNumberQuery.cs",
+              "RelativeDocumentMoniker": "Card.Application\\CQRS\\Queries\\GetCardByAccountNumberQuery.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Card.Application\\CQRS\\Queries\\GetCardByAccountNumberQuery.cs",
+              "RelativeToolTip": "Card.Application\\CQRS\\Queries\\GetCardByAccountNumberQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:59:22.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICardRepository.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Domain\\AggregatesModel\\CardAggregate\\ICardRepository.cs",
+              "RelativeDocumentMoniker": "Card.Domain\\AggregatesModel\\CardAggregate\\ICardRepository.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Card.Domain\\AggregatesModel\\CardAggregate\\ICardRepository.cs",
+              "RelativeToolTip": "Card.Domain\\AggregatesModel\\CardAggregate\\ICardRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:12:04.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CardRepository.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Infrastructure\\Repositories\\CardRepository.cs",
+              "RelativeDocumentMoniker": "Card.Infrastructure\\Repositories\\CardRepository.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Card.Infrastructure\\Repositories\\CardRepository.cs",
+              "RelativeToolTip": "Card.Infrastructure\\Repositories\\CardRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAtwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:09:48.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CardEntityTypeConfiguration.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Infrastructure\\EntityConfigurations\\CardEntityTypeConfiguration.cs",
               "RelativeDocumentMoniker": "Card.Infrastructure\\EntityConfigurations\\CardEntityTypeConfiguration.cs",
@@ -105,12 +181,11 @@
               "RelativeToolTip": "Card.Infrastructure\\EntityConfigurations\\CardEntityTypeConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T10:51:39.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T10:51:39.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Card.Application\\DependencyInjection.cs",
@@ -123,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "TransactionBehavior.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Application\\Behaviours\\TransactionBehavior.cs",
               "RelativeDocumentMoniker": "Card.Application\\Behaviours\\TransactionBehavior.cs",
@@ -135,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "GenericTypeExtensions.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Application\\Extensions\\GenericTypeExtensions.cs",
               "RelativeDocumentMoniker": "Card.Application\\Extensions\\GenericTypeExtensions.cs",
@@ -147,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "RegisterCardResponse.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Model\\register-card\\RegisterCardResponse.cs",
               "RelativeDocumentMoniker": "Card.API\\Model\\register-card\\RegisterCardResponse.cs",
@@ -159,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "RegisterCardRequest.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Model\\register-card\\RegisterCardRequest.cs",
               "RelativeDocumentMoniker": "Card.API\\Model\\register-card\\RegisterCardRequest.cs",
@@ -171,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "RegisterCardCommandValidator.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Validators\\RegisterCardCommandValidator.cs",
               "RelativeDocumentMoniker": "Card.API\\Validators\\RegisterCardCommandValidator.cs",
@@ -183,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "RegisterCardRequestValidationFilter.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Filters\\RegisterCardRequestValidationFilter.cs",
               "RelativeDocumentMoniker": "Card.API\\Filters\\RegisterCardRequestValidationFilter.cs",
@@ -195,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "RegisterCardHandler.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Application\\CQRS\\CommandHandlers\\RegisterCardHandler.cs",
               "RelativeDocumentMoniker": "Card.Application\\CQRS\\CommandHandlers\\RegisterCardHandler.cs",
@@ -207,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "ICommandHandler.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\BuildingBlocks\\Application\\CQRS\\ICommandHandler.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\Application\\CQRS\\ICommandHandler.cs",
@@ -219,31 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CardRepository.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Infrastructure\\Repositories\\CardRepository.cs",
-              "RelativeDocumentMoniker": "Card.Infrastructure\\Repositories\\CardRepository.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Card.Infrastructure\\Repositories\\CardRepository.cs",
-              "RelativeToolTip": "Card.Infrastructure\\Repositories\\CardRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T17:09:48.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ICardRepository.cs",
-              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Domain\\AggregatesModel\\CardAggregate\\ICardRepository.cs",
-              "RelativeDocumentMoniker": "Card.Domain\\AggregatesModel\\CardAggregate\\ICardRepository.cs",
-              "ToolTip": "R:\\card-manager\\microservice\\Card.Domain\\AggregatesModel\\CardAggregate\\ICardRepository.cs",
-              "RelativeToolTip": "Card.Domain\\AggregatesModel\\CardAggregate\\ICardRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T17:12:04.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "IRepository.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\BuildingBlocks\\Domain\\IRepository.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\Domain\\IRepository.cs",
@@ -255,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "IAggregateRoot.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\BuildingBlocks\\Domain\\IAggregateRoot.cs",
               "RelativeDocumentMoniker": "BuildingBlocks\\Domain\\IAggregateRoot.cs",
@@ -267,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "IIdGeneratorAdapter.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Application\\Integration\\IIdGeneratorAdapter.cs",
               "RelativeDocumentMoniker": "Card.Application\\Integration\\IIdGeneratorAdapter.cs",
@@ -279,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "IdGeneratorAdapter.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Application\\Integration\\IdGeneratorAdapter.cs",
               "RelativeDocumentMoniker": "Card.Application\\Integration\\IdGeneratorAdapter.cs",
@@ -291,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Program.cs",
               "RelativeDocumentMoniker": "Card.API\\Program.cs",
@@ -303,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "DeleteCardAPI.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
               "RelativeDocumentMoniker": "Card.API\\API\\v1.0\\card\\DeleteCardAPI.cs",
@@ -315,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "CardContextFactory.cs",
               "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Infrastructure\\CardContextFactory.cs",
               "RelativeDocumentMoniker": "Card.Infrastructure\\CardContextFactory.cs",
@@ -327,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "README.md",
               "DocumentMoniker": "S:\\card-manager\\README.md",
               "ToolTip": "S:\\card-manager\\README.md",
