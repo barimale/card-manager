@@ -19,8 +19,7 @@ namespace Card.API.Validators
 
             RuleFor(exp => exp.PIN)
                 .NotEmpty()
-                .MinimumLength(2)
-                .MaximumLength(20);
+                .Length(5);
         }
     }
 }

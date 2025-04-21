@@ -24,13 +24,7 @@ namespace Card.API.Filters
             if (!validationResult.IsValid)
             {
                 _logger.LogWarning(validationResult.ToString());
-
-                return Results.Problem(
-                    validationResult
-                    .Errors
-                    .Select(p => p.ErrorMessage.ToString())
-                    .First());
-
+                return Results.ValidationProblem(validationResult.ToDictionary());
             }
 
             return await next(efiContext);

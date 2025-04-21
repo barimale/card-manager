@@ -1,5 +1,4 @@
 ﻿using BuildingBlocks.Application.CQRS;
-using FluentValidation;
 
 namespace Card.Application.CQRS.Commands;
 

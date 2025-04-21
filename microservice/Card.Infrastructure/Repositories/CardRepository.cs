@@ -20,7 +20,6 @@ public class CardRepository : ICardRepository
     public async Task<Domain.AggregatesModel.CardAggregate.Card> AddAsync(Domain.AggregatesModel.CardAggregate.Card order)
     {
         var result = await _context.Cards.AddAsync(order);
-        await UnitOfWork.SaveChangesAsync();
         
         return result.Entity;
     }
@@ -49,7 +48,6 @@ public class CardRepository : ICardRepository
     {
         var toBeDeleted = await _context.Cards.FirstOrDefaultAsync(p => p.Id == id);
         var result = _context.Cards.Remove(toBeDeleted);
-        await UnitOfWork.SaveChangesAsync();
 
         return result.Entity.Id;
     }
