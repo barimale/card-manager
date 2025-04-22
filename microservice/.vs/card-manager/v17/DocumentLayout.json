@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "R:\\card-manager\\microservice\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B899856-1D36-41D2-8C1F-64D8A971D911}|BuildingBlocks\\BuildingBlocks.csproj|r:\\card-manager\\microservice\\buildingblocks\\api\\middlewares\\globalexceptions\\handler\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B899856-1D36-41D2-8C1F-64D8A971D911}|BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:buildingblocks\\api\\middlewares\\globalexceptions\\handler\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035B575C-949E-4BE1-B918-35CB126146AC}|Card.Application\\Card.Application.csproj|r:\\card-manager\\microservice\\card.application\\cqrs\\commandhandlers\\registercardhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035B575C-949E-4BE1-B918-35CB126146AC}|Card.Application\\Card.Application.csproj|solutionrelative:card.application\\cqrs\\commandhandlers\\registercardhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|r:\\card-manager\\microservice\\card.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|solutionrelative:card.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035B575C-949E-4BE1-B918-35CB126146AC}|Card.Application\\Card.Application.csproj|r:\\card-manager\\microservice\\card.application\\behaviours\\transactionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035B575C-949E-4BE1-B918-35CB126146AC}|Card.Application\\Card.Application.csproj|solutionrelative:card.application\\behaviours\\transactionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035B575C-949E-4BE1-B918-35CB126146AC}|Card.Application\\Card.Application.csproj|r:\\card-manager\\microservice\\card.application\\integration\\idgeneratoradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035B575C-949E-4BE1-B918-35CB126146AC}|Card.Application\\Card.Application.csproj|solutionrelative:card.application\\integration\\idgeneratoradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|r:\\card-manager\\microservice\\card.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3AAE2BD-4AE1-49D4-843E-9F2B55AE59C8}|Card.API\\Card.API.csproj|solutionrelative:card.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\BuildingBlocks\\API\\Middlewares\\GlobalExceptions\\Handler\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "BuildingBlocks\\API\\Middlewares\\GlobalExceptions\\Handler\\GlobalExceptionHandler.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\BuildingBlocks\\API\\Middlewares\\GlobalExceptions\\Handler\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "BuildingBlocks\\API\\Middlewares\\GlobalExceptions\\Handler\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:35:36.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterCardHandler.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Application\\CQRS\\CommandHandlers\\RegisterCardHandler.cs",
+              "RelativeDocumentMoniker": "Card.Application\\CQRS\\CommandHandlers\\RegisterCardHandler.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Card.Application\\CQRS\\CommandHandlers\\RegisterCardHandler.cs",
+              "RelativeToolTip": "Card.Application\\CQRS\\CommandHandlers\\RegisterCardHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:29:45.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Card.API\\appsettings.Development.json",
+              "ToolTip": "R:\\card-manager\\microservice\\Card.API\\appsettings.Development.json",
+              "RelativeToolTip": "Card.API\\appsettings.Development.json",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T12:33:40.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.API\\Program.cs",
+              "RelativeDocumentMoniker": "Card.API\\Program.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Card.API\\Program.cs",
+              "RelativeToolTip": "Card.API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:27:02.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionBehavior.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Application\\Behaviours\\TransactionBehavior.cs",
+              "RelativeDocumentMoniker": "Card.Application\\Behaviours\\TransactionBehavior.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Card.Application\\Behaviours\\TransactionBehavior.cs",
+              "RelativeToolTip": "Card.Application\\Behaviours\\TransactionBehavior.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:25:11.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IdGeneratorAdapter.cs",
+              "DocumentMoniker": "R:\\card-manager\\microservice\\Card.Application\\Integration\\IdGeneratorAdapter.cs",
+              "RelativeDocumentMoniker": "Card.Application\\Integration\\IdGeneratorAdapter.cs",
+              "ToolTip": "R:\\card-manager\\microservice\\Card.Application\\Integration\\IdGeneratorAdapter.cs",
+              "RelativeToolTip": "Card.Application\\Integration\\IdGeneratorAdapter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:28:59.994Z",
+              "EditorCaption": ""
             }
           ]
         }

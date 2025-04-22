@@ -4,7 +4,7 @@
     {
         public string Generate(int length)
         {
-            return Guid.NewGuid().ToString();
+            return Guid.NewGuid().ToString().Substring(0, length);
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Card.Application.CQRS.CommandHandlers;
 public class RegisterCardHandler(ICardRepository cardRepository, IIdGeneratorAdapter generator)
     : ICommandHandler<RegisterCardCommand, RegisterCardResult>
 {
-    private const int ID_LENGTH = 32;
+    private const int ID_LENGTH = 36;
 
     public async Task<RegisterCardResult> Handle(RegisterCardCommand command, CancellationToken cancellationToken)
     {
