@@ -36,7 +36,7 @@ public class TransactionBehavior<TRequest, TResponse> : IPipelineBehavior<TReque
             {
                 Guid transactionId;
 
-                await using var transaction = await _dbContext.BeginTransactionAsync();
+                await using var transaction = await _dbContext.BeginTransactionAsync(cancellationToken);
                 using (_logger.BeginScope(new List<KeyValuePair<string, object>> { new("TransactionContext", transaction.TransactionId) }))
                 {
                     _logger.LogInformation("Begin transaction {TransactionId} for {CommandName} ({@Command})", transaction.TransactionId, typeName, request);
@@ -45,7 +45,7 @@ public class TransactionBehavior<TRequest, TResponse> : IPipelineBehavior<TReque
 
                     _logger.LogInformation("Commit transaction {TransactionId} for {CommandName}", transaction.TransactionId, typeName);
 
-                    await _dbContext.CommitTransactionAsync(transaction);
+                    await _dbContext.CommitTransactionAsync(transaction, cancellationToken);
 
                     transactionId = transaction.TransactionId;
                 }
